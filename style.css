@@ -23,7 +23,7 @@ html{
 header {
         position: relative;
         display: block;
-        top: 0;
+        top: 13px;
         left: 0;
         margin: 0;
         padding: 0;
@@ -94,8 +94,54 @@ header {
 
 main > .container1 .sect1 .secban{
     margin: auto;
-    height: 500px;
-    height: 560px;
-    width: 900px;
-    background-color: rgba(0, 0, 0, 0.486);
+    height: 80vh;
+    width: 95%;
+    margin-top: 25px;
+    background-color: rgba(252, 252, 252, 0.418);
+    border-radius: 15px;
+    display: flex;
+}
+
+.titlep{
+    font-size: 4rem;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    width: 500px;
+    margin: auto;
+    margin-top: 29px;
+    background-color: rgba(43, 40, 40, 0.384);
+    padding: 15px;
+    border-radius: 100px;
+    text-decoration: underline rgb(253, 253, 253);
+}
+
+.sec-lan{
+    width: 95%;
+    height: 57vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6161619e;
+    align-items: center;
+    margin: auto;
+    margin-top: 180px;
+    margin-left: -466px;
+    
+}
+
+.move-t{
+    padding-left: 550px;
+}
+
+.lan1{
+    height: 90px;
+    width: 90px;
+    background-color: #000000;
+}
+
+.lan2{
+    height: 90px;
+    width: 90px;
+    background-color: #00000049;
 }

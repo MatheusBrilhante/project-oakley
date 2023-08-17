@@ -117,31 +117,37 @@ main > .container1 .sect1 .secban{
 }
 
 .sec-lan{
-    width: 95%;
+    width: 93%;
     height: 57vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #6161619e;
-    align-items: center;
-    margin: auto;
-    margin-top: 180px;
-    margin-left: -466px;
-    
+    margin-top: 140px;
+    margin-left: 11px;
+    position: fixed;
+    display: flex;
+   
 }
 
 .move-t{
-    padding-left: 550px;
+    position: relative;
+    top: 1px;
+    left: -24px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+.pos-lan{
+
 }
 
 .lan1{
     height: 90px;
     width: 90px;
-    background-color: #000000;
+    
 }
 
 .lan2{
     height: 90px;
     width: 90px;
-    background-color: #00000049;
+    
 }

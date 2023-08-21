@@ -282,6 +282,29 @@ main > .container1 .sect1 .secban{
    }
 }
 
+@media(max-width:1526px){
+    .img1{
+        margin-left: 150px;
+        margin-top: -35px;
+    }
+    .img2{
+        margin-left: 152px;
+        margin-top: -5px;
+    }
+
+}
+
+@media(max-width:1366px){
+    .img1{
+        margin-left: 200px;
+        margin-top: -35px;
+    }
+    .img2{
+        margin-left: 152px;
+        margin-top: 9px;
+    }
+}
+
 @media(max-width:1276px){
     
 }

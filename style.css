@@ -208,6 +208,18 @@ main > .container1 .sect1 .secban{
     margin-top: 180px;
 }
 
+@media(max-width:1920px){
+    .img1{
+        margin-left: 110px;
+        margin-top: 75px;
+    }
+    .img2{
+        margin-left: 110px;
+        margin-top: 75px;
+    }
+
+}
+
 @media(max-width:1526px){
    .container1 .sec-lan .pos-lan img{
     width: 50%;

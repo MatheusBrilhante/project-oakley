@@ -160,6 +160,9 @@ main > .container1 .sect1 .secban{
     justify-content: space-evenly;
     margin-left: -37px;
     margin-top: 0px;
+    position: -webkit-sticky; /* Para suporte no Safari/WebKit */
+    position: sticky;
+
 }
 
 .lan1{
@@ -168,7 +171,9 @@ main > .container1 .sect1 .secban{
     background-color: #f9f0e694;
     margin-left: 80px;
     border-radius: 25px;
-    
+    position: -webkit-sticky; /* Para suporte no Safari/WebKit */
+    position: sticky;
+    top: 0;
     
 }
 
@@ -177,6 +182,9 @@ main > .container1 .sect1 .secban{
     width: 600px;
     background-color: #f9f0e694;
     border-radius: 25px;
+    position: -webkit-sticky; /* Para suporte no Safari/WebKit */
+    position: sticky;
+    top: 0;
     
    
     
@@ -284,10 +292,17 @@ main > .container1 .sect1 .secban{
 .sec2 .ul-blu li{
     width: 400px;
     height: 400px;
-    background-color: #c2c1c1c7;
+    background-color: #f9f0e694;
     margin: 10px;
     display: flex;
     align-items: center;
+}
+
+.border3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -116px;
 }
 
 .sec2 .ul-blu li img{

@@ -139,7 +139,7 @@ main > .container1 .sect1 .secban{
     height: 57vh;
     margin-top: 140px;
     margin-left: 11px;
-    position: fixed;
+    margin-left: -1550px;
     display: flex;
    
 }
@@ -263,14 +263,46 @@ main > .container1 .sect1 .secban{
 
 }
 
+/* CONTAINER 2 */
+
+.container2{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.486)
+    ,rgba(29, 29, 29, 0.486)),url(img/mod2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ul-blu{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.sec2 .ul-blu li{
+    width: 400px;
+    height: 400px;
+    background-color: #c2c1c1c7;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sec2 .ul-blu li img{
+    width: 50%;
+}
+
+
 @media(max-width:1920px){
     .img1{
         margin-left: 100px;
         margin-top: -70px;
     }
     .img2{
-        margin-left: 100px;
-        margin-top: -70px;
+        margin-left: 111px;
+        margin-top: -36px;
         
     }
 

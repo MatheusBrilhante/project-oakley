@@ -205,7 +205,7 @@ main > .container1 .sect1 .secban{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #181818be;
+    background-color: #f9f0e694;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -223,7 +223,7 @@ main > .container1 .sect1 .secban{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #181818be;
+    background-color: #f9f0e694;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -316,15 +316,25 @@ main > .container1 .sect1 .secban{
         width: 80%;
     }
 
+    main > .container1 .sect1 .secban{
+        height: 66vh;
+        margin-left: 27px;
+    }
+
+
+    .pos-lan{
+        margin-left: -2px;
+    }
+
     .lan1{
         width: 80%;
         padding: 10px;
-        margin-left: 100px;
+        margin-left: 110px;
     }
     .lan2{
         width: 80%;
         padding: 10px;
-        margin-left: 90px;
+        margin-left: 60px;
 
     }
 

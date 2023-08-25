@@ -135,13 +135,12 @@ main > .container1 .sect1 .secban{
 }
 
 .sec-lan{
-    width: 93%;
+    width: 100%;
     height: 57vh;
     margin-top: 140px;
-    margin-left: 11px;
-    margin-left: -1550px;
     display: flex;
-   
+    align-items: center;
+    justify-content: center;
 }
 
 .move-t{
@@ -158,7 +157,6 @@ main > .container1 .sect1 .secban{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: -37px;
     margin-top: 0px;
 
 }
@@ -301,49 +299,118 @@ main > .container1 .sect1 .secban{
 
 
 @media(max-width:1920px){
+
+    main > .container1 .sect1 .secban{
+        height: 75vh;
+        margin-left: 35px;
+    }
+
+    .sec-lan .pos-lan .inf-oc2 ul {
+        margin-top: 10px;
+    }
+
+    .sec-lan .pos-lan .inf-oc1 ul {
+        margin-top: 10px;
+    }
+
+    .sec-lan .pos-lan .inf-oc1 ul > li{
+        width: 120px;
+        height: 120px;
+    }
+
+    .pos-lan{
+        margin-top: -100px;
+    }
+
+    .sec-lan .pos-lan .inf-oc1 > ul > li > img{
+        width: 90%;
+    }
+    .sec-lan .pos-lan .inf-oc2 ul > li{
+        width: 120px;
+        height: 120px;
+    }
+    .sec-lan .pos-lan .inf-oc2 > ul > li > img{
+        width: 90%;
+    }
+
+    .lan1{
+        width: 800px;
+        height: 500px;
+        margin: auto;
+    }
+    .lan2{
+        width: 800px;
+        height: 500px;
+        margin: auto;
+    }
+
     .img1{
-        margin-left: 100px;
-        margin-top: -70px;
+        margin-left: 200px;
+        margin-top: -60px;
     }
     .img2{
-        margin-left: 111px;
-        margin-top: -36px;
-        
+        margin-left: 200px;
+        margin-top: -20px;
     }
+
 
 }
 
 @media(max-width:1670px){
+    main > .container1 .sect1 .secban{
+        margin-left: 33px;
+        max-width: 1920px;
+        height: 75vh;
+    }
+    .pos-lan{
+        margin-left: -51px;
+        justify-content: space-between;
+        margin: auto;
+    }
 
-}
+    .lan1{
+        width: 500px;
+        margin: auto;
+    }
+    .lan2{
+        width: 500px;
+        margin: auto;
+    }
 
-@media(max-width:1526px){
-   .container1 .sec-lan .pos-lan img{
-    width: 50%;
-   }
-}
+    .img-oc1{
+        max-width: 300px; /* Define o tamanho máximo da imagem */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
 
-@media(max-width:1526px){
     .img1{
-        margin-left: 150px;
-        margin-top: -35px;
+        width: 100%; /* A imagem ocupará 100% da largura do container */
+        height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
+        display: block;
+        margin-left: 2px;
+    }
+   
+    .img-oc2{
+        max-width: 300px; 
+        margin: 0 auto; 
     }
     .img2{
-        margin-left: 152px;
-        margin-top: -5px;
+        width: 100%; 
+        height: auto; 
+        display: block;
+        margin-left: 22px;
     }
 
+}
+
+@media(max-width:1526px){
+
+}
+
+@media(max-width:1526px){
+  
 }
 
 @media(max-width:1366px){
-    .img1{
-        margin-left: 200px;
-        margin-top: -35px;
-    }
-    .img2{
-        margin-left: 152px;
-        margin-top: 9px;
-    }
 }
 
 @media(max-width:1276px){

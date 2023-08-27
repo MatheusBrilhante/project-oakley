@@ -319,7 +319,6 @@ main > .container1 .sect1 .secban{
 
 .titleb{
     position: relative;
-    top: -20px;
     z-index: 1;
 }
 
@@ -329,6 +328,33 @@ main > .container1 .sect1 .secban{
     main > .container1 .sect1 .secban{
         height: 75vh;
         margin-left: 35px;
+    }
+
+    .container2{
+        margin-top: -107px;
+    }
+
+    .titleb{
+        top: 3;
+    }
+
+    .art2{
+        width: 100%;
+        height: 250px;
+    }
+    .sec2{
+        width: 100%;
+        height: 350px;
+        background-color: #f9f0e675;
+        margin-top: -115px; 
+    }
+    .container2 .art2 .sec2 ul {
+        margin-left: 50px;
+        margin-top: 115px;
+    }
+    .container2 .art2 .sec2 ul li{
+        width: 240px;
+        margin-left: -7px;
     }
 
     .sec-lan .pos-lan .inf-oc2 ul {
@@ -361,13 +387,16 @@ main > .container1 .sect1 .secban{
 
     .lan1{
         width: 800px;
-        height: 500px;
+        height: 600px;
         margin: auto;
+        padding-top: 50px;
+
     }
     .lan2{
         width: 800px;
-        height: 500px;
+        height: 600px;
         margin: auto;
+        padding-top: 50px;
     }
 
     .img1{
@@ -449,17 +478,26 @@ main > .container1 .sect1 .secban{
     }
     .pos-lan{
         margin-left: -51px;
+        margin-top: -95px;
         justify-content: space-between;
         margin: auto;
+        margin-top: -92px;
+
+    }
+
+    .titleb{
+        top: -1px;
     }
 
     .lan1{
-        width: 500px;
+        width: 700px;
         margin: auto;
+        padding-top: 85px;
     }
     .lan2{
-        width: 500px;
+        width: 700px;
         margin: auto;
+        padding-top: 85px;
     }
 
     .img-oc1{
@@ -543,7 +581,7 @@ main > .container1 .sect1 .secban{
         height: 250px;
     }
     .titleb{
-        
+        top: -20px;
     }
     .titleb2{
         position: relative;

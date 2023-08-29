@@ -374,15 +374,19 @@ main > .container1 .sect1 .secban{
         margin-top: -100px;
     }
 
-    .sec-lan .pos-lan .inf-oc1 > ul > li > img{
-        width: 90%;
-    }
     .sec-lan .pos-lan .inf-oc2 ul > li{
         width: 120px;
         height: 120px;
     }
     .sec-lan .pos-lan .inf-oc2 > ul > li > img{
         width: 90%;
+        border: 1px solid black;
+    }
+
+    .ban-blu{
+        width: 300px;
+        height: 300px;
+        background-color: #fcfbfb;
     }
 
     .lan1{
@@ -447,7 +451,6 @@ main > .container1 .sect1 .secban{
     }
 
     .sec2{
-        width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;

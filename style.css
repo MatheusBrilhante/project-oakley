@@ -282,7 +282,7 @@ main > .container1 .sect1 .secban{
 /* CONTAINER 2 */
 
 .container2{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod2.jpg);
@@ -320,6 +320,18 @@ main > .container1 .sect1 .secban{
 .titleb{
     position: relative;
     z-index: 1;
+}
+
+.sec-lan .pos-lan .inf-oc2 > ul > li > img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container2-5{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
 }
 
 
@@ -383,11 +395,14 @@ main > .container1 .sect1 .secban{
         border: 1px solid black;
     }
 
-    .ban-blu{
-        width: 300px;
-        height: 300px;
-        background-color: #fcfbfb;
+    .tit-blu{
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        font-size: 2rem;
     }
+
+   }
 
     .lan1{
         width: 800px;
@@ -468,10 +483,10 @@ main > .container1 .sect1 .secban{
 
     .container2 .art2 .sec2 ul img{
         width: 70%;
+        border: 1px solid black;
+        border-radius: 10px;
     }
 
-
-}
 
 @media(max-width:1670px){
     main > .container1 .sect1 .secban{
@@ -555,15 +570,15 @@ main > .container1 .sect1 .secban{
 
     .sec2{
         width: 100%;
-        width: 100%;
-        height: 350px;
+        height: 390px;
         background-color: #f9f0e675;
         margin-top: -115px;
     }
 
     .container2 .art2 .sec2 ul li{
-        width: 240px;
+        width: 245px;
         margin-left: -7px;
+        margin: 15px;
     }
 
     .sec2 ul{
@@ -572,13 +587,26 @@ main > .container1 .sect1 .secban{
         justify-content: center;
     }
 
-    .ban-blu{ 
-        background-color: #fcfbfb;
-        border: 1px solid black;
+    .lan1{
+        padding-top: 15px;
     }
+
+    .lan2{
+        padding-top: 15px;
+    }
+
     .container2 .art2 .sec2 ul img{
         width: 100%;
+        
     }
+
+    .sec-lan .pos-lan .inf-oc2 > ul > li > img{
+        border: none;
+    }
+    .move-v1{
+        margin-top: 10px;
+    }
+
     .art2{
         width: 100%;
         height: 250px;
@@ -593,15 +621,53 @@ main > .container1 .sect1 .secban{
         margin-top: -107px;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: 50px;
-        margin-top: 115px;
+        margin-left: 65px;
+        margin-top: 70px;
 
     }
+    .blu-button{
+        font-size: 2.5rem;
+        text-align: center;
+        background-color: #fcfbfb;
+        color: #000000;
+        height: 40px;
+        width: 130px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 100px;
+        margin: auto;
+        text-decoration: underline #d64953;
+        margin-top: 322px;
+        margin-left: -750px;
+    }
+    .container2-5{
+        width: 69%;
+        height: 70vh;
+        display: flex;
+       
+
+    }
+
+    .img-pro{
+        width: 70%;
+    }
+    
 }
 
 @media(max-width:1366px){
 }
 
-@media(max-width:1276px){
+@media(max-width:1238px){
     
+    .container2 .art2 .sec2 ul{
+        margin-left: 23px;
+        margin-top: 70px;
+    }
+    .sec2{
+        width: 100%;
+        height: 390px;
+        background-color: #f9f0e675;
+        margin-top: -115px;
+    }
+
 }

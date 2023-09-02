@@ -402,6 +402,22 @@ main > .container1 .sect1 .secban{
         font-size: 2rem;
     }
 
+    .blu-button{
+        font-size: 2.5rem;
+        text-align: center;
+        background-color: #fcfbfb;
+        color: #000000;
+        height: 40px;
+        width: 130px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 100px;
+        margin: auto;
+        text-decoration: underline #d64953;
+        margin-top: 322px;
+        margin-left: -750px;
+    }
+
    }
 
     .lan1{
@@ -501,6 +517,35 @@ main > .container1 .sect1 .secban{
         margin: auto;
         margin-top: -92px;
 
+    }
+
+    .ban-pro{
+        width: 100%;
+        height: 350px;
+        background-color: #f9f0e675;
+    }
+
+    .container2 .art2 .sec2 ul img{
+        width: 130%;
+    }
+    .container2 .art2 .sec2 ul li{
+        margin: 55px;
+    }
+    .container2 .art2 .sec2 ul{
+        margin-left: -30px;
+        margin-top: 60px;
+
+    }
+    .sec2{
+        height: 400px;
+    }
+
+    .container2-5{
+        margin-top: -820px;
+    }
+
+    .art2{
+        margin-top: -600px;
     }
 
     .titleb{

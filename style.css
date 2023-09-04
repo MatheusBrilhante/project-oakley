@@ -334,6 +334,19 @@ main > .container1 .sect1 .secban{
     justify-content:center ;
 }
 
+.but-img{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #fcfbfb;
+    color: #000000;
+    height: auto;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 100px;
+    margin: auto;
+    text-decoration: underline #d64953;
+}
+
 
 @media(max-width:1920px){
 
@@ -508,8 +521,8 @@ main > .container1 .sect1 .secban{
         text-align: center;
         background-color: #fcfbfb;
         color: #000000;
-        height: 40px;
-        width: 130px;
+        height: auto;
+        width: 20%;
         font-weight: bold;
         padding: 5px;
         border-radius: 100px;
@@ -746,5 +759,19 @@ main > .container1 .sect1 .secban{
     }
     .ban-pro{
         margin-top: 323px;
+    }
+    .container2-5{
+        margin-top: -830px;
+    }
+    .but-img{
+        margin-top: 25px;
+    }
+    .h1-pro{
+        font-size: 1.8rem;
+        color: #eeeeee;
+        font-weight: bold;
+        padding-top: 10px;
+        width: 300px;
+        text-align: center;
     }
 }

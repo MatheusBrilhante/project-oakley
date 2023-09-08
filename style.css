@@ -216,7 +216,7 @@ main > .container1 .sect1 .secban{
 
 .img1{
     margin-left: 145px;
-    margin-top: -32px;
+    
 }
 
 .img2{
@@ -323,7 +323,6 @@ main > .container1 .sect1 .secban{
 }
 
 .sec-lan .pos-lan .inf-oc2 > ul > li > img{
-    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -356,7 +355,7 @@ main > .container1 .sect1 .secban{
     }
 
     .container2{
-        margin-top: -107px;
+        margin-top: -116px;
     }
 
     .titleb{
@@ -405,7 +404,6 @@ main > .container1 .sect1 .secban{
     }
     .sec-lan .pos-lan .inf-oc2 > ul > li > img{
         width: 90%;
-        border: 1px solid black;
     }
 
     .tit-blu{
@@ -428,7 +426,8 @@ main > .container1 .sect1 .secban{
         margin: auto;
         text-decoration: underline #d64953;
         margin-top: 322px;
-        margin-left: -750px;
+        margin-left: -821px;
+
     }
 
    }
@@ -569,7 +568,7 @@ main > .container1 .sect1 .secban{
     }
 
     .container2-5{
-        margin-top: -820px;
+        margin-top: -769px;
     }
 
     .art2{
@@ -601,6 +600,8 @@ main > .container1 .sect1 .secban{
         height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
         display: block;
         margin-left: 2px;
+        margin-top: -46px;
+
     }
    
     .img-oc2{
@@ -614,6 +615,10 @@ main > .container1 .sect1 .secban{
         margin-left: 22px;
     }
 
+
+    .img-pro{
+        width: 100%;
+    }
 }
 
 @media(max-width:1526px){
@@ -718,7 +723,7 @@ main > .container1 .sect1 .secban{
         width: 100%;
         height: 70vh;
         display: flex;
-       
+    }
 
     }
 
@@ -726,7 +731,7 @@ main > .container1 .sect1 .secban{
         width: 70%;
     }
     
-}
+
 
 @media(max-width:1366px){
 }

@@ -122,11 +122,9 @@ main > .container1 .sect1 .secban{
 }
 
 .titlep{
-    font-size: 4rem;
     text-align: center;
     color: #181818;
     font-weight: bold;
-    width: 500px;
     margin: auto;
     margin-top: 29px;
     background-color: #eeeeee;
@@ -141,11 +139,9 @@ main > .container1 .sect1 .secban{
 }
 
 .titleb2{
-    font-size: 4rem;
     text-align: center;
     color: #181818;
     font-weight: bold;
-    width: 200px;
     margin: auto;
     margin-top: 29px;
     background-color: #eeeeee;
@@ -387,6 +383,10 @@ main > .container1 .sect1 .secban{
     .titleb{
         top: 3;
     }
+    .titleb2{
+        font-size: 4rem;
+        width: 15%;
+    }
 
     .promo-s{
         top: 70px;
@@ -415,12 +415,12 @@ main > .container1 .sect1 .secban{
         background-color: #fcfbfb;
         color: #000000;
         height: 40px;
-        width: 130px;
+        width: auto;
         font-weight: bold;
         padding: 5px;
         border-radius: 100px;
         margin: auto;
-        text-decoration: underline #d64953;
+        
     }
    
     .sec-lan .pos-lan .inf-oc2 ul {
@@ -475,7 +475,6 @@ main > .container1 .sect1 .secban{
         padding: 5px;
         border-radius: 100px;
         margin: auto;
-        text-decoration: underline #d64953;
         margin-top: 406px;
         margin-left: -986px;
 
@@ -599,6 +598,10 @@ main > .container1 .sect1 .secban{
         margin-top: -274px;
     }
 
+    .titlep{
+        font-size: 4rem;
+        width: 30%;
+    }
 
 }
 
@@ -806,6 +809,32 @@ main > .container1 .sect1 .secban{
 
 
 @media(max-width:1366px){
+    .lan1{
+        width: 550px;
+        height: 400px;
+    }
+    .lan2{
+        width: 550px;
+        height: 400px;
+    }
+    .promo-s{
+        top: 413px;
+    }
+    .container2{
+        margin-top: -120px;
+    }
+    .titlep{
+        font-size: 3rem;
+    }
+    .titleb2{
+        font-size: 3rem;
+    }
+    .container2-5{
+        margin-top: 200px;
+    }
+    .container3{
+        margin-top: 406px;
+    }
 }
 
 @media(max-width:1239px){

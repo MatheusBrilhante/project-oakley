@@ -197,7 +197,6 @@ main > .container1 .sect1 .secban{
 .pos-lan .inf-oc1 h1{
     color: #000000;
     font-weight: bold;
-    font-size: 3rem;
     text-align: center;
     margin-top: 20px;
 }
@@ -205,7 +204,6 @@ main > .container1 .sect1 .secban{
 .pos-lan .inf-oc2 h1{
     color: #000000;
     font-weight: bold;
-    font-size: 3rem;
     text-align: center;
     margin-top: 20px;
 }
@@ -375,6 +373,12 @@ main > .container1 .sect1 .secban{
         height: 75vh;
         margin-left: 35px;
     }
+    .pos-lan .inf-oc1 h1{
+        font-size: 3rem;
+    }
+    .pos-lan .inf-oc2 h1{
+        font-size: 3rem;
+    }
 
     .container2{
         margin-top: -116px;
@@ -408,6 +412,7 @@ main > .container1 .sect1 .secban{
         height: 700px;
         background-color: #f9f0e675;
         MARGIN-TOP: 185px;
+        display: flex;
         
     }
     .tit-blu{
@@ -422,7 +427,6 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         margin: auto;
         margin-left: 76px;
-        text-decoration: underline #d64953;
         
     }
     .tit-bot{
@@ -870,6 +874,41 @@ main > .container1 .sect1 .secban{
     .container3{
         margin-top: 406px;
     }
+    .art2{
+        margin-top: -180px;
+    }
+    .sec-lan .pos-lan .inf-oc1 ul > li{
+        width: 80px;
+        height: 80px;
+    }
+    .move-v{
+        margin-top: -45px;
+    }
+    
+    .sec-lan .pos-lan .inf-oc2 ul > li{
+        width: 80px;
+        height: 80px;   
+    }
+    .move-v1{
+        margin-top: -2px;
+    }
+    .pos-lan .inf-oc1 h1{
+        font-size: 2.5rem;
+    }
+    .pos-lan .inf-oc2 h1{
+        font-size: 2.5rem;
+    }
+    .ban-pro{
+        margin-top: -385px;
+    }
+    .container2 .art2 .sec2 ul{
+        margin-left: -10px;
+        margin-top: -50px;
+    }
+    .tit-blu{
+        margin-left: 1px;
+    }
+    
 }
 
 @media(max-width:1239px){
@@ -961,6 +1000,28 @@ main > .container1 .sect1 .secban{
         }
         .container3{
             margin-top: -635px;
+        }
+        .art2{
+            margin-top: -577px;
+        }
+        .container2-5{
+            margin-top: -640px;
+        }
+        .promo-s{
+            font-size: 2.5rem;
+            width: 30%;
+            top: -680px;
+        }
+        .sec3{
+            margin-top: -640px;
+            width: 100vw;
+            
+        }
+        .tit-blu{
+            z-index: 1;
+            position: relative;
+            top: -90px;
+            left: -400px
         }
     }
 }

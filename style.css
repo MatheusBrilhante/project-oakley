@@ -411,8 +411,8 @@ main > .container1 .sect1 .secban{
         max-width: 1920px;
         height: 700px;
         background-color: #f9f0e675;
-        MARGIN-TOP: 185px;
-        display: flex;
+        MARGIN-TOP: 160px;
+        
         
     }
     .tit-blu{
@@ -441,6 +441,9 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         margin: auto;
         text-decoration: underline #d64953;
+        z-index: 1;
+        position: relative;
+        top: -105px;
     }
     .container3 .sec3 ul{
         display: flex;
@@ -640,6 +643,19 @@ main > .container1 .sect1 .secban{
     .container3 .sec3 ul li img{
         border: 1px solid black;
         border-radius: 10px;
+        width: 250%;
+
+    }
+    .tit-ten{
+        background-color: #fcfbfb;
+        height: auto;
+        width: 20%;
+        padding: 5px;
+        border-radius: 100px;
+        font-size: 2rem;
+        position: relative;
+        left: 80px;
+
     }    
 
 }

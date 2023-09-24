@@ -410,8 +410,8 @@ main > .container1 .sect1 .secban{
         width: 1920px;
         height: 700px;
         background-color: #f9f0e675;
-        MARGIN-TOP: 185px;
-        display: flex;
+        MARGIN-TOP: 160px;
+        
         
     }
     .tit-blu{
@@ -440,6 +440,9 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         margin: auto;
         text-decoration: underline #d64953;
+        z-index: 1;
+        position: relative;
+        top: -105px;
     }
     .container3 .sec3 ul{
         display: flex;

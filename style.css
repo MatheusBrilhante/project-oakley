@@ -128,7 +128,7 @@ main > .container1 .sect1 .secban{
     margin: auto;
     margin-top: 29px;
     background-color: #eeeeee;
-    padding: 15px;
+    padding: 5px;
     border-radius: 100px;
     text-decoration: underline #d64953;
     
@@ -145,7 +145,7 @@ main > .container1 .sect1 .secban{
     margin: auto;
     margin-top: 29px;
     background-color: #eeeeee;
-    padding: 15px;
+    padding: 5px;
     border-radius: 100px;
     text-decoration: underline #d64953;
 }
@@ -339,7 +339,6 @@ main > .container1 .sect1 .secban{
 }
 
 .but-img{
-    font-size: 2.5rem;
     text-align: center;
     background-color: #fcfbfb;
     color: #000000;
@@ -408,7 +407,7 @@ main > .container1 .sect1 .secban{
         
     }
     .sec3{
-        max-width: 1920px;
+        width: 1920px;
         height: 700px;
         background-color: #f9f0e675;
         MARGIN-TOP: 185px;
@@ -445,6 +444,10 @@ main > .container1 .sect1 .secban{
     .container3 .sec3 ul{
         display: flex;
         margin-top: 150px;
+    }
+
+    .container2-5{
+        justify-content: space-between;
     }
    
     .sec-lan .pos-lan .inf-oc2 ul {
@@ -496,7 +499,7 @@ main > .container1 .sect1 .secban{
         height: 40px;
         width: 130px;
         font-weight: bold;
-        padding: 5px;
+        padding: 10px;
         border-radius: 100px;
         margin: auto;
         margin-top: 406px;
@@ -640,6 +643,9 @@ main > .container1 .sect1 .secban{
     .container3 .sec3 ul li img{
         border: 1px solid black;
         border-radius: 10px;
+    }
+    .but-img{
+        font-size: 2.5rem;
     }    
 
 }
@@ -662,7 +668,7 @@ main > .container1 .sect1 .secban{
     .ban-pro{
         width: 100%;
         height: 350px;
-        background-color: #f9f0e675;
+        
     }
 
     .container2 .art2 .sec2 ul img{
@@ -856,24 +862,41 @@ main > .container1 .sect1 .secban{
         width: 550px;
         height: 400px;
     }
+    .sec2{
+        margin-top: -165px;
+    }
+    .sec3{
+        margin-top: 100px;
+        height: 390px;
+    }
     .promo-s{
-        top: 413px;
+        font-size: 2.5rem;
+        top: -55px;
+        left: -25px;
     }
     .container2{
         margin-top: -120px;
     }
+    .h1-pro{
+        font-size: 2rem;
+    }
     .titlep{
         font-size: 3rem;
     }
+    .blu-button{
+        margin-left: -818px;
+    }
     .titleb2{
         font-size: 3rem;
+        top: -35px;
+        left: -30px;
     }
     .container2-5{
-        margin-top: 200px;
+        margin-top: 10px;
     }
     .container3{
-        margin-top: 406px;
-    }
+        margin-top: 35px;
+    }  
     .art2{
         margin-top: -180px;
     }
@@ -884,7 +907,6 @@ main > .container1 .sect1 .secban{
     .move-v{
         margin-top: -45px;
     }
-    
     .sec-lan .pos-lan .inf-oc2 ul > li{
         width: 80px;
         height: 80px;   
@@ -907,6 +929,30 @@ main > .container1 .sect1 .secban{
     }
     .tit-blu{
         margin-left: 1px;
+    }
+    .ban2-5{
+        max-width: 350px;
+
+    }
+    .but-img{
+        font-size: 2rem;
+    }
+    .container3 .sec3 ul li img{
+        width: 100%;
+    }
+    .container3 .sec3 ul{
+        margin-top: 20px;
+        margin-left: -116px;
+    }
+
+    .container3 .sec3 ul li{
+        margin: 12px;
+        width: 250px;
+    }
+    .title-blu{
+        position: relative;
+        top: -85px;
+        left: 585px;
     }
     
 }
@@ -953,6 +999,11 @@ main > .container1 .sect1 .secban{
         padding-top: 10px;
         width: 300px;
         text-align: center;
+    }
+    .title-blu{
+        position: relative;
+        top: -175px;
+        left: 585px;
     }
     @media(max-width:1115px){
         

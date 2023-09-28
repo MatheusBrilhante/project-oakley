@@ -411,7 +411,7 @@ main > .container1 .sect1 .secban{
         height: 700px;
         background-color: #f9f0e675;
         MARGIN-TOP: 160px;
-        
+                
         
     }
     .tit-blu{
@@ -440,7 +440,7 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         margin: auto;
         text-decoration: underline #d64953;
-        z-index: 1;
+    z-index: 1;
         position: relative;
         top: -105px;
     }
@@ -634,7 +634,7 @@ main > .container1 .sect1 .secban{
     }
     .container3 .sec3 ul{
         display: flex;
-        justify-content: space-between;
+        align-items: center;
         margin-top: -100px;
         margin-left: -100px;
     }
@@ -649,6 +649,19 @@ main > .container1 .sect1 .secban{
     }
     .but-img{
         font-size: 2.5rem;
+    }
+    .tit-ten{
+        margin: auto;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        font-size: 2rem;
+        background-color: #eeeeee;
+        border-radius: 100px;
+        text-align: center;
+        padding: 5px;
     }    
 
 }
@@ -887,7 +900,7 @@ main > .container1 .sect1 .secban{
         font-size: 3rem;
     }
     .blu-button{
-        margin-left: -818px;
+        margin-left: -785px;
     }
     .titleb2{
         font-size: 3rem;
@@ -927,7 +940,7 @@ main > .container1 .sect1 .secban{
         margin-top: -385px;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: -10px;
+        margin-left: -5px;
         margin-top: -50px;
     }
     .tit-blu{
@@ -944,8 +957,9 @@ main > .container1 .sect1 .secban{
         width: 100%;
     }
     .container3 .sec3 ul{
-        margin-top: 20px;
-        margin-left: -116px;
+        margin-top: -15px;
+        margin-left: 0px;
+   
     }
 
     .container3 .sec3 ul li{
@@ -956,6 +970,11 @@ main > .container1 .sect1 .secban{
         position: relative;
         top: -85px;
         left: 585px;
+    }
+    .tit-bot{
+        font-size: 2.5rem;
+        top: 5px;
+        left: -900px;
     }
     
 }

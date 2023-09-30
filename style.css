@@ -425,7 +425,7 @@ main > .container1 .sect1 .secban{
         padding: 5px;
         border-radius: 100px;
         margin: auto;
-        margin-left: 76px;
+        
         
     }
     .tit-bot{
@@ -440,7 +440,7 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         margin: auto;
         text-decoration: underline #d64953;
-    z-index: 1;
+        z-index: 1;
         position: relative;
         top: -105px;
     }
@@ -448,9 +448,12 @@ main > .container1 .sect1 .secban{
         display: flex;
         margin-top: 150px;
     }
+    .img-pro{
+        width: 65%;
+    }
 
     .container2-5{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
    
     .sec-lan .pos-lan .inf-oc2 ul {
@@ -492,6 +495,7 @@ main > .container1 .sect1 .secban{
         font-weight: bold;
         color: #000000;
         font-size: 2rem;
+        margin-left: 80px;
     }
 
     .blu-button{
@@ -622,7 +626,8 @@ main > .container1 .sect1 .secban{
         margin-top: -756px;
     }
     .ban2-5{
-        margin-top: -150px;
+        margin: auto;
+        margin-top: 150px;
     }
     .container3{
         margin-top: -274px;
@@ -636,7 +641,8 @@ main > .container1 .sect1 .secban{
         display: flex;
         align-items: center;
         margin-top: -100px;
-        margin-left: -100px;
+        margin-left: -133px;
+        justify-content: space-between;
     }
     .container3 .sec3 ul li{
         padding: 10px;
@@ -662,6 +668,7 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         text-align: center;
         padding: 5px;
+        margin-left: 80px;
     }    
 
 }
@@ -860,15 +867,7 @@ main > .container1 .sect1 .secban{
         height: 70vh;
         display: flex;
     }
-
-    }
-
-    .img-pro{
-        width: 70%;
-    }
-    
-
-
+}
 @media(max-width:1366px){
     .lan1{
         width: 550px;

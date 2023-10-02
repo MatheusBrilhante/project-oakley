@@ -1133,4 +1133,48 @@ main > .container1 .sect1 .secban{
             margin-left: 507px;
         }
     }
-}
+    @media(max-width:1024px){
+        .titlep{
+            width: 35%;
+        }
+        .container2{
+            margin-top: -89px;
+        }
+        .container2-5{
+            margin: auto;
+        }
+        .ban2-5{
+            margin-left: -6px;
+        }
+        .promo-s{
+            left: -15px;
+        }
+        .blu-button{
+            margin-left: -826px;
+        }
+        .titleb2{
+            top: -6px;
+        }
+        .tit-bot{
+            left: -997px;
+        }
+        .blu-button1{
+            margin-left: 445px;
+        }
+        .container2 .art2 .sec2 ul{
+            margin-left: 2px;
+        }
+        .container2 .art2 .sec2 ul li{
+            width: 220px;
+        }
+        .container3 .sec3 ul li{
+            width: 220px;
+        }
+        .container3 .sec3 ul{
+            margin-left: 15px;
+        }
+
+
+
+    }
+}   

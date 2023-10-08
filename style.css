@@ -497,6 +497,7 @@ main > .container1 .sect1 .secban{
         font-weight: bold;
         color: #000000;
         font-size: 2rem;
+        margin-left: 70px;
         
     }
 
@@ -660,7 +661,7 @@ main > .container1 .sect1 .secban{
     .tit-ten{
         margin: auto;
         height: auto;
-        width: 100%;
+        width: 150%;
         text-align: center;
         font-weight: bold;
         color: #000000;
@@ -669,6 +670,7 @@ main > .container1 .sect1 .secban{
         border-radius: 100px;
         text-align: center;
         padding: 5px;
+        margin-left: 59px;
     }
     .blu-button1{
         text-align: center;
@@ -680,6 +682,11 @@ main > .container1 .sect1 .secban{
         padding: 5px;
         border-radius: 100px;
         text-decoration: underline #d64953;
+        position: relative;
+        top: -75px;
+        left: 900px;
+        font-size: 2.5rem;
+
     }
 
 }

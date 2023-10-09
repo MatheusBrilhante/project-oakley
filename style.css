@@ -1141,14 +1141,17 @@ main > .container1 .sect1 .secban{
         }
     }
     @media(max-width:1024px){
+        main > .container1 .sect1 .secban{
+            margin-left: 23px;
+        }
+        .move-v{
+            margin-top: -35px;
+        }  
         .titlep{
             width: 35%;
         }
         .container2{
             margin-top: -89px;
-        }
-        .container2-5{
-            margin: auto;
         }
         .ban2-5{
             margin-left: -6px;
@@ -1159,14 +1162,21 @@ main > .container1 .sect1 .secban{
         .blu-button{
             margin-left: -826px;
         }
+        .blu-button1{
+            margin-left: -470px;
+            margin-top: 90px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
         .titleb2{
             top: -6px;
         }
         .tit-bot{
             left: -997px;
         }
-        .blu-button1{
-            margin-left: 445px;
+        .tit-ten{
+            width: 100%;
+            margin-left: 0px;
         }
         .container2 .art2 .sec2 ul{
             margin-left: 2px;
@@ -1178,10 +1188,8 @@ main > .container1 .sect1 .secban{
             width: 220px;
         }
         .container3 .sec3 ul{
-            margin-left: 15px;
+            margin-left: 10px;
+            margin-top: -5px;
         }
-
-
-
     }
 }   

@@ -350,12 +350,12 @@ main > .container1 .sect1 .secban{
     text-decoration: underline #d64953;
 }
 
-.container3{
+.container4{
     max-width: 1920px;
     height: 100vh;
     display: flex;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
-    ,rgba(29, 29, 29, 0.486)),url(img/mod1.jpg);
+    ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -363,10 +363,6 @@ main > .container1 .sect1 .secban{
     
     
 }
-
-
-
-
 
 @media(max-width:1920px){
 
@@ -1153,6 +1149,9 @@ main > .container1 .sect1 .secban{
         .container2{
             margin-top: -89px;
         }
+        .container3{
+            margin-top: -735px;
+        }
         .ban2-5{
             margin-left: -6px;
         }
@@ -1172,7 +1171,9 @@ main > .container1 .sect1 .secban{
             top: -6px;
         }
         .tit-bot{
-            left: -997px;
+            left: -895px;
+            top: 194px;
+            font-size: 3rem;
         }
         .tit-ten{
             width: 100%;
@@ -1184,12 +1185,28 @@ main > .container1 .sect1 .secban{
         .container2 .art2 .sec2 ul li{
             width: 220px;
         }
+        .container4{
+            margin-top: -735px;
+        }
+        .sec3{
+            background-color: #fcfbfb00;
+        }
         .container3 .sec3 ul li{
             width: 220px;
         }
+        .container3 .sec3 ul li img{
+            width: 130%;
+            padding: 10px;
+        }
         .container3 .sec3 ul{
-            margin-left: 10px;
-            margin-top: -5px;
+            width: 100%;
+            height: 390px;
+            background-color: #f9f0e675;
+            margin-left: -1px;
+            margin-top: 39px;
+        }
+        .container4{
+            margin-top: 617px;
         }
     }
 }   

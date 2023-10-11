@@ -350,12 +350,12 @@ main > .container1 .sect1 .secban{
     text-decoration: underline #d64953;
 }
 
-.container3{
+.container4{
     max-width: 1920px;
     height: 100vh;
     display: flex;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
-    ,rgba(29, 29, 29, 0.486)),url(img/mod1.jpg);
+    ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -363,10 +363,6 @@ main > .container1 .sect1 .secban{
     
     
 }
-
-
-
-
 
 @media(max-width:1920px){
 
@@ -405,16 +401,12 @@ main > .container1 .sect1 .secban{
         width: 100%;
         height: 350px;
         background-color: #f9f0e675;
-        margin-top: -115px;
-        
+        margin-top: -115px;  
     }
     .sec3{
         width: 1920px;
         height: 700px;
-        background-color: #f9f0e675;
-        MARGIN-TOP: 160px;
-                
-        
+        MARGIN-TOP: 160px;            
     }
     .tit-blu{
         font-size: 4rem;
@@ -917,7 +909,8 @@ main > .container1 .sect1 .secban{
         font-size: 3rem;
     }
     .blu-button{
-        margin-left: -785px;
+        margin-top: 305px;
+        margin-left: -766px;
     }
     .titleb2{
         font-size: 3rem;
@@ -928,7 +921,7 @@ main > .container1 .sect1 .secban{
         margin-top: 10px;
     }
     .container3{
-        margin-top: 35px;
+        margin-top: -65px;
     }  
     .art2{
         margin-top: -180px;
@@ -975,38 +968,42 @@ main > .container1 .sect1 .secban{
         width: 100%;
     }
     .container3 .sec3 ul{
-        margin-top: -30px;
+        margin-top: -3px;
         margin-left: -6px;
-   
+        height: 390px;
+        background-color: #f9f0e675;
     }
 
     .container3 .sec3 ul li{
         margin: 12px;
         width: 250px;
+        margin-top: -15px;
     }
     .title-blu{
         position: relative;
-        top: -85px;
+        top: -35px;
         left: 585px;
     }
     .tit-bot{
-        font-size: 2.5rem;
-        top: 5px;
-        left: -900px;
+        font-size: 3rem;
+        top: 51px;
+        left: -880px;
+        max-width: 15%;
     }
     .blu-button{
-        margin-left: 582px;
-        margin-top: 9px;
+        margin-top: 305px;
     }
     .blu-button1{
-        margin-left: 582px;
-        margin-top: 9px;
         margin-left: 602px;
         margin-top: 9px;
-        font-size: 2rem;
+        font-size: 2.5rem;
+        top: -516px;
+        left: 613px;
     }
     .tit-ten{
         font-size: 2rem;
+        width: 100%;
+        margin-left: 0px;
     }
     
 }
@@ -1141,14 +1138,20 @@ main > .container1 .sect1 .secban{
         }
     }
     @media(max-width:1024px){
+        main > .container1 .sect1 .secban{
+            margin-left: 23px;
+        }
+        .move-v{
+            margin-top: -35px;
+        }  
         .titlep{
             width: 35%;
         }
         .container2{
             margin-top: -89px;
         }
-        .container2-5{
-            margin: auto;
+        .container3{
+            margin-top: -735px;
         }
         .ban2-5{
             margin-left: -6px;
@@ -1159,29 +1162,54 @@ main > .container1 .sect1 .secban{
         .blu-button{
             margin-left: -826px;
         }
+        .blu-button1{
+            margin-left: -470px;
+            margin-top: 90px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
         .titleb2{
             top: -6px;
         }
         .tit-bot{
-            left: -997px;
+            left: -895px;
+            top: 194px;
+            font-size: 3rem;
         }
-        .blu-button1{
-            margin-left: 445px;
+        .tit-ten{
+            width: 100%;
+            margin-left: 0px;
         }
         .container2 .art2 .sec2 ul{
-            margin-left: 2px;
+            margin-left: 6px;
         }
         .container2 .art2 .sec2 ul li{
-            width: 220px;
+            width: 215px;
+            margin: -8px;
+        }
+        .container4{
+            margin-top: -735px;
+        }
+        .sec3{
+            background-color: #fcfbfb00;
         }
         .container3 .sec3 ul li{
-            width: 220px;
+            width: 250px;
+            padding: 10px;
+            margin: 15px;
+        }
+        .container3 .sec3 ul li img{
+            width: 100%;
         }
         .container3 .sec3 ul{
-            margin-left: 15px;
+            width: 100%;
+            height: 390px;
+            background-color: #f9f0e675;
+            margin-left: -1px;
+            margin-top: 39px;
         }
-
-
-
+        .container4{
+            margin-top: 617px;
+        }
     }
 }   

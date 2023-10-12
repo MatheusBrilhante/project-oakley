@@ -359,9 +359,10 @@ main > .container1 .sect1 .secban{
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    
+
     
 }
+
 
 @media(max-width:1920px){
 
@@ -374,6 +375,18 @@ main > .container1 .sect1 .secban{
     }
     .pos-lan .inf-oc2 h1{
         font-size: 3rem;
+    }
+    .tit-oc{
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 100px;
+        margin: auto;
+        text-decoration: underline #d64953;
+        z-index: 1;
+        position: relative;
+        top: 20px;
+        max-width: 350px;
+        font-size: 4rem;
     }
 
     .container2{
@@ -1175,13 +1188,16 @@ main > .container1 .sect1 .secban{
             left: -15px;
         }
         .blu-button{
-            margin-left: -826px;
+            margin-left: -625px;
+
         }
         .blu-button1{
             margin-left: -470px;
             margin-top: 90px;
             font-size: 2.5rem;
             font-weight: bold;
+            top: -200px;
+            left: 910px;
         }
         .titleb2{
             top: -6px;
@@ -1201,6 +1217,8 @@ main > .container1 .sect1 .secban{
         .container2 .art2 .sec2 ul li{
             width: 215px;
             margin: -8px;
+            margin-top: -45px;
+            margin-left: 1px;
         }
         .container4{
             margin-top: -735px;
@@ -1208,6 +1226,7 @@ main > .container1 .sect1 .secban{
         .sec3{
             background-color: #fcfbfb00;
         }
+
         .container3 .sec3 ul li{
             width: 250px;
             padding: 10px;
@@ -1224,7 +1243,26 @@ main > .container1 .sect1 .secban{
             margin-top: 39px;
         }
         .container4{
-            margin-top: 617px;
+            margin-top: -130px;
+        }
+
+        .container4 .sec4 .ban-ocu1 img{
+            width: 100%;
+        }
+        .container4 .sec4 ul{
+            height: 390px;
+            width: 100%;
+        }
+    
+        .tit-ten{
+            width: 100%;
+            margin-left: 0px;
+            font-size: 2rem;
+        }
+        .tit-oc{
+            left: -895px;
+            top: 194px;
+            font-size: 3rem;
         }
     }
 }   

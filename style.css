@@ -436,6 +436,7 @@ main > .container1 .sect1 .secban{
         padding: 5px;
         border-radius: 100px;
         margin: auto;
+        border: 1px solid black;
         
         
     }
@@ -684,6 +685,7 @@ main > .container1 .sect1 .secban{
         text-align: center;
         padding: 5px;
         margin-left: 59px;
+        border: 1px solid black;
     }
     .blu-button1{
         text-align: center;
@@ -708,7 +710,6 @@ main > .container1 .sect1 .secban{
     .container4 .sec4 ul{
         display: flex;
         align-items: center;
-        justify-content: space-between;
         width: 1920px;
         height: 600px;
         background-color: #f9f0e675; 
@@ -732,6 +733,13 @@ main > .container1 .sect1 .secban{
         position: relative;
         top: 325px;
         left: 432px;
+    }
+    .sec4{
+        width: 100%;
+        height: 350px;
+        margin-top: -115px;
+        display: flex;
+        align-items: center;
     }
 
 }
@@ -824,6 +832,12 @@ main > .container1 .sect1 .secban{
 
     .img-pro{
         width: 100%;
+    }
+    .container4 .art4 .sec4 ul li{
+        padding: 10px;
+        margin: 170px;
+        width: 202px;
+        margin-left: -7px;
     }
 }
 
@@ -929,6 +943,10 @@ main > .container1 .sect1 .secban{
         width: 100%;
         height: 70vh;
         display: flex;
+    }
+    .sec4{
+        width: 100%;
+        height: 390px;
     }
 }
 @media(max-width:1366px){
@@ -1054,19 +1072,68 @@ main > .container1 .sect1 .secban{
         margin-top: 9px;
         font-size: 2.5rem;
         top: -122px;
-        left: 0px;
+        left: 10px;
     }
     .tit-ten{
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 100%;
         margin-left: 0px;
     }
     .tit-oc{
-        font-size: 2.5rem;
-        width: 10%;
+        font-size: 3rem;
+        width: 20%;
+        margin-left: 595px;
+        margin-top: -12px;
+    }
+    .container4 .sec4 ul{
+        margin-top: 40px;
+        height: 390px;
+    }
+    .sec4{
+        margin-top: -165px;
+    }
+    .container4 .art4 .sec4 ul li{
+        width: 245px;
+        margin: 14px;
+        margin-top: -10px;
+    }
+    .container4 .sec4 ul{
+        margin: auto;
+        margin-left: -698px;
+        margin-top: 252px;
+    }
+    .blu-button4{
+        margin-left: -1752px;
+        margin-top: 95px;
+    }  
+}
+@media(max-width:1360px){
+    .container2 .art2 .sec2 ul{
+        margin-left: -17px;
+
+    }
+    .container3 .sec3 ul{
+        margin-left: -15px;
+    }
+    .tit-oc{
+        margin-left: 599px;
+    }
+    .tit-ten{
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .container4 .sec4 ul{
+        margin-left: -715px;
+    }
+    .container4 .art4 .sec4 ul li{
+        margin: 15px;
+    }
+    .blu-button4{
+        margin-left: -1731px;
+        margin-top: 95px;
     }
 
-    
 }
 
 @media(max-width:1239px){
@@ -1115,6 +1182,7 @@ main > .container1 .sect1 .secban{
     .tit-bot{
         top: 93px;
         left: -1012px;
+        
     }
     @media(max-width:1115px){
         

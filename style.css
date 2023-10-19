@@ -360,7 +360,17 @@ main > .container1 .sect1 .secban{
     background-repeat: no-repeat;
     display: flex;
 
-    
+}
+.container5{
+    max-width: 1920px;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.486)
+    ,rgba(29, 29, 29, 0.486)),url(img/mod5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 
@@ -741,7 +751,11 @@ main > .container1 .sect1 .secban{
         display: flex;
         align-items: center;
     }
-
+    .container5 .art5 .sec5{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px,350px));
+    }
+    
 }
 
 @media(max-width:1670px){
@@ -1105,7 +1119,16 @@ main > .container1 .sect1 .secban{
     .blu-button4{
         margin-left: -1752px;
         margin-top: 95px;
-    }  
+    }
+    .container5 .art5 .sec5{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(55px,300px));
+        justify-content: center;
+        align-items: center;
+        gap: 30px
+    }
+   
 }
 @media(max-width:1360px){
     .container2 .art2 .sec2 ul{
@@ -1389,7 +1412,6 @@ main > .container1 .sect1 .secban{
             top: 112px;
             left: -549px
         }
-
 
     }
 }   

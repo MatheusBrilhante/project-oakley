@@ -1437,13 +1437,15 @@ main > .container1 .sect1 .secban{
             width: 199px;
             margin: 0px;
             margin-top: -45px;
-            margin-left: -1px;
+            margin-left: 4px;
             padding: 14px;
         }
         .container4{
             margin-top: -735px;
         }
-        
+        .titlep{
+            margin-left: 315px;
+        }
         .sec3{
             background-color: #fcfbfb00;
         }
@@ -1452,6 +1454,7 @@ main > .container1 .sect1 .secban{
             width: 250px;
             padding: 10px;
             margin: 15px;
+            margin-top: -65px;
         }
         .container3 .sec3 ul li img{
             width: 100%;
@@ -1463,6 +1466,9 @@ main > .container1 .sect1 .secban{
             margin-left: -1px;
             margin-top: 39px;
         }
+        .container3-5 img{
+            margin-top: -129px;
+        }
         .container4{
             margin-top: -130px;
         }
@@ -1472,15 +1478,14 @@ main > .container1 .sect1 .secban{
         }
         .container4 .sec4 ul{
             height: 390px;
-            width: 100%;
-            padding: 10px;
-            margin-top: 50px;
-            margin-left: 0px;
+            width: 100vw;
+            margin-top: 353px;
+            margin-left: -690px;
             align-items: center;
             justify-content: space-between;
         }
         .container4 .sec4 ul img{
-            width: 100%;
+            width: 96%;
             
         }
         .container4 .sec4 ul li{
@@ -1490,21 +1495,44 @@ main > .container1 .sect1 .secban{
             margin-left: -1px;
             padding: 14px;
         }
-    
+        .container4 .sec4 ul li div{
+            width: 80%;
+            width: 77%;
+            margin-left: 19px;
+
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            top: -234px;
+            left: -85px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            top: -160px;
+            left: -600px;
+        }
+
+        .container4 .art4 .sec4 ul li
+        {
+            margin: -18px;
+            margin-top: -75px;
+        }
+        .tit-blu{
+            font-size: 1.8rem;
+        }
         .tit-ten{
             width: 100%;
             margin-left: 0px;
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
         .tit-oc{
-            left: -10px;
-            top: 24px;
+            left: -167px;
+            top: 115px;
             font-size: 3rem;
         }
         .blu-button4{
             position: relative;
-            top: 112px;
-            left: -549px
+            margin-left: -1031px;
+            margin-top: 185px;
+            z-index: 1;
         }
 
     }

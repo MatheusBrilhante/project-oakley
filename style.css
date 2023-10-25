@@ -24,7 +24,7 @@
 }
 
 html{
-    max-width: 1920px;
+    
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden;
@@ -34,10 +34,6 @@ html{
 header {
         position: relative;
         display: block;
-        top: 13px;
-        left: 0;
-        margin: 0;
-        padding: 0;
         width: 100%;
         height: 50%;
 }
@@ -48,14 +44,16 @@ html h1{
 
 main{
     width: 100vw;
+    height: auto;
+    margin: auto;
+    /* text-align: center; */
 }
 
 .container1{
     height: 100vh;
-    max-width: 1920px;
+    width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(./img/mod6.jpg);
-
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -298,6 +296,7 @@ main > .container1 .sect1 .secban{
 
 .container2{
     height: 150vh;
+    width: 100vw;
     max-width: 1920px;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod2.jpg);
@@ -354,7 +353,7 @@ main > .container1 .sect1 .secban{
     text-align: center;
     align-items: center;
     justify-content:space-evenly;
-    max-width: 1920px;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -381,7 +380,7 @@ main > .container1 .sect1 .secban{
     position: relative;
 }
 .container4{
-    max-width: 1920px;
+    width: 100vw;
     height: 100vh;
     display: flex;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
@@ -393,20 +392,22 @@ main > .container1 .sect1 .secban{
 
 }
 .container5{
-    max-width: 1920px;
-    height: 100vh;
+    width: 100vw;
     display: flex;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod5.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
 }
 
 
 @media(max-width:1920px){
 
+    header{
+        top: 13px;
+        left: 160px;
+    }
     main > .container1 .sect1 .secban{
         height: 75vh;
         margin-left: 35px;
@@ -623,7 +624,7 @@ main > .container1 .sect1 .secban{
     /* CONTAINER 2 */
 
     .container2{
-        width: 100%;
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -782,11 +783,14 @@ main > .container1 .sect1 .secban{
         display: flex;
         align-items: center;
     }
-    .container5 .art5 .sec5{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px,350px));
+    .container5{
+        width: 100vw;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
 }
 
 @media(max-width:1670px){
@@ -862,7 +866,7 @@ main > .container1 .sect1 .secban{
         margin-top: -46px;
 
     }
-   
+
     .img-oc2{
         max-width: 300px; 
         margin: 0 auto; 
@@ -1151,15 +1155,7 @@ main > .container1 .sect1 .secban{
         margin-left: -1752px;
         margin-top: 95px;
     }
-    .container5 .art5 .sec5{
-        width: 90%;
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(55px,300px));
-        justify-content: center;
-        align-items: center;
-        gap: 30px
-    }
-   
+
 }
 @media(max-width:1360px){
     main > .container1 .sect1 .secban{
@@ -1431,6 +1427,14 @@ main > .container1 .sect1 .secban{
         main > .container1 .sect1 .secban{
             margin-left: 23px;
         }
+        .lan1{
+            margin-top: -45px;
+            padding-top: 10px;
+        }
+        .lan2{
+            margin-top: -45px;
+            padding-top: 10px;
+        }
         .move-v{
             margin-top: -35px;
         }  
@@ -1578,7 +1582,7 @@ main > .container1 .sect1 .secban{
             margin-top: 185px;
             z-index: 1;
         }
-        
+
 
     }
 }   

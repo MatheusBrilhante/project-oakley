@@ -402,6 +402,16 @@ main > .container1 .sect1 .secban{
 
 
 @media(max-width:1920px){
+    .container2 .art2 .sec2 ul{
+        margin-left: -16px;
+    }
+    .container2 .art2 .sec2 ul li{
+        margin: auto;
+        margin-left: 25px;
+    }
+    .container3 .art3 .sec3 ul li{
+        margin: auto;
+    }
 
     header{
         top: 13px;
@@ -1179,7 +1189,6 @@ main > .container1 .sect1 .secban{
     .container4 .sec4 ul{
         margin-left: -705px;
     }
-    }
     .box h1{
         color: #000000;
         text-align: center;
@@ -1218,6 +1227,36 @@ main > .container1 .sect1 .secban{
     .art5{
         margin-top: -435px;
     }
+    .container2 .art2 .sec2 ul li{
+        margin: 5px;
+        padding: 10px;
+    }
+    .container2 .art2 .sec2 ul{
+        margin-left: -17px;
+        padding-left: 50px;
+    }
+    .container3 .sec3 ul{
+        margin-left: -15px;
+        margin-top: 435px;
+        padding-left: 35px;
+    }
+    .resp-but{
+        margin: auto;
+        margin-top: 23px;
+        margin-left: 55px;
+    }
+    .sec2{
+        margin: auto;
+    }
+    .sec3{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .container3 .art3 .sec3 ul li{
+        margin: auto;
+        margin: 5px;
+        margin-top: -25px;
+    }
     main > .container1 .sect1 .secban{
         margin-left: 25px;
     }
@@ -1246,12 +1285,23 @@ main > .container1 .sect1 .secban{
     }
     .sec3{
         margin-left: 1px;
+        margin-top: -80px;
+    }
+    .tit-blu{
+        position: relative;
+        margin: auto;
     }
     .sec4{
         margin-left: 28px;
+        margin-top: -165px;
+        margin: auto;
     }
     .container2 .art2 .sec2 ul{
         margin-left: -17px;
+    }
+    .title-blu{
+        top: 63px;
+        left: 867px;
     }
     .container2-5{
         margin-top: 340px;
@@ -1259,7 +1309,7 @@ main > .container1 .sect1 .secban{
     }
     .container3 .sec3 ul{
         margin-left: -15px;
-        margin-top: 340px;
+        margin-top: 515px;
     }
     .container3-5{
         width: 100vw;
@@ -1298,7 +1348,7 @@ main > .container1 .sect1 .secban{
         font-size: 2.5rem;
     }
     .container3{
-        height: 130vh;
+        height: 145vh;
     }
     .container4{
         margin-top: -42px;
@@ -1328,6 +1378,7 @@ main > .container1 .sect1 .secban{
         top: 265px;
         left: -30px;
     }
+}
 @media(max-width:1280px){
     main{
         margin-left: 65px;

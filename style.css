@@ -399,11 +399,24 @@ main > .container1 .sect1 .secban{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.container6{
+    width: 100vw;
+    background-image: linear-gradient(rgb(247 239 239 / 52%) ,rgb(0 0 0)),url(./img/mbappe.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
 @media(max-width:1920px){
     .container2 .art2 .sec2 ul{
         margin-left: -16px;
+    }
+    .container6{
+        height: 100vh;
     }
     .container2 .art2 .sec2 ul li{
         margin: auto;
@@ -1181,7 +1194,9 @@ main > .container1 .sect1 .secban{
         left: 5px;
     }
     .container2 .art2 .sec2 ul li{
-        margin-left: 25px;
+        margin-left: -45px;
+        margin: 11px;
+        padding: 10px;
     }
     .container3 .sec3 ul li{
         margin-left: 23px;
@@ -1210,7 +1225,8 @@ main > .container1 .sect1 .secban{
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-top: 370px;
+        padding-top: 360px;
+        margin-left: -15px;
     }
     .tith1{
         position: relative;
@@ -1227,12 +1243,8 @@ main > .container1 .sect1 .secban{
     .art5{
         margin-top: -435px;
     }
-    .container2 .art2 .sec2 ul li{
-        margin: 5px;
-        padding: 10px;
-    }
     .container2 .art2 .sec2 ul{
-        margin-left: -17px;
+        margin-left: -45px;
         padding-left: 50px;
     }
     .container3 .sec3 ul{
@@ -1297,7 +1309,7 @@ main > .container1 .sect1 .secban{
         margin: auto;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: -17px;
+        margin-left: -45px;
     }
     .title-blu{
         top: 63px;
@@ -1355,6 +1367,7 @@ main > .container1 .sect1 .secban{
     }
     .tit-oc{
         margin-left: 572px;
+        margin-top: -6px;
     }
     .tit-ten{
         font-size: 1.5rem;
@@ -1362,7 +1375,8 @@ main > .container1 .sect1 .secban{
         border: 1px solid black;
     }
     .container4 .sec4 ul{
-        margin-left: -715px;
+        margin-left: -686px;
+        margin-top: 80px;
     }
     .container4 .art4 .sec4 ul li{
         margin: 15px;
@@ -1377,6 +1391,30 @@ main > .container1 .sect1 .secban{
     .promo-s{
         top: 265px;
         left: -30px;
+    }
+    .container6{
+        height: 85vh;
+    }
+    .list-ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .list-ul h1{
+        font-size: 2.5rem;
+        text-align: center;
+        text-decoration: underline #d64953;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .list-ul li{
+        color: #000000;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 10px;
     }
 }
 @media(max-width:1280px){

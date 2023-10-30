@@ -35,9 +35,10 @@ header {
         position: relative;
         display: block;
         width: 100%;
-        height: 50%;
+        height: 12%;
+}body{
+    height: none;
 }
-
 html h1{
     font-weight: bold;
 }
@@ -822,6 +823,17 @@ main > .container1 .sect1 .secban{
         margin: auto;
         text-decoration: underline #d64953;
     }
+    .pos-lan .inf-oc1 h1{
+        font-size: 2.5rem;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    .pos-lan .inf-oc2 h1{
+        font-size: 2.5rem;
+        width: 50%;
+        text-align: center;
+        margin: auto;
 
 }
 
@@ -1819,7 +1831,6 @@ main > .container1 .sect1 .secban{
             margin-top: 185px;
             z-index: 1;
         }
-
-
     }
-}   
+    }    
+} 

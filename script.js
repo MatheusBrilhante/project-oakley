@@ -25,3 +25,4 @@ sr.reveal('.container3', { duration: 1500 });
 sr.reveal('.container3-5', { duration: 1500 });
 sr.reveal('.container4', { duration: 1500 });
 sr.reveal('.container5', { duration: 1500 });
+sr.reveal('.container6', { duration: 1500 });

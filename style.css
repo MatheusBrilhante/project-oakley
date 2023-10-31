@@ -1199,6 +1199,22 @@ main > .container1 .sect1 .secban{
         margin-left: -1752px;
         margin-top: 95px;
     }
+
+    .but5{
+        margin: auto;
+        z-index: 1;
+        margin: auto;
+        text-align: center;
+        width: 30%;
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .container6 .list-ul ul li i{
+        padding-right: 10px;
+    }
     footer{
         display: flex;
         text-align: center;
@@ -1421,7 +1437,7 @@ main > .container1 .sect1 .secban{
         align-items: center;
         justify-content: space-evenly;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 25px;
     }
     .list-ul h1{
         font-size: 2.5rem;
@@ -1435,6 +1451,9 @@ main > .container1 .sect1 .secban{
         font-weight: bold;
         font-size: 2rem;
         padding: 10px;
+    }
+    .container5{
+        height: 220vh;
     }
 }
 @media(max-width:1280px){
@@ -1540,8 +1559,18 @@ main > .container1 .sect1 .secban{
         margin-left: 167px;
         height: auto;
     }
+    .but5 button{
+        z-index: 1;
+        margin: auto;
+        text-align: center;
+        width: 30%;
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
 }
-
 @media(max-width:1239px){
     
     .container2 .art2 .sec2 ul{

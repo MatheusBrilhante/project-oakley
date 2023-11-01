@@ -413,6 +413,12 @@ main > .container1 .sect1 .secban{
 }
 
 @media(max-width:1920px){
+    .pos-lan .inf-oc1 h1{
+        width: 100%;
+    }
+    .pos-lan .inf-oc2 h1{
+        width: 100%;
+    }
     .container2 .art2 .sec2 ul{
         margin-left: -16px;
     }
@@ -1119,6 +1125,8 @@ main > .container1 .sect1 .secban{
     .container2 .art2 .sec2 ul{
         margin-left: -10px;
         margin-top: -50px;
+        margin: auto;
+
     }
     .tit-blu{
         margin-left: 1px;
@@ -1457,9 +1465,6 @@ main > .container1 .sect1 .secban{
     }
 }
 @media(max-width:1280px){
-    main{
-        margin-left: 65px;
-    }
     header{
         left: 18px;
     }
@@ -1861,5 +1866,64 @@ main > .container1 .sect1 .secban{
             z-index: 1;
         }
     }
-    }    
-} 
+    @media(max-width:1110px){
+        .container1{
+            height: 130vh;
+        }
+        .titlep{
+            margin-left: 390px;
+        }
+        .pos-lan{
+            margin-top: -85px;
+        }
+        .titleb{
+            margin-left: 20px;
+        }
+        .pos-lan .inf-oc1 h1{
+            width: 100%;
+        }
+        .pos-lan .inf-oc2 h1{
+            width: 100%;
+        }
+        main > .container1 .sect1 .secban{
+            width: 90vh;
+        }
+        .container2 .art2 .sec2 ul li{
+            margin: 20px;
+        }
+        .container2 .art2 .sec2 ul{
+            margin-top: 15px;
+            margin-left: -58px;
+        }
+        .sect1 .secban{
+            height: 90vh;
+        }
+        .move-v{
+            margin-top: 37px;
+        }
+        .move-v1{
+            margin-top: 45px;
+        }
+        .sec2{
+            margin-top: 170px;
+        }
+        .container2{
+            margin-top: -89px;
+        }
+        .container2-5{
+            margin-top: -515px;
+            margin-left: 45px;
+        }
+        .title-pro{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .titleb{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+}
+}
+}

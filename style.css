@@ -126,6 +126,7 @@ main{
 
 .sect1{
     padding-top: 95px;
+    width: 100%;
 }
 
 /* CONTAINER */
@@ -432,14 +433,9 @@ main > .container1 .sect1 .secban{
     .container3 .art3 .sec3 ul li{
         margin: auto;
     }
-
     header{
         top: 13px;
         left: 160px;
-    }
-    main > .container1 .sect1 .secban{
-        height: 75vh;
-        margin-left: 35px;
     }
     .pos-lan .inf-oc1 h1{
         font-size: 3rem;
@@ -840,30 +836,20 @@ main > .container1 .sect1 .secban{
         width: 50%;
         text-align: center;
         margin: auto;
-
 }
-
 @media(max-width:1670px){
-    main > .container1 .sect1 .secban{
-        margin-left: 33px;
-        max-width: 1920px;
-        height: 75vh;
-    }
     .pos-lan{
         margin-left: -51px;
         margin-top: -95px;
         justify-content: space-between;
         margin: auto;
         margin-top: -92px;
-
     }
-
     .ban-pro{
         width: 100%;
         height: 350px;
         
     }
-
     .container2 .art2 .sec2 ul img{
         width: 130%;
     }
@@ -1313,9 +1299,6 @@ main > .container1 .sect1 .secban{
         margin: 5px;
         margin-top: -25px;
     }
-    main > .container1 .sect1 .secban{
-        margin-left: 25px;
-    }
     .titlep{
         margin-left: 455px;
     }
@@ -1707,9 +1690,6 @@ main > .container1 .sect1 .secban{
         }
     }
     @media(max-width:1024px){
-        main > .container1 .sect1 .secban{
-            margin-left: 23px;
-        }
         .lan1{
             margin-top: -45px;
             padding-top: 10px;
@@ -1886,23 +1866,49 @@ main > .container1 .sect1 .secban{
             width: 100%;
         }
         main > .container1 .sect1 .secban{
-            width: 90vh;
+            width: 95%;
+            height: 95vh;
+            margin: auto;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        .lan1{
+            max-width: 450px;
+        }
+        .lan2{
+            max-width: 450px;
         }
         .container2 .art2 .sec2 ul li{
             margin: 20px;
         }
         .container2 .art2 .sec2 ul{
             margin-top: 15px;
-            margin-left: -58px;
+            margin-left: -73px;
         }
         .sect1 .secban{
             height: 90vh;
         }
+        .sec-lan{
+            margin-top: -10px;
+        }
+        .pos-lan{
+            margin-top: 75px;
+        }
+        .img1{
+            margin-top: -20px;
+        }
+        .img2{
+            margin-top: 10px;
+        }
         .move-v{
-            margin-top: 37px;
+            margin-top: 30px;
         }
         .move-v1{
-            margin-top: 45px;
+            margin-top: 60px;
+        }
+        .sect1{
+            padding-top: 95px;
+            width: 100%;
         }
         .sec2{
             margin-top: 170px;
@@ -1918,11 +1924,19 @@ main > .container1 .sect1 .secban{
             width: 100%;
             margin: auto;
             text-align: center;
+            position: relative;
+            top: 140px;
+            left: 30px;    
         }
         .titleb{
             width: 100%;
             margin: auto;
             text-align: center;
+            margin-left: 25px;
+        }
+        .title-blu{
+            top: 260px;
+            left: 1010px;
         }
 }
 }

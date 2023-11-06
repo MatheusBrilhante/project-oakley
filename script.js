@@ -25,7 +25,7 @@ sr.reveal('.container4', { duration: 1500 });
 sr.reveal('.container5', { duration: 1500 });
 sr.reveal('.container6', { duration: 1500 });
 
-//onst imgs = document.getElementById('sec2-1');
+//const imgs = document.getElementById('sec2-1');
 //const img = document.querySelectorAll('#img img');
 
 //let idx = 0;

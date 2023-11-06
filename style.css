@@ -9,20 +9,17 @@
     list-style: none;
     border: none;
     text-decoration: none;
-
 }
 ::-webkit-scrollbar{
     width: 15px;
     background-color: #181818;
 }
-
 ::-webkit-scrollbar-thumb{
     width: 10px;
     height: 20px;
     background-color: #d64953;
     border-radius: 10px;
 }
-
 html{
     
     height: 100vh;
@@ -30,7 +27,6 @@ html{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
-
 header {
         position: relative;
         display: block;
@@ -42,14 +38,12 @@ header {
 html h1{
     font-weight: bold;
 }
-
 main{
     width: 100vw;
     height: auto;
     margin: auto;
     /* text-align: center; */
 }
-
 .container1{
     height: 100vh;
     width: 100vw;
@@ -60,25 +54,20 @@ main{
     background-repeat: no-repeat;
     margin-top: -80px;
 }
-
 /* HEADER */
-
 .content nav a{
     transition: all 200ms ease-in;
 }
-
 .content nav a:hover {
     background-color: #181818;
     border-radius: 75%;
     border: 2px solid #d64953;
     color: #fcfbfb;
 }
-
 .list{
     display: flex;
     margin: auto;
 }
-
 .content .list a{
     padding: 10px;
     color: #181818;
@@ -92,16 +81,13 @@ main{
 .move-v1{
     margin: auto;
 }
-
 .content .list img{
     width: 10%;
 }
-
 .content .list li{
     text-align: center;
     margin: auto;
 }
-
 .navban{
     display: flex;
     width: 800px;
@@ -112,9 +98,7 @@ main{
     border-radius: 100px;
     position: relative;
     margin: auto;
-
 }
-
 .img-banner1{
     height: 100vw;
     width: 100vh;
@@ -123,14 +107,11 @@ main{
     align-items: center;
     justify-content: center;
 }
-
 .sect1{
     padding-top: 95px;
     width: 100%;
 }
-
 /* CONTAINER */
-
 main > .container1 .sect1 .secban{
     margin: auto;
     height: 80vh;
@@ -141,7 +122,6 @@ main > .container1 .sect1 .secban{
     display: flex;
     border: 3px solid #eeeeee;
 }
-
 .titlep{
     text-align: center;
     color: #181818;
@@ -154,11 +134,9 @@ main > .container1 .sect1 .secban{
     text-decoration: underline #d64953;
     
 }
-
 .titleb{
     text-align: center;
 }
-
 .titleb2{
     text-align: center;
     color: #181818;
@@ -170,7 +148,6 @@ main > .container1 .sect1 .secban{
     border-radius: 100px;
     text-decoration: underline #d64953;
 }
-
 .sec-lan{
     width: 100%;
     height: 57vh;
@@ -179,7 +156,6 @@ main > .container1 .sect1 .secban{
     align-items: center;
     justify-content: center;
 }
-
 .move-t{
     position: relative;
     top: 1px;
@@ -195,9 +171,7 @@ main > .container1 .sect1 .secban{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 0px;
-
 }
-
 .lan1{
     height: 400px;
     width: 600px;

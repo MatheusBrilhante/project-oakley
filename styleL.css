@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #181818;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    height: 20px;
+    background-color: #d64953;
+    border-radius: 10px;
+}
+html{
+    
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+header div{
+    margin-top: 3rem;
+}
+header h1{
+    color: black;
+    text-decoration: underline rgb(253, 0, 0);
+    text-align:center;
+    background-color: #f0f8ff;
+    font-size: 5rem;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+}
+main{
+    width: 100vw;
+    height: 275vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.486)
+    ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    margin-left: -10px;
+}
+main .art{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    margin: auto;
+    margin-top: 13rem;
+}
+main .art div{
+    margin: auto;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+main .art div img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+main .art div h1{
+    color: #ffff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+main .art div button{
+    text-align: center;
+    margin: auto;
+    color: black;
+    background-color: #f0f8ff;
+    text-decoration: underline red;
+    width: 30%;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.but6{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+.but6 button{
+    font-size: 3rem;
+    color: black;
+    background-color: #f0f8ff;
+    margin: auto;
+    text-align: center;
+    width: 15%;
+    text-decoration: underline red;
+    border-radius: 10px;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    margin-top: -271px;
+}
+footer img{
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+    width: 35%;
+    position: relative;
+    top: -40px;
+}

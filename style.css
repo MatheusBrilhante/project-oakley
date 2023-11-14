@@ -34,6 +34,8 @@ header {
         height: 12%;
 }body{
     height: none;
+    word-wrap: break-word; /*PARA AS LINHAS SER AUTO NA TELA */
+    overflow-wrap: break-word; /*Para as linhas se concerta */
 }
 html h1{
     font-weight: bold;
@@ -41,7 +43,8 @@ html h1{
 main{
     width: 100vw;
     height: auto;
-    margin: auto;
+    margin: 0 auto;
+    display: block;
     /* text-align: center; */
 }
 .container1{
@@ -50,6 +53,7 @@ main{
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(./img/mod6.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -80px;
@@ -132,7 +136,6 @@ main > .container1 .sect1 .secban{
     padding: 5px;
     border-radius: 100px;
     text-decoration: underline #d64953;
-    
 }
 .titleb{
     text-align: center;
@@ -179,7 +182,6 @@ main > .container1 .sect1 .secban{
     margin-left: 80px;
     border-radius: 25px;
 }
-
 .lan2{
     height: 400px;
     width: 600px;
@@ -187,33 +189,26 @@ main > .container1 .sect1 .secban{
     border-radius: 25px;
     
 }
-
 .pos-lan .inf-oc1 h1{
     color: #000000;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
 }
-
 .pos-lan .inf-oc2 h1{
     color: #000000;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
 }
-
 .img1{
     margin-left: 145px;
     
 }
-
 .img2{
     margin-left: 155px;
     margin-top: -5px;
 }
-
-
-
 .sec-lan .pos-lan .inf-oc1 ul{
     display: flex;
     align-items: center;
@@ -234,12 +229,10 @@ main > .container1 .sect1 .secban{
     margin-top: 15px;
     border: 2px solid #d64953;
 }
-
 .sec-lan .pos-lan .inf-oc1 > ul > li > img{
     width: 90%;
 
 }
-
 .sec-lan .pos-lan .inf-oc2 ul > li{
     display: flex;
     justify-content: center;
@@ -252,23 +245,17 @@ main > .container1 .sect1 .secban{
     margin-top: 15px;
     border: 2px solid #d64953;
 }
-
 .sec-lan .pos-lan .inf-oc2 ul{
     display: flex;
     align-items: center;
     padding: 10px;
     justify-content: space-evenly;
     margin-top: 55px;
-
 }
-
 .sec-lan .pos-lan .inf-oc2 > ul > li > img{
     width: 90%;
-
 }
-
 /* CONTAINER 2 */
-
 .container2{
     height: 100vh;
     width: 100vw;
@@ -276,6 +263,7 @@ main > .container1 .sect1 .secban{
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod2.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -285,16 +273,15 @@ main > .container1 .sect1 .secban{
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod1.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .ul-blu{
     height: 400px;
     width: 100%;
     display: flex;
 }
-
 .sec2 .ul-blu li{
     width: 400px;
     height: 400px;
@@ -303,27 +290,22 @@ main > .container1 .sect1 .secban{
     display: flex;
     align-items: center;
 }
-
 .border3{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -116px;
 }
-
 .sec2 .ul-blu li img{
     width: 50%;
 }
-
 .titleb{
     position: relative;
     z-index: 1;
 }
-
 .sec-lan .pos-lan .inf-oc2 > ul > li > img{
     border-radius: 10px;
 }
-
 .container2-5{
     display: flex;
     text-align: center;
@@ -332,7 +314,6 @@ main > .container1 .sect1 .secban{
     width: 100vw;
     height: 100vh;
 }
-
 .but-img{
     text-align: center;
     background-color: #fcfbfb;
@@ -362,15 +343,16 @@ main > .container1 .sect1 .secban{
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-
 }
 .container5{
     width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod5.jpg);
+    background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -379,6 +361,7 @@ main > .container1 .sect1 .secban{
     width: 100vw;
     background-image: linear-gradient(rgb(247 239 239 / 52%) ,rgb(0 0 0)),url(./img/mbappe.jpg);
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -669,7 +652,6 @@ main > .container1 .sect1 .secban{
         margin: auto;
         text-decoration: underline #d64953;
         position: relative;
-
     }
     .h1-pro{
         font-size: 2.5rem;
@@ -686,7 +668,6 @@ main > .container1 .sect1 .secban{
         margin-top: -433px;
         height: 85vh;
     }
-
     .titlep{
         font-size: 4rem;
         width: 30%;
@@ -741,7 +722,6 @@ main > .container1 .sect1 .secban{
         top: -170px;
         left: 900px;
         font-size: 3rem;
-
     }
     .container4{
         margin-top: -75px;
@@ -833,25 +813,20 @@ main > .container1 .sect1 .secban{
     .container2 .art2 .sec2 ul{
         margin-left: -30px;
         margin-top: 60px;
-
     }
     .sec2{
         height: 400px;
         margin-top: -125px;
     }
-
     .container2-5{
         margin-top: -769px;
     }
-
     .art2{
         margin-top: -600px;
     }
-
     .titleb{
         top: -1px;
     }
-
     .lan1{
         width: 700px;
         margin: auto;
@@ -862,21 +837,17 @@ main > .container1 .sect1 .secban{
         margin: auto;
         padding-top: 85px;
     }
-
     .img-oc1{
         max-width: 300px; /* Define o tamanho máximo da imagem */
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
     }
-
     .img1{
         width: 100%; /* A imagem ocupará 100% da largura do container */
         height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
         display: block;
         margin-left: 2px;
         margin-top: -46px;
-
     }
-
     .img-oc2{
         max-width: 300px; 
         margin: 0 auto; 
@@ -887,8 +858,6 @@ main > .container1 .sect1 .secban{
         display: block;
         margin-left: 22px;
     }
-
-
     .img-pro{
         width: 100%;
     }
@@ -899,7 +868,6 @@ main > .container1 .sect1 .secban{
         margin-left: -7px;
     }
 }
-
 @media(max-width:1526px){
     .container1{
         height: 112vh;
@@ -924,46 +892,38 @@ main > .container1 .sect1 .secban{
     .img1{
         margin-top: -37px;
     }
-
     .sec2{
         width: 100%;
         height: 390px;
         background-color: #f9f0e675;
         margin-top: -115px;
     }
-
     .container2 .art2 .sec2 ul li{
         width: 245px;
         margin-left: -7px;
         margin: 15px;
     }
-
     .sec2 ul{
         display: grid;
         align-items: center;
         justify-content: center;
     }
-
     .lan1{
         padding-top: 15px;
     }
-
     .lan2{
         padding-top: 15px;
     }
-
     .container2 .art2 .sec2 ul img{
         width: 100%;
         
     }
-
     .sec-lan .pos-lan .inf-oc2 > ul > li > img{
         border: none;
     }
     .move-v1{
         margin-top: 10px;
     }
-
     .art2{
         width: 100%;
         height: 250px;
@@ -980,7 +940,6 @@ main > .container1 .sect1 .secban{
     .container2 .art2 .sec2 ul{
         margin-left: 65px;
         margin-top: 70px;
-
     }
     .blu-button{
         font-size: 2.5rem;
@@ -996,7 +955,6 @@ main > .container1 .sect1 .secban{
         text-decoration: underline #d64953;
         margin-top: 322px;
         margin-left: -758px;
-
     }
     .container2-5{
         width: 100%;
@@ -1076,6 +1034,9 @@ main > .container1 .sect1 .secban{
     .move-v1{
         margin-top: -2px;
     }
+    .pos-lan{
+        margin-top: -100px;
+    }
     .pos-lan .inf-oc1 h1{
         font-size: 2.5rem;
     }
@@ -1084,6 +1045,26 @@ main > .container1 .sect1 .secban{
     }
     .ban-pro{
         margin-top: -385px;
+    }
+    .inf-oc1 a{
+        width: 90%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .inf-oc2 a{
+        width: 90%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .inf-oc2 img{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .inf-oc1 img{
+        width: 100%;
+        margin: auto;
+        text-align: center;
     }
     .container2 .art2 .sec2 ul{
         margin-left: -10px;
@@ -1207,6 +1188,15 @@ main > .container1 .sect1 .secban{
     .container4 .sec4 ul{
         margin-left: -705px;
     }
+    .move-v a{
+        color: #000000;
+    }
+    .move-v1 a{
+        color: #000000;
+    }
+    main > .container1 .sect1 .secban{
+        height: 78vh;
+    }
     .box h1{
         color: #000000;
         text-align: center;
@@ -1220,6 +1210,7 @@ main > .container1 .sect1 .secban{
         margin-bottom: 1rem;
         
     }
+
     .sec5{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1423,6 +1414,7 @@ main > .container1 .sect1 .secban{
     .container5{
         height: 220vh;
     }
+
 }
 @media(max-width:1280px){
     header{
@@ -1537,7 +1529,6 @@ main > .container1 .sect1 .secban{
     }
 }
 @media(max-width:1239px){
-    
     .container2 .art2 .sec2 ul{
         margin-left: 23px;
         margin-top: 70px;
@@ -1547,13 +1538,11 @@ main > .container1 .sect1 .secban{
         height: 390px;
         background-color: #f9f0e675;
         margin-top: 30px;
-    
     }
     .lan1{
         width: 500px;
         height: 450px;  
     }
-
     .lan2{
         width: 500px;
         height: 450px;
@@ -1642,7 +1631,6 @@ main > .container1 .sect1 .secban{
             font-size: 2.5rem;
             width: 30%;
             top: -730px;
-
         }
         .sec3{
             margin-top: 100px;
@@ -1695,7 +1683,6 @@ main > .container1 .sect1 .secban{
         }
         .blu-button{
             margin-left: -580px;
-
         }
         .blu-button1{
             margin-left: -470px;
@@ -1720,7 +1707,6 @@ main > .container1 .sect1 .secban{
         .container2 .art2 .sec2 ul{
             margin-left: 6px;
         }
-        
         .container2 .art2 .sec2 ul li{
             width: 199px;
             margin: 0px;
@@ -1737,7 +1723,6 @@ main > .container1 .sect1 .secban{
         .sec3{
             background-color: #fcfbfb00;
         }
-
         .container3 .sec3 ul li{
             width: 250px;
             padding: 10px;
@@ -1760,7 +1745,6 @@ main > .container1 .sect1 .secban{
         .container4{
             margin-top: -130px;
         }
-
         .container4 .sec4 .ban-ocu1 img{
             width: 100%;
         }
@@ -1787,7 +1771,6 @@ main > .container1 .sect1 .secban{
             width: 80%;
             width: 77%;
             margin-left: 19px;
-
         }
         .container3-5 .oc-resp .h1-gamer{
             top: -234px;
@@ -1797,7 +1780,6 @@ main > .container1 .sect1 .secban{
             top: -160px;
             left: -600px;
         }
-
         .container4 .art4 .sec4 ul li
         {
             margin: -18px;

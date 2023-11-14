@@ -18,12 +18,12 @@ typeWriter(titulo2,);
 
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.container1', { duration: 1500 });
-sr.reveal('.container2', { duration: 1500 });
-sr.reveal('.container3', { duration: 1500 });
-sr.reveal('.container4', { duration: 1500 });
-sr.reveal('.container5', { duration: 1500 });
-sr.reveal('.container6', { duration: 1500 });
+sr.reveal('.container1', { duration: 1000 });
+sr.reveal('.container2', { duration: 1000 });
+sr.reveal('.container3', { duration: 1000 });
+sr.reveal('.container4', { duration: 1000 });
+sr.reveal('.container5', { duration: 1000 });
+sr.reveal('.container6', { duration: 1000 });
 
 //const imgs = document.getElementById('sec2-1');
 //const img = document.querySelectorAll('#img img');

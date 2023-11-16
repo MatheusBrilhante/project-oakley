@@ -993,6 +993,9 @@ main > .container1 .sect1 .secban{
     .titleb{
         top: 8px;
     }
+    .resp-but .blu-button a {
+        color: #000000;
+    }
     .h1-pro{
         font-size: 2rem;
     }

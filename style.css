@@ -993,6 +993,13 @@ main > .container1 .sect1 .secban{
     .titleb{
         top: 8px;
     }
+    .but-img a {
+        cursor: pointer;
+    }
+    .but-img{
+        margin-top: 1rem;
+        cursor: pointer;
+    }
     .resp-but .blu-button a {
         color: #000000;
     }
@@ -1097,6 +1104,26 @@ main > .container1 .sect1 .secban{
         margin: 12px;
         width: 250px;
         margin-top: -15px;
+    }
+    .container3-5 iframe{
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        top: 32.5rem;
+        left: 4rem;
+        width: 400px;
+        height: 300px;
+    }
+    .container3-5 div{
+        margin-top: -303px;
+    }
+    .container3-5 .oc-resp .h1-gamer{
+        top: -430px;
+        left: -30px;
+    }
+    .container3-5 .oc-resp .but-gamer{
+        top: -430px;
+        left: -30px;
     }
     .title-blu{
         position: relative;
@@ -1211,9 +1238,7 @@ main > .container1 .sect1 .secban{
         margin: auto;
         border-radius: 5px;
         margin-bottom: 1rem;
-        
     }
-
     .sec5{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1267,7 +1292,7 @@ main > .container1 .sect1 .secban{
     }
     .container3 .art3 .sec3 ul li{
         margin: auto;
-        margin: 5px;
+        margin: 8px;
         margin-top: -25px;
     }
     .titlep{
@@ -1286,6 +1311,7 @@ main > .container1 .sect1 .secban{
     .blu-button1{
         left: -12px;
         top: -95px;
+        cursor: pointer;
     }
     .promo-s{
         left: -25px;
@@ -1318,7 +1344,7 @@ main > .container1 .sect1 .secban{
         margin-left: -25px;
     }
     .container3 .sec3 ul{
-        margin-left: -15px;
+        margin-left: -30px;
         margin-top: 515px;
     }
     .container3-5{
@@ -1343,8 +1369,8 @@ main > .container1 .sect1 .secban{
     }
     .container3-5 .oc-resp .h1-gamer{
         position: relative;
-        top: -315px;
-        left: -170px;
+        top: -430px;
+        left: -30px;
         margin: auto;
         color: #fff;
         text-align: center;
@@ -1353,8 +1379,8 @@ main > .container1 .sect1 .secban{
     }
     .container3-5 .oc-resp .but-gamer{
         position: relative;
-        top: -215px;
-        left: -850px;
+        top: -370px;
+        left: -705px;
         font-size: 2.5rem;
     }
     .container3{

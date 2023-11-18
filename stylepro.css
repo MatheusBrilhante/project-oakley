@@ -33,16 +33,15 @@ header{
     justify-content: center;
     align-items: stretch;
 }
-header div{
-    margin-top: 3rem;
-}
+
 header h1{
     color: black;
     text-decoration: underline rgb(253, 0, 0);
     text-align:center;
     background-color: #f0f8ff;
     font-size: 5rem;
-    width: 100%;
+    width: 40%;
+    height: auto;
     border-radius: 10px;
     justify-content: center;
     align-items: stretch;
@@ -50,17 +49,17 @@ header h1{
 }
 main{
     width: 100vw;
-    height: 275vh;
+    height: 343vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
-    ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
+    ,rgba(29, 29, 29, 0.486)),url(./img/mod5.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -100px;
+    margin-top: -113px;
     margin-left: -10px;
 }
 main .art{
@@ -71,7 +70,7 @@ main .art{
     align-items: flex-end;
     justify-content: center;
     margin: auto;
-    margin-top: 13rem;
+    margin-top: 15rem;
 }
 main .art div{
     margin: auto;
@@ -115,15 +114,16 @@ main .art div button{
     background-color: #f0f8ff;
     margin: auto;
     text-align: center;
-    width: 130%;
+    width: auto;
     height: auto;
     text-decoration: underline red;
     border-radius: 10px;
     cursor: pointer;
 }
 .but6 a{
-    text-align: center;
     margin: auto;
+    text-align: center;
+    cursor: pointer;
 }
 footer{
     margin: auto;

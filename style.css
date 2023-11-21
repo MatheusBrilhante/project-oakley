@@ -1044,6 +1044,23 @@ main > .container1 .sect1 .secban{
     .move-v1{
         margin-top: -2px;
     }
+    .container3 .sec3 li a{
+        cursor: pointer;
+        width: 100%;
+    } 
+    .container4 .art4 .sec4 li a{
+        cursor: pointer;
+        width: 100%;
+    }
+    .blu-button4{
+        position: relative;
+        left: -640px;
+        width: 15%;
+    }
+    .container4 a {
+        width: 100%;
+        cursor: pointer;
+    }    
     .pos-lan{
         margin-top: -100px;
     }
@@ -1404,10 +1421,6 @@ main > .container1 .sect1 .secban{
     }
     .container4 .art4 .sec4 ul li{
         margin: 15px;
-    }
-    .blu-button4{
-        margin-left: -1731px;
-        margin-top: 95px;
     }
     .sec2{
         margin-top: -11px;

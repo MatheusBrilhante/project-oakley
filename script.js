@@ -41,3 +41,9 @@ sr.reveal('.container6', { duration: 1000 });
 
 //setInterval(carrossel,1800);//
 
+let n1 = 1
+let n2 = '1'
+
+let n3 = (n1 == n2)
+
+console.log(n3)

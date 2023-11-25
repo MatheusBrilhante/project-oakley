@@ -48,7 +48,7 @@ window.onscroll = function(){
 // Função chamada quando o mouse passa sobre a imagem
 function changeImage(){
      // Altere o atributo src para a imagem maior
-    document.getElementById("myImage1") .src="img.oc/oc5 - Copia.png";
+    document.getElementById("myImage") .src="img.oc/oc5 - Copia";
     document.getElementById("myImage2") .src="img.oc/oc6.png";
     document.getElementById("myImage3") .src="img.oc/oc14t.png";
 }

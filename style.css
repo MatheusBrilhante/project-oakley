@@ -34,6 +34,7 @@ header {
     color: white;
     padding: 10px 20px;
     transition: top 0.3s;
+    z-index: 5;
 }
 body{
     margin: auto;
@@ -1233,7 +1234,7 @@ main > .container1 .sect1 .secban{
     footer img{
         width: 25%;
         margin: auto;
-        margin-top: -165px;
+        margin-top: 2875px;
     }
 }
 @media(max-width:1360px){

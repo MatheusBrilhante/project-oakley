@@ -25,6 +25,7 @@ sr.reveal('.container4', { duration: 1000 });
 sr.reveal('.container5', { duration: 1000 });
 sr.reveal('.container6', { duration: 1000 });
 // Obtenha o header
+// criando uma variavel e adicionando que podemos alterar diversas formas no scroll como "animacoes"etc..
 
 let prevscroll = window.pageYOffset;
 
@@ -40,6 +41,7 @@ window.addEventListener("scroll", function(){
     }
 
     prevscroll = crscrollpos;
+
 });
 //<!-- Adicione um identificador à imagem para referência em JavaScript -->
   //<img id="myImage" src="small-image.jpg" alt="Imagem Pequena" onmouseover="changeImage()" onmouseout="resetImage()"></img>
@@ -90,7 +92,7 @@ function resetImage2(){
 // ! 3 Oculos //
 function changeImage3(){
     // Altere o atributo src para a imagem maior
-    document.getElementById("myImage") .src="img.oc/oc8.png";
+    document.getElementById("myImage") .src="img.oc/oc16t.png";
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
     document.getElementById("bt1").style.marginTop = '50px'
@@ -103,6 +105,69 @@ function resetImage3(){
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
     document.getElementById("bt1").style.marginTop = '-5px'
+}
+
+
+// 2 PARTE POS-LAN2 
+
+// ! 4 Oculos
+
+function changeImage4(){
+     // Altere o atributo src para a imagem maior
+    document.getElementById("myImage5").src="img.oc/oc10t.png";
+    
+ //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '50px' 
+
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage4(){
+    // Restaure o atributo src para a imagem original
+    document.getElementById("myImage5").src="img.oc/oc7.png";
+
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '' 
+
+}
+
+// ! 5 Oculos
+
+function changeImage5(){
+     // Altere o atributo src para a imagem maior
+    document.getElementById("myImage5").src="img.oc/oc15t.png";
+    
+ //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '50px' 
+
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage5(){
+    // Restaure o atributo src para a imagem original
+    document.getElementById("myImage5") .src="img.oc/oc7.png";
+
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '-5px' 
+
+}
+
+// ! 6 Oculos
+
+function changeImage6(){
+     // Altere o atributo src para a imagem maior
+    document.getElementById("myImage5").src="img.oc/oc9t.png";
+    
+ //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '50px' 
+
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage6(){
+    // Restaure o atributo src para a imagem original
+    document.getElementById("myImage5") .src="img.oc/oc7.png";
+
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '-5px' 
+
 }
 
 

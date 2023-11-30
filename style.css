@@ -1192,8 +1192,9 @@ main > .container1 .sect1 .secban{
     }
     .blu-button4{
         position: relative;
-        left: -1315px;
-        top: 415px;
+        left: -750px;
+        top: 260px;
+        cursor: pointer;
     }
     .blu-button4 a{
         color: #000000;
@@ -1438,7 +1439,7 @@ main > .container1 .sect1 .secban{
     }
     .container4 .art4 .sec4 ul li{
         margin: 15px;
-        margin-top: -60px;
+        margin-top: -30px;
     }
     .sec2{
         margin-top: -11px;

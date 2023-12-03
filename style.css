@@ -122,6 +122,7 @@ main{
 }
 /* CONTAINER */
 main > .container1 .sect1 .secban{
+    margin-left: 25px;
     margin: auto;
     height: 80vh;
     width: 95%;
@@ -343,7 +344,7 @@ main > .container1 .sect1 .secban{
 }
 .container4{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
@@ -392,12 +393,10 @@ main > .container1 .sect1 .secban{
         margin: auto;
         margin-left: 25px;
     }
-    .container3 .art3 .sec3 ul li{
-        margin: auto;
-    }
+    
     header{
         top: 13px;
-        left: 160px;
+
     }
     .pos-lan .inf-oc1 h1{
         font-size: 3rem;
@@ -610,6 +609,7 @@ main > .container1 .sect1 .secban{
 
     .container2{
         width: 100vw;
+        height: 1100px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -767,7 +767,7 @@ main > .container1 .sect1 .secban{
     }
     .container5{
         width: 100vw;
-        height: 200vh;
+        height: 240vh;
         display: grid;
     }
     .tith1{
@@ -776,7 +776,7 @@ main > .container1 .sect1 .secban{
         background-color: #fcfbfb;
         color: #000000;
         height: auto;
-        width: 130px;
+        width: 20%;
         font-weight: bold;
         padding: 5px;
         border-radius: 100px;
@@ -873,7 +873,7 @@ main > .container1 .sect1 .secban{
 }
 @media(max-width:1526px){
     .container1{
-        height: 112vh;
+        height: 114vh;
     }
     .lan1{
         height: 450px;
@@ -897,7 +897,7 @@ main > .container1 .sect1 .secban{
     }
     .sec2{
         width: 100%;
-        height: 390px;
+        height: 420px;
         background-color: #f9f0e675;
         margin-top: -115px;
     }
@@ -972,33 +972,97 @@ main > .container1 .sect1 .secban{
 @media(max-width:1366px){
     header{
         margin-top: -13px;
-        margin-left: -5px;
     }
     .container1 .secban .pos-lan img:hover{
         transform: scale(1.1);
     }
+    .verm a{
+        color: #000000 ;
+    }
     .lan1{
         width: 550px;
         height: 400px;
+    }
+    .Titlex{
+        width: 100%;
+    }
+    .container5 .art5 .sec5{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 55px;
+        margin-left: -15px;
+    }
+    .container5 .sec5 .box img{
+        width: 80%;
+        height: auto;
+        border: 2px solid #000000;
+        border-radius: 5px;
+    }
+    .box h1{
+        color: #000000;
+        text-align: center;
+        text-decoration: underline red;
+        font-size: 2rem;
+        background-color: oldlace;
+        height: auto;
+        width: 40%;
+        margin: auto;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    .list-ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .list-ul h1{
+        font-size: 2.5rem;
+        text-align: center;
+        text-decoration: underline #d64953;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .list-ul ul li{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 10px;
+        color: #000000;
+    }
+    footer img{
+        margin-top: 2975px;
+    }
+    .list-ul ul li:hover{
+        text-decoration: underline #d64953;
+    }
+    .container6{
+        height: 70vh;
     }
     .lan2{
         width: 550px;
         height: 400px;
     }
     .sec2{
-        margin-top: -165px;
+        margin-top: -180px;
     }
     .sec3{
-        margin-top: 100px;
+        margin-top: 37px;
         height: 390px;
     }
     .promo-s{
         font-size: 2.5rem;
-        top: -55px;
         left: -3px;
+        top: -185px;
     }
     .container2{
-        margin-top: -89px;
+        margin-top: -81px;
     }
     .titleb{
         top: 8px;
@@ -1009,6 +1073,10 @@ main > .container1 .sect1 .secban{
     .but-img{
         margin-top: 1rem;
         cursor: pointer;
+    }
+    .container3-5 div img{
+        width: 100%;
+        margin-left: -9px;
     }
     .resp-but .blu-button a {
         color: #000000;
@@ -1029,16 +1097,16 @@ main > .container1 .sect1 .secban{
         left: -15px;
     }
     .container2-5{
-        margin-top: 10px;
+        margin-top: -110px;
     }
     .container3{
         margin-top: -65px;
     }
     .container4{
-        margin-top: -48px;
-    }  
+        margin-top: 291px;
+    }
     .art2{
-        margin-top: -180px;
+        margin-top: -330px;
     }
     .sec-lan .pos-lan .inf-oc1 ul > li{
         width: 80px;
@@ -1099,9 +1167,8 @@ main > .container1 .sect1 .secban{
         text-align: center;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: -10px;
-        margin-top: -50px;
-        margin: auto;
+        margin-top: -35px;
+        margin-left: -12px;
     }
     .tit-blu{
         margin-left: 1px;
@@ -1131,21 +1198,26 @@ main > .container1 .sect1 .secban{
         position: relative;
         z-index: 1;
         margin: auto;
-        top: 32.5rem;
-        left: 4rem;
+        top: 37.5rem;
+        left: 1rem;
         width: 400px;
         height: 300px;
     }
     .container3-5 div{
-        margin-top: -303px;
+        margin-top: -351px;
     }
     .container3-5 .oc-resp .h1-gamer{
-        top: -430px;
-        left: -30px;
+        top: -66px;
+        left: 445px;
+        position: relative;
+        color: #fff;
     }
     .container3-5 .oc-resp .but-gamer{
-        top: -430px;
-        left: -30px;
+        top: -30px;
+        left: 528px;
+        cursor: pointer;
+        position: relative;
+        font-size: 2rem;
     }
     .title-blu{
         position: relative;
@@ -1155,11 +1227,14 @@ main > .container1 .sect1 .secban{
     .tit-bot{
         font-size: 3rem;
         top: 51px;
-        left: -880px;
+        left: -615px;
         max-width: 10%;
     }
     .blu-button{
         margin-top: 305px;
+        position: relative;
+        top: 20px;
+        left: -1110px;
     }
     .blu-button1{
         margin-left: 602px;
@@ -1181,7 +1256,7 @@ main > .container1 .sect1 .secban{
     }
     .container4 .sec4 ul{
         margin-top: 40px;
-        height: 415px;
+        height: 400px;
     }
     .sec4{
         margin-top: -165px;
@@ -1191,8 +1266,8 @@ main > .container1 .sect1 .secban{
     }
     .blu-button4{
         position: relative;
-        left: -750px;
-        top: 260px;
+        left: -765px;
+        top: 423px;
         cursor: pointer;
     }
     .blu-button4 a{
@@ -1201,6 +1276,7 @@ main > .container1 .sect1 .secban{
         width: 30%;
     }
     .container4 .art4 .sec4 ul li{
+        margin-top: -35px;
         width: 245px;
         margin: 14px;
     }
@@ -1234,7 +1310,7 @@ main > .container1 .sect1 .secban{
     footer img{
         width: 25%;
         margin: auto;
-        margin-top: 2875px;
+        margin-top: 2975px;
     }
 }
 @media(max-width:1360px){

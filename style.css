@@ -351,7 +351,6 @@ main > .container1 .sect1 .secban{
 }
 .container4{
     width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
     background-position: center center;
@@ -402,8 +401,7 @@ span{
     font-weight: bold;
     color: #000000;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
+
 }
 span h1{
     text-align: center;
@@ -748,6 +746,7 @@ span h1{
         width: 100vw;
         height: 240vh;
         display: grid;
+        margin: auto;
     }
     .tith1{
         font-size: 2.5rem;
@@ -911,10 +910,13 @@ span h1{
     }
     .sec4{
         width: 100%;
-        height: 390px;
+        height: 450px;
     }
 }
 @media(max-width:1366px){
+    .container4{
+        height: 90vh;
+    }
     .promo-s{
         margin-top: 30px;
     }
@@ -986,6 +988,21 @@ span h1{
     }
     .Titlex{
         width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    span{
+        width: 50%;
+        text-align: center;
+    }
+    .box{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .container5{
+        height: 260vh;
     }
     .container5 .art5 .sec5{
         display: grid;
@@ -1221,9 +1238,9 @@ span h1{
         justify-content: center;
     }
     .blu-button4{
-        position: relative;
+        position: relative; 
         left: -765px;
-        top: 423px;
+        top: 170px;
         cursor: pointer;
     }
     .blu-button4 a{
@@ -1232,13 +1249,15 @@ span h1{
         width: 30%;
     }
     .container4 .art4 .sec4 ul li{
-        margin-top: -35px;
         width: 245px;
         margin: 14px;
+        margin-top: -55px;
     }
     .container4 .sec4 ul{
         margin: auto;
         width: 100%;
+        margin-left: 110px;
+        margin-top: 10px;
     }
     .but5{
         margin: auto;
@@ -1265,7 +1284,7 @@ span h1{
     footer img{
         width: 25%;
         margin: auto;
-        margin-top: 2975px;
+        margin-top: 3335px;
     }
 }
 @media(max-width:1360px){

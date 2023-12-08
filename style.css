@@ -918,7 +918,7 @@ span h1{
     .title-pro{
         width: 100%;
         margin: auto;
-        padding-top: 30px;
+        margin-top: 0px;
     }
     .titleb{
         width: auto;
@@ -1087,6 +1087,9 @@ span h1{
     }
     .container3{
         margin-top: -65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .sec-lan .pos-lan .inf-oc1 ul > li{
         width: 80px;
@@ -1199,14 +1202,12 @@ span h1{
         font-size: 2rem;
     }
     .title-blu{
-        position: relative;
-        top: -35px;
-        left: 585px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
     }
     .tit-bot{
         font-size: 3rem;
-        top: 51px;
-        left: -615px;
         max-width: 10%;
     }
     .blu-button1{
@@ -1318,6 +1319,9 @@ span h1{
         border-radius: 5px;
         margin-bottom: 1rem;
     }
+    .promo-s{
+            margin-top: 25px;
+    }
     .sec5{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1345,9 +1349,9 @@ span h1{
         margin-top: -435px;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: -45px;
+        margin-left: -70px;
         padding-left: 50px;
-        margin-top: 30px;
+        margin-top: -55px;
     }
     .container3 .sec3 ul{
         margin-left: -15px;
@@ -1357,10 +1361,7 @@ span h1{
     .resp-but{
         margin: auto;
         width: 100%;
-        display: flex;
-        position: relative;
-        left: -1015px;
-        top: 12px;
+
     }
     .sec2{
         margin: auto;
@@ -1393,7 +1394,7 @@ span h1{
         left: -25px;
     }
     .sec2{
-        margin-left: 1px;
+            margin-top: 20px;
     }
     .sec3{
         margin-left: 1px;
@@ -1403,6 +1404,9 @@ span h1{
         position: relative;
         margin: auto;
     }
+    .tit-bot{
+        text-align: center;
+    }
     .sec4{
         margin-left: 28px;
         margin-top: -165px;
@@ -1411,12 +1415,14 @@ span h1{
     .container2 .art2 .sec2 ul{
         margin-left: -45px;
     }
+    .container3{
+        margin-top: 0px;
+        height: 100vh;
+    }
     .title-blu{
-        top: 63px;
-        left: 867px;
+        padding-top: 10px;
     }
     .container2-5{
-        margin-top: 340px;
         margin-left: -25px;
     }
     .container3 .sec3 ul{
@@ -1481,9 +1487,6 @@ span h1{
     .container4 .art4 .sec4 ul li{
         margin: 15px;
         margin-top: -30px;
-    }
-    .sec2{
-        margin-top: -11px;
     }
     .promo-s{
         top: 265px;

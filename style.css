@@ -459,8 +459,7 @@ span h1{
     }
     .sec3{
         width: 1920px;
-        height: 700px;
-        MARGIN-TOP: 160px;            
+        height: 700px;         
     }
     .tit-blu{
         font-size: 4rem;
@@ -478,24 +477,20 @@ span h1{
         
     }
     .tit-bot{
-        font-size: 4rem;
         text-align: center;
         background-color: #fcfbfb;
         color: #000000;
         height: auto;
-        max-width: 350px;
         font-weight: bold;
         padding: 5px;
         border-radius: 100px;
         margin: auto;
         text-decoration: underline #d64953;
-        z-index: 1;
         position: relative;
         top: 20px;
     }
     .container3 .sec3 ul{
         display: flex;
-        margin-top: 150px;
     }
     .img-pro{
         width: 65%;
@@ -653,8 +648,6 @@ span h1{
     .container3 .sec3 ul{
         display: flex;
         align-items: center;
-        margin-top: 50px;
-        margin-left: -100px;
         height: 600px;
         background-color: #f9f0e675;
     }
@@ -913,12 +906,12 @@ span h1{
     .ban-pro{
         height: 100vh;
         margin: auto;
-        margin-top: -30px;
+        margin-top: 0px;
     }
     .title-pro{
         width: 100%;
         margin: auto;
-        margin-top: 0px;
+        padding-top: 10px;
     }
     .titleb{
         width: auto;
@@ -926,6 +919,7 @@ span h1{
     }
     .sec2{
         height: 445px;
+        margin-top: 30px;
     }
     .container2 .art2 .sec2 ul{
         margin-left: -16px;
@@ -1059,8 +1053,11 @@ span h1{
         height: 400px;
     }
     .sec3{
-        margin-top: 37px;
         height: 390px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 140px;
     }
     .promo-s{
         font-size: 2.5rem;
@@ -1161,8 +1158,6 @@ span h1{
         width: 100%;
     }
     .container3 .sec3 ul{
-        margin-top: 33px;
-        margin-left: -6px;
         height: 455px;
         background-color: #f9f0e675;
     }
@@ -1205,14 +1200,17 @@ span h1{
         margin: auto;
         text-align: center;
         width: 100%;
+        height: 100px;
+        margin-top: -125px;
     }
     .tit-bot{
         font-size: 3rem;
-        max-width: 10%;
+        width: auto;
     }
     .blu-button1{
         font-size: 2.5rem;
         display: flex;
+        margin-top: 30px;
     }
     .tit-ten{
         font-size: 1.5rem;
@@ -1361,7 +1359,6 @@ span h1{
     .resp-but{
         margin: auto;
         width: 100%;
-
     }
     .sec2{
         margin: auto;

@@ -8,6 +8,8 @@ function typeWriter(elemento){
     });
 }
 
+
+
 const titulo = document.getElementById('fun1')
 const titulo1 = document.getElementById('fun2')
 const titulo2 = document.getElementById('fun3')

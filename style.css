@@ -46,10 +46,9 @@ html h1{
     font-weight: bold;
 }
 main{
-    margin-top: 55px;
     width: 100vw;
-    height: 2000px;
-    display: block;
+    text-align: center;
+    margin: auto;
     /* text-align: center; */
 }
 .container1{
@@ -1032,9 +1031,6 @@ span h1{
         margin: 10px;
         color: #000000;
     }
-    footer img{
-        margin-top: 2975px;
-    }
     .list-ul ul li:hover{
         text-decoration: underline #d64953;
     }
@@ -1264,10 +1260,28 @@ span h1{
     footer img{
         width: 25%;
         margin: auto;
-        margin-top: 3335px;
+        margin-top: -150px;
     }
 }
 @media(max-width:1360px){
+    .container1{
+        height: 125vh;
+    }
+    .container3 .sec3 ul{
+        padding-top: 30px;
+    }
+    .sec3{
+        height: 445px;
+    }
+    .mod1{
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+        padding-top: 65px;
+    }
+    .Titlex{
+        margin-top: 25px;
+    }
     .container2{
         height: 40vw;
     }
@@ -1287,6 +1301,7 @@ span h1{
     .sec3{
         height: 420px;
     }
+
     .tit-blu{
         margin-top: -100px;
     }
@@ -1347,8 +1362,6 @@ span h1{
     }
     .tith1{
         position: relative;
-        top: 325px;
-        left: -10px;
         width: 20%;
     }
     .container5 .sec5 .box img{
@@ -1490,9 +1503,10 @@ span h1{
         font-size: 2rem;
         padding: 10px;
     }
-    .container5{
-        height: 220vh;
+    footer .img{
+        margin-top: -150px;
     }
+
     .container6 .list-ul li:hover{
         text-decoration: underline #d64953;
     }
@@ -1873,7 +1887,7 @@ span h1{
     }
     @media(max-width:1110px){
         .container1{
-            height: 130vh;
+            height: 140vh;
         }
         .titlep{
             margin-left: 390px;
@@ -1913,12 +1927,6 @@ span h1{
         .sect1 .secban{
             height: 90vh;
         }
-        .sec-lan{
-            margin-top: -10px;
-        }
-        .pos-lan{
-            margin-top: 75px;
-        }
         .img1{
             margin-top: -20px;
         }
@@ -1929,7 +1937,7 @@ span h1{
             margin-top: 30px;
         }
         .move-v1{
-            margin-top: 60px;
+            margin-top: 75px;
         }
         .sect1{
             padding-top: 95px;

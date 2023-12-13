@@ -1306,7 +1306,7 @@ span h1{
         margin-top: -100px;
     }
     .blu-button-1{
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .sec3{
         width: 100vw;
@@ -1762,6 +1762,9 @@ span h1{
             margin-top: 1175px;
             display: flex;
         }
+        .blu-button1{
+            margin-top: 690px;
+        }
         .ban-pro{
             margin-top: 0px;
             padding-top: 0px;
@@ -1774,13 +1777,13 @@ span h1{
         }
         .container3{
             margin-top: 0px;
-            height: 205vh;
+            height: 220vh;
             align-items: flex-start;
         }
         .container3 .sec3 ul{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
+            gap: 15px;
             margin: auto;
             text-align: center;
             align-items: center;
@@ -1799,14 +1802,34 @@ span h1{
         .sec3{
             margin-top: 0px;
             padding-top: 0px;
-            height: 1150px;
-            width: 1000px;
+            height: 1200px;
             margin: auto;
+            border-radius: 10px;
         }
         .container3 .art3 .sec3 ul li{
-            margin-left: 0px;
+            margin-left: 90px;
             padding-left: 0px;
         }
+        .container3-5{
+            align-items: center;
+            align-content: center;
+        }
+        .container3-5 .img{
+            width: 100%;
+            margin: auto;
+        }
+        .container3-5 div{
+            margin-top: 0px;
+        }
+        .container3-5 div img{
+            width: 100%;
+            margin: auto;
+        }
+        .container3-5 .video{
+            margin: auto;
+            position: relative;
+            z-index: 2;
+        }   
         .title-pro{
             top: 0px;
             left: 0px;

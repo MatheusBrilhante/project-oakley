@@ -1803,6 +1803,7 @@ span h1{
             margin-top: 0px;
             padding-top: 0px;
             height: 1200px;
+            width: 1000px;
             margin: auto;
             border-radius: 10px;
         }
@@ -1813,23 +1814,49 @@ span h1{
         .container3-5{
             align-items: center;
             align-content: center;
+            margin-top: 0px;
+            height: 60vh;
         }
         .container3-5 .img{
             width: 100%;
             margin: auto;
+            margin-top: -1px;
+            margin-left: 79px;
         }
         .container3-5 div{
             margin-top: 0px;
         }
         .container3-5 div img{
-            width: 100%;
+            width: 100vw;
             margin: auto;
         }
         .container3-5 .video{
             margin: auto;
             position: relative;
             z-index: 2;
-        }   
+
+        }
+        .container3-5 iframe{
+            width: 250px;
+            height: 250px;
+            top: 0px;
+            left: -450px;
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            font-size: 2rem;
+            top: -100px;
+            width: 100%;
+            left: -692px;
+            width: 130%;
+            border-radius: 5px;
+            color: #000000;
+            background-color: #fff;
+        } 
+        .container3-5 .oc-resp .but-gamer{
+            top: -75px;
+            left: -675px;
+            font-size: 2rem;
+        }  
         .title-pro{
             top: 0px;
             left: 0px;

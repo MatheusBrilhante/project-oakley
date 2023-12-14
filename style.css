@@ -688,7 +688,8 @@ span h1{
     .container4 .sec4 ul{
         display: flex;
         align-items: center;
-         
+
+        justify-content: center;
     }
     .container4 .sec4 ul img{
         border-radius: 10px;
@@ -1728,15 +1729,20 @@ span h1{
     }
     @media(max-width:1110px){
         .container1{
-            height: 140vh;
+            height: 860px;
+            margin: auto;
+        }
+        .mod1{
+            padding-top: 0px;
         }
         .container2{
             margin-top: 0px;
             align-items:flex-start;
-            height: 125vw;
+            height: 1400px;
+            margin: auto;
         }
         .sec2{
-            width: 1000px;
+            width: 950px;
             height: 1280px;
             margin: auto;
             text-align: center;
@@ -1768,7 +1774,8 @@ span h1{
         .ban-pro{
             margin-top: 0px;
             padding-top: 0px;
-            height: 85vh;
+            height: 520px;
+            margin: auto;
         }
         .container2-5{
             align-items: center;
@@ -1777,7 +1784,7 @@ span h1{
         }
         .container3{
             margin-top: 0px;
-            height: 220vh;
+            height: 1310px;
             align-items: flex-start;
         }
         .container3 .sec3 ul{
@@ -1803,7 +1810,7 @@ span h1{
             margin-top: 0px;
             padding-top: 0px;
             height: 1200px;
-            width: 1000px;
+            width: 950px;
             margin: auto;
             border-radius: 10px;
         }
@@ -1814,21 +1821,26 @@ span h1{
         .container3-5{
             align-items: center;
             align-content: center;
-            margin-top: 0px;
-            height: 60vh;
+            height: 357px;
+            margin: 0 auto;
+            display: block;
         }
         .container3-5 .img{
             width: 100%;
             margin: auto;
-            margin-top: -1px;
-            margin-left: 79px;
+            display: block;
         }
         .container3-5 div{
             margin-top: 0px;
         }
+        .container3-5 .sec3-5{
+            margin: auto;
+            display: flex;
+        }
         .container3-5 div img{
             width: 100vw;
             margin: auto;
+            display: block;
         }
         .container3-5 .video{
             margin: auto;
@@ -1860,6 +1872,36 @@ span h1{
         .title-pro{
             top: 0px;
             left: 0px;
+        }
+        .container4{
+            height: 1400px;
+        }
+        .sec4{
+            padding-top: 0px;
+            height: 1265px;
+            width: 950px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .container4 .sec4 ul{
+            display: grid;
+            height: 100%;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .container4 .art4 .sec4 ul li{
+            margin: auto;
+        }
+        .container4 .sec4 ul{
+            margin-left: 0px;
+        }
+        .tit-oc{
+            left: 0px;
+            margin: auto;
         }
         .tit-blu{
             margin-bottom: 10px;

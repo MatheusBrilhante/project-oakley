@@ -265,7 +265,6 @@ main > .container1 .sect1 .secban{
 /* CONTAINER 2 */
 .container2{
     height: 100vh;
-    width: 100vw;
     max-width: 1920px;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod2.jpg);
@@ -275,7 +274,6 @@ main > .container1 .sect1 .secban{
     background-repeat: no-repeat;
 }
 .container3{
-    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod1.jpg);
@@ -349,7 +347,6 @@ main > .container1 .sect1 .secban{
     background-repeat: no-repeat;
 }
 .container4{
-    width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
     background-position: center center;
@@ -358,7 +355,6 @@ main > .container1 .sect1 .secban{
     background-repeat: no-repeat;
 }
 .container5{
-    width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod5.jpg);
     background-attachment: fixed;
@@ -367,7 +363,6 @@ main > .container1 .sect1 .secban{
     background-repeat: no-repeat;
 }
 .container6{
-    width: 100vw;
     background-image: linear-gradient(rgb(247 239 239 / 52%) ,rgb(0 0 0)),url(./img/mbappe.jpg);
     background-position: center center;
     background-attachment: fixed;
@@ -887,6 +882,24 @@ span h1{
     }
 }
 @media(max-width:1366px){
+    .container1{
+        width: 100vw;
+    }
+    .container2{
+        width: 100vw;
+    }
+    .container3{
+        width: 100vw;
+    }
+    .container4{
+        width: 100vw;
+    }
+    .container5{
+        width: 100vw;
+    }
+    .container6{
+        width: 100vw;
+    }
     .container2 .ban-blu .preco1{
         margin-top: 40px;
     }
@@ -935,9 +948,6 @@ span h1{
         width: 100vw;
         margin: auto;
         height: 71vh;
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
     }
     .blu-button-1{
         width: 100%;
@@ -1060,7 +1070,6 @@ span h1{
     }
     .container3-5 div img{
         width: 100%;
-        margin-left: -9px;
     }
     .resp-but .blu-button a {
         color: #000000;
@@ -1159,27 +1168,15 @@ span h1{
         position: relative;
         z-index: 1;
         margin: auto;
-        top: 37.5rem;
-        left: 1rem;
         width: 400px;
         height: 300px;
-        margin-left: -850px;
-    }
-    .container3-5 div{
-        margin-top: -152px;
-        width: 100vw;
-        text-align: center;
     }
     .container3-5 .oc-resp .h1-gamer{
-        top: -265px;
-        left: -52px;
         position: relative;
         color: #fff;
         text-decoration: underline red;
     }
     .container3-5 .oc-resp .but-gamer{
-        top: -210px;
-        left: -52px;
         cursor: pointer;
         position: relative;
         font-size: 2rem;
@@ -1390,9 +1387,6 @@ span h1{
         margin: auto;
         margin: 8px;
     }
-    .titlep{
-        margin-left: 455px;
-    }
     .titleb2{
         left: -33px;
     }
@@ -1426,43 +1420,39 @@ span h1{
     }
     .container3-5{
         width: 100vw;
-        display: flex;
-        align-items: center;
-        margin-top: 46px;
+    }
+    .sec3-5{
+        width: 100%;
+        height: 100%;
     }
     .container3-5 img{
         text-align: center;
         width: 100%;
         margin: auto;
-        margin-top: -48px;
     }
-    .container3-5 div{
-        width: 100%;
+    .container3-5 iframe{
+        margin: auto;
     }
     .container3-5 div > .oc-resp{
-        display: flex;
         margin: auto;
         align-items: center;
-        z-index: 1;
+        width: 100%;
+        position: relative;
+        top: -230px;
+        left: -50px;
     }
     .container3-5 .oc-resp .h1-gamer{
-        position: relative;
-        top: -430px;
-        left: -30px;
         margin: auto;
         color: #fff;
         text-align: center;
         text-decoration: underline red;
-        font-size: 2.5rem;
+        position: relative;
     }
     .container3-5 .oc-resp .but-gamer{
         position: relative;
-        top: -370px;
-        left: -705px;
-        font-size: 2.5rem;
     }
     .container4{
-        margin-top: -45px;
+        margin-top: 0px;
     }
     .tit-oc{
         margin-left: 572px;
@@ -1574,10 +1564,6 @@ span h1{
     }
     .art5{
         margin-top: 200rem;
-    }
-    .tit-oc{
-        margin-left: 572px;
-        left: -46px;
     }
     .ban-pro{
         margin-top: -385px;
@@ -1731,6 +1717,10 @@ span h1{
         .container1{
             height: 860px;
             margin: auto;
+            max-width: 1110px;
+        }
+        .titlep{
+            width: 400px;
         }
         .mod1{
             padding-top: 0px;
@@ -1740,6 +1730,7 @@ span h1{
             align-items:flex-start;
             height: 1400px;
             margin: auto;
+            max-width: 1110px;
         }
         .sec2{
             width: 950px;
@@ -1786,6 +1777,7 @@ span h1{
             margin-top: 0px;
             height: 1310px;
             align-items: flex-start;
+            max-width: 1110px;
         }
         .container3 .sec3 ul{
             display: grid;
@@ -1819,23 +1811,14 @@ span h1{
             padding-left: 0px;
         }
         .container3-5{
-            align-items: center;
-            align-content: center;
-            height: 357px;
+            height: 100%;
+            max-width: 1110px;
             margin: 0 auto;
             display: block;
-        }
-        .container3-5 .img{
-            width: 100%;
-            margin: auto;
-            display: block;
-        }
-        .container3-5 div{
-            margin-top: 0px;
+            overflow: hidden;
         }
         .container3-5 .sec3-5{
             margin: auto;
-            display: flex;
         }
         .container3-5 div img{
             width: 100vw;
@@ -1845,29 +1828,25 @@ span h1{
         .container3-5 .video{
             margin: auto;
             position: relative;
-            z-index: 2;
-
+            width: 100%;
+            margin-top: -310px;
         }
         .container3-5 iframe{
             width: 250px;
             height: 250px;
-            top: 0px;
-            left: -450px;
+            left: -36rem;
+            top: 0rem;
         }
         .container3-5 .oc-resp .h1-gamer{
             font-size: 2rem;
-            top: -100px;
-            width: 100%;
-            left: -692px;
-            width: 130%;
+            width: 210px;
             border-radius: 5px;
             color: #000000;
             background-color: #fff;
         } 
         .container3-5 .oc-resp .but-gamer{
-            top: -75px;
-            left: -675px;
             font-size: 2rem;
+            margin-top: 10px;
         }  
         .title-pro{
             top: 0px;
@@ -1875,9 +1854,10 @@ span h1{
         }
         .container4{
             height: 1400px;
+            max-width: 1110px;
+            margin-top: -34px;
         }
         .sec4{
-            padding-top: 0px;
             height: 1265px;
             width: 950px;
             margin: auto;
@@ -1897,17 +1877,13 @@ span h1{
             margin: auto;
         }
         .container4 .sec4 ul{
-            margin-left: 0px;
+            width: 100%;
         }
         .tit-oc{
-            left: 0px;
             margin: auto;
         }
         .tit-blu{
             margin-bottom: 10px;
-        }
-        .titlep{
-            margin-left: 390px;
         }
         .pos-lan{
             margin-top: -85px;
@@ -1991,9 +1967,6 @@ span h1{
         .move-v{
             margin-top: -35px;
         }  
-        .titlep{
-            width: 35%;
-        }
         .container2{
             margin-top: -89px;
         }

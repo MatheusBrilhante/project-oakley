@@ -35,9 +35,11 @@ window.addEventListener("scroll", function(){
     if(prevscroll > crscrollpos){
          // Rola para cima: mostra o header
         document.getElementById("myheader").style.top = "10px";
+        document.getElementById("car1").style.top = "10px";
     } else{
          // Rola para baixo: esconde o header
         document.getElementById("myheader").style.top ="-80px";
+        document.getElementById("car1").style.top = "-20px";
     }
 
     prevscroll = crscrollpos;

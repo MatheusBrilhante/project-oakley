@@ -20,7 +20,7 @@ typeWriter(titulo2,);
 
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.container1', { duration: 1000 });
+
 sr.reveal('.container4', { duration: 1000 });
 sr.reveal('.container5', { duration: 1000 });
 sr.reveal('.container6', { duration: 1000 });

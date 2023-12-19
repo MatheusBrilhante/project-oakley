@@ -390,8 +390,6 @@ span{
     text-align: center;
     font-weight: bold;
     color: #000000;
-    font-size: 2rem;
-
 }
 span h1{
     text-align: center;
@@ -1029,8 +1027,8 @@ span h1{
         margin-top: 25px;
     }
     span{
-        width: 50%;
         text-align: center;
+        font-size: 2rem;
     }
     .box{
         margin: auto;
@@ -1710,6 +1708,7 @@ span h1{
         padding-top: 10px;
         width: 300px;
         text-align: center;
+        margin: auto;
     }
     .tit-bot{
         top: 93px;
@@ -1935,10 +1934,10 @@ span h1{
             margin-left: 20px;
         }
         .lan1{
-            max-width: 450px;
+            width: 450px;
         }
         .lan2{
-            max-width: 450px;
+            width: 450px;
         }
         .container2 .art2 .sec2 ul li{
             margin: 20px;
@@ -1956,10 +1955,10 @@ span h1{
             margin-top: 10px;
         }
         .move-v{
-            margin-top: 30px;
+            margin-top: 42px;
         }
         .move-v1{
-            margin-top: 70px;
+            margin-top: 92px;
         }
         .sect1{
             padding-top: 95px;
@@ -1992,6 +1991,9 @@ span h1{
         }
         .container4 .title-ocu{
             padding-top: 0px;
+        }
+        .container5 .sec5 .box img{
+            margin-top: 20px;
         }
         
     }
@@ -2030,17 +2032,22 @@ span h1{
         .container3-5 div > .oc-resp{
             left: -910px;
         }
-        .container3-5 iframe{
-            left: -925px;
+        .container3-5 .oc-resp .h1-gamer{
+            width: 140px;
         }
-        
+        .container3-5 .sec3-5 .oc-resp{
+            left: -860px;
+        }
+        .container3-5 iframe{
+            left: -900px;
+        }
     }
     @media(max-width:973px){
         .lan1{
-            max-width: 400px;
+            width: 400px;
         }
         .lan2{
-            max-width: 400px;
+            width: 400px;
         }
     }
     @media(max-width:940px){
@@ -2124,30 +2131,262 @@ span h1{
         .container3-5 div > .oc-resp{
             left: -780px;
         }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -795px;
+        }
         .container3-5 iframe{
-            left: -790px;
+            left: -803px;
+        }
+    }
+
+    @media(max-width:867px){
+        .container1{
+            height: 700px;
+        }
+        main > .container1 .sect1 .secban{
+            height: 85vh;
+        }
+        .lan1{
+            height: 380px;
+        }
+        .lan2{
+            height: 380px;
+        }
+        .img-oc1{
+            max-width: 250px;
+            margin-top: 25px;
+        }
+        .img-oc2{
+            max-width: 250px;
+            margin-top: 21px;
+        }
+        .move-v{
+            margin-top: -17px;
+        }
+        .move-v1{
+            margin-top: 27px;
+        }
+        .container2{
+            height: 1045px;
+        }
+        .sec2{
+            height: 930px;
+            width: 730px;
+        }
+        .tit-blu{
+            width: 80%;
+        }
+        .blu-button{
+            margin-top: 865px;
+            font-size: 2.0rem;
+            height: 35px;
+            width: 110px;
+        }
+        .container2 .art2 .sec2 ul{
+            gap: 5px;
+        }
+        .container2 .art2 .sec2 ul li{
+            width: 230px;
+        }
+        .container2 .art2 .sec2 ul img{
+            width: 90%;
+        }
+        .ban-pro{
+            height: 480px;
+        }
+        .container3{
+            height: 1137px;
+        }
+        .container3-5 iframe{
+            width: 250px;
+            height: 200px;
+            left: -760px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            top: -55px;
+            left: -750px;  
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            font-size: 1.5rem;
+            width: 120px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            font-size: 1.5rem;
+        }
+        .sec3{
+            width: 730px;
+            height: 1020px;
+            margin-top: -8px;
+        }
+        .container3 .sec3 ul{
+            gap: 1px;
+        }
+        .container3 .sec3 ul li{
+            width: 210px;
+        }
+        .tit-ten{
+            width: 80%;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        .blu-button1{
+            margin-top: 525px;
+            font-size: 2.0rem;
+            height: 35px;
+            width: 110px;
+            text-align: center;
+            padding-left: 15px;
+        }
+        .tit-blu{
+            font-size: 1.5rem;
+        }
+        .promo-s{
+            font-size: 2rem;
+        }
+        .img-pro{
+            width: 80%;
+        }
+        .container4{
+            height: 1135px;
+        }
+        .container4 .sec4{
+            width: 730px;
+            height: 1020px;
+        }
+        .container4 .sec4 ul{
+            gap: 1px;
+        }
+        .container6 .list-ul ul h2{
+            padding: 0px;
+        }
+        .tit-bot{
+            font-size: 2.5rem;
+            width: 150px;
+        }
+        .title-blu{
+            margin-top: -8px;
+        }
+        .h1-pro{
+            font-size: 1.5rem;
+            width: 200px;
+        }
+        .but-img{
+            width: 180px;
+            font-size: 1.5rem;
+        }
+        .container2 .ban-blu .preco1{
+            font-size: 1.5rem;
+        }
+        footer img{
+            margin-top: -130px;
         }
     }
     @media(max-width:855px){
         .lan1{
-            max-width: 350px;
+            width: 350px;
         }
         .lan2{
-            max-width: 350px;
+            width: 350px;
+        }
+
+    }
+    @media(max-width:848px){
+        .list-ul h1{
+            font-size: 1.8rem;
+        }
+        .container6 .list-ul ul h2{
+            font-size: 1.8rem;
+            padding: 5px;
         }
     }
-    @media(max-width:855px){
-        .promo-s{
-            margin-top: 12px;
+
+    @media(max-width:848px){
+        .container6{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            height: 110vh;
+            align-items: center;
+            align-content: space-evenly;
+        }
+        .list-ul{
+            margin-top: -135px;
+        }
+        .list-ul h1{
+            font-size: 2.5rem;
+        }
+        .container6 .list-ul ul h2{
+            font-size: 2rem;
         }
     }
     @media(max-width:820px){
+        .container6{
+            height: 800px;
+        }
         .navban{
             width: 700px;
         }
-    }
-    @media(max-width:765px){
+        .list-ul{
+            margin-top: -150px;
+        }
 
+    }
+    @media(max-width:750px){
+        .container3-5 .sec3-5 .oc-resp{
+            left: -725px;
+        }
+        .container3-5 iframe{
+            left: -735px;
+        }
+    }
+    @media(max-width:750px){
+        .container1{
+            height: 1185px;  
+        }
+        .lan1{
+            width: 500px;
+            margin-left: 50px;
+        }
+        .lan2{
+            width: 500px;
+            margin-left: 50px;
+        }
+        .sec2{
+            width: 685px;
+        }
+        .sec3{
+            width: 685px;
+        }
+        .container4 .sec4{
+            width: 685px;
+        }
+        .pos-lan{
+            display: grid;
+            gap: 100px;
+        }
+        .sec-lan{
+            height: 100%;
+        }
+        .move-v{
+            margin-left: 0px;
+            margin: auto;
+        }
+        
+        main > .container1 .sect1 .secban{
+            height: 165vh;
+            width: 600px;
+            margin-left: 0px;
+            margin: auto;
+            margin-top: 15px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -715px;
+        }
+        .container3-5 iframe{
+            left: -718px;
+        }
+        .container5{
+            height: 217vh;
+        }
     }
     }
 }

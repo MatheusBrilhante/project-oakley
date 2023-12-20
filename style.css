@@ -2388,5 +2388,161 @@ span h1{
             height: 217vh;
         }
     }
+    @media(max-width:720px){
+        .navban{
+            width: 600px;
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            font-size: 13px;
+            width: 90px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -670px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            font-size: 1.3rem;
+        }
+        .container3-5 iframe{
+            left: -675px;
+        }
+    }
+    @media(max-width:702px){
+        .container2{
+            height: 1587px;
+        }
+        .sec2{
+            width: 600px;
+            height: 1475px;
+        }
+        .container2 .art2 .sec2 ul{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .blu-button{
+            margin-top: 1415px;
+        }
+        .sec3{
+            width: 600px;
+        }
+        .container3 .art3 .sec3 ul li{
+            margin-left: 20px;
+            padding-left: 0px;
+        }
+        .container3 .sec3 ul li img{
+            width: 90%;
+        }
+        span{
+            font-size: 1.5rem;
+        }
+        .container4 .sec4{
+            width: 600px;
+        }
+        .blu-button4{
+            margin-top: 6px; 
+            font-size: 2rem;
+            width: 110px;
+        }
+    }
+    @media(max-width:683px){
+        .container3-5 iframe{
+            width: 200px;
+            height: 200px;
+            left: -612px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -610px;
+        }
+    }
+    @media(max-width:648px){
+        .container3-5 .sec3-5 .oc-resp{
+            left: -590px;
+            top: -43px;
+        }
+        .container3-5 iframe{
+            width: 200px;
+            height: 150px;
+            left: -595px;
+        }
+    }
+    @media(max-width:648px){
+        .navban{
+            width: 550px;
+        }
+        main > .container1 .sect1 .secban{
+            width: 550px;
+        }
+        .lan1{
+            margin-left: 25px;
+        }
+        .lan2{
+            margin-left: 25px;
+        }
+        .sec2{
+            width: 550px;
+        }
+        .sec3{
+            width: 550px;
+        }
+        .container4 .sec4{
+            width: 550px;
+        }
+    }
+    @media(max-width:586px){
+        .navban{
+            width: 500px;
+        }
+        main > .container1 .sect1 .secban{
+            width: 500px;
+        }
+        .lan1{
+            width: 400px;
+            margin-left: 50px;
+        }
+        .lan2{
+            width: 400px;
+            margin-left: 50px;
+        }
+        .titlep{
+            width: 350px;
+            font-size: 2.5rem;
+        }
+
+    }
+    @media(max-width:573px){
+        .sec2{
+            width: 500px;
+        }
+        .container3{
+            height: 992px;
+        }
+        .sec3{
+            width: 500px;
+            height: 885px;
+        }
+        .container4 .sec4{
+            width: 500px;
+        }
+        .container3 .sec3 ul li img{
+            width: 80%;
+        }
+        .container3 .art3 .sec3 ul li{
+            margin-left: 1px;
+        }
+        .tit-ten{
+            width: 70%;
+        }
+        .blu-button1{
+            margin-top: 390px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -552px;
+        }
+        .container3-5 iframe{
+            left: -555px;
+        }
+        .container4 .sec4 ul img{
+            width: 80%;
+        }
+    }
+
     }
 }

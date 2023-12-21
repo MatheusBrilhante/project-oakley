@@ -1928,7 +1928,7 @@ span h1{
         }
         main > .container1 .sect1 .secban{
             width: 95%;
-            height: 95vh;
+            height: 88vh;
             margin: auto;
             margin-top: 15px;
             margin-left: 20px;
@@ -1955,7 +1955,7 @@ span h1{
             margin-top: 10px;
         }
         .move-v{
-            margin-top: 42px;
+            margin-top: 52px;
         }
         .move-v1{
             margin-top: 92px;
@@ -2141,10 +2141,10 @@ span h1{
 
     @media(max-width:867px){
         .container1{
-            height: 700px;
+            height: 705px;
         }
         main > .container1 .sect1 .secban{
-            height: 85vh;
+            height: 77vh;
         }
         .lan1{
             height: 380px;
@@ -2330,6 +2330,12 @@ span h1{
         }
 
     }
+    @media(max-width:800px){
+        .tith1{
+            font-size: 2rem;
+            width: 180px;
+        }
+    }
     @media(max-width:750px){
         .container3-5 .sec3-5 .oc-resp{
             left: -725px;
@@ -2372,7 +2378,7 @@ span h1{
         }
         
         main > .container1 .sect1 .secban{
-            height: 165vh;
+            height: 148vh;
             width: 600px;
             margin-left: 0px;
             margin: auto;
@@ -2385,7 +2391,7 @@ span h1{
             left: -718px;
         }
         .container5{
-            height: 217vh;
+            height: 197vh;
         }
     }
     @media(max-width:720px){
@@ -2452,6 +2458,26 @@ span h1{
             left: -610px;
         }
     }
+    @media(max-width:664px){
+        .container2-5{
+            margin-top: -30px;
+        }
+        .promo-s{
+            width: 150px;
+        }
+        .img-pro{
+            width: 70%;
+        }
+        .h1-pro{
+            width: 150px;
+        }
+        .but-img{
+            width: 120px;
+        }
+        .ban-pro{
+            height: 435px;
+        }
+    }
     @media(max-width:648px){
         .container3-5 .sec3-5 .oc-resp{
             left: -590px;
@@ -2484,6 +2510,14 @@ span h1{
         }
         .container4 .sec4{
             width: 550px;
+        }
+    }
+    @media(max-width:600px){
+        .container3-5 .sec3-5 .oc-resp{
+            left: -555px;
+        }
+        .container3-5 iframe{
+            left: -557px;
         }
     }
     @media(max-width:586px){
@@ -2541,6 +2575,195 @@ span h1{
         }
         .container4 .sec4 ul img{
             width: 80%;
+        }
+        .list-ul h1{
+            font-size: 2rem;
+        }
+        .container6 .list-ul ul h2{
+            font-size: 2rem;
+        }
+    }
+    @media(max-width:573px){
+        .container3-5 .sec3-5 .oc-resp{
+            left: -306px;
+            top: -24px;
+        }
+        .container3-5 iframe{
+            left: -503px;
+        }
+    }
+    @media(max-width:560px){
+        .tit-oc{
+            width: 150px;
+            font-size: 2.5rem;
+        }
+        .container5{
+            height: 172vh;
+        }
+    }
+    @media(max-width:536px){
+        main > .container1 .sect1 .secban{
+            width: 450px;
+        }
+        .lan1{
+            margin-left: 25px;
+        }
+        .lan2{
+            margin-left: 25px;
+        }
+        .sec2{
+            width: 500px;
+        }
+        .sec3{
+            width: 500px;
+        }
+        .sec4{
+            width: 500px;
+        }
+    }
+    @media(max-width:521px){
+        .container5{
+            height: 195vh;
+        }
+        .container6{
+            height: 600px;
+        }
+        .list-ul h1{
+            font-size: 1.8rem;
+        }
+        .container6 .list-ul ul h2{
+            font-size: 1.5rem;
+        }
+    }
+    @media(max-width:520px){
+        .navban{
+            width: 430px;
+        }
+        .content .list a{
+            font-size: 17px;
+        }
+        .titlep{
+            width: 300px;
+        }
+        .sec2{
+            width: 450px;
+        }
+        .container2 .art2 .sec2 ul img{
+            width: 80%;
+        }
+        .sec3{
+            width: 450px;
+        }
+        .container3 .sec3 ul li{
+            width: 200px;
+        }
+        .container3 .art3 .sec3 ul li{
+            margin-left: -6px;
+        }
+        .container4 .sec4{
+            width: 450px;
+        }
+        .container5{
+            height: 174vh;
+        }
+    }
+    @media(max-width:500px){
+        .container2-5{
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .ban2-5{
+            width: 50%;
+        }
+        .ban-pro{
+            height: 740px;
+        }
+        .but-img{
+            width: 100px;
+            font-size: 1.2rem;
+        }
+    }
+    @media(max-width:490px){
+        .navban{
+            width: 380px; 
+        }
+        main > .container1 .sect1 .secban{
+            width: 400px;
+        }
+        .lan1{
+            width: 350px;
+        }
+        .lan2{
+            width: 350px;
+        }
+    }
+    @media(max-width:470px){
+        .container2{
+            height: 1368px;
+        }
+        .sec2{
+            width: 400px;
+            height: 1250px;
+        }
+        .blu-button{
+            margin-top: 1198px;
+        }
+        .container2 .art2 .sec2 ul li{
+            width: 190px;
+        }
+        .ban-pro{
+            height: 375px;
+        }
+        .container2-5{
+            margin-top: -95px;
+        }
+        .container3{
+            height: 915px;
+        }
+        .blu-button1{
+            margin-top: 315px;
+        }
+        .sec3{
+            width: 400px;
+            height: 800px;
+        }
+        .container3 .sec3 ul li{
+            width: 190px;
+            margin-left: -13px;
+        }
+        .container3 .sec3 ul li img{
+            width: 75%;
+        }
+        .container4{
+            height: 965px;
+        }
+        .container4 .sec4{
+            width: 400px;
+            height: 850px;
+        }
+        .container4 .art4 .sec4 ul li{
+           width: 190px; 
+        }
+        .blu-button4{
+            font-size: 1.8rem;
+            width: 100px;
+        }
+    }
+    @media(max-width:440px){
+        .titlep{
+            width: 250px;
+            font-size: 2rem;
+        }
+        .lan1{
+            width: 330px;
+            margin-left: 8px;
+        }
+        .lan2{
+            width: 330px;
+            margin-left: 8px;
+        }
+        main > .container1 .sect1 .secban{
+            width: 350px;
         }
     }
 

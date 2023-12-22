@@ -344,6 +344,14 @@ main > .container1 .sect1 .secban{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.container3-5{
+    height: 100vh;
+    background-image:url(img/gamer.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .container4{
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod3.jpg);
@@ -1818,7 +1826,7 @@ span h1{
             padding-left: 0px;
         }
         .container3-5{
-            height: 100%;
+            height: 600px;
             max-width: 1110px;
             margin: 0 auto;
             display: block;
@@ -1827,7 +1835,6 @@ span h1{
         .container3-5 .sec3-5{
             margin: auto;
             height: 85%;
-            display: flex;
             align-items: center;
         }
         .container3-5 div img{
@@ -1842,25 +1849,25 @@ span h1{
             max-width: 1110px;
         }
         .container3-5 iframe{
-            width: 250px;
-            height: 250px;
-            left: -1015px;
-            top: 0px;
+            width: 400px;
+            height: 400px;
+            left: -250px;
+            top: 155px;
         }
         .container3-5 div > .oc-resp{
             top: -80px;
             left: -960px;
         }
         .container3-5 .oc-resp .h1-gamer{
-            font-size: 2rem;
-            width: 210px;
+            font-size: 3rem;
+            width: 400px;
             border-radius: 5px;
             color: #000000;
             background-color: #fff;
         } 
         .container3-5 .oc-resp .but-gamer{
-            font-size: 2rem;
-            margin-top: 10px;
+            font-size: 2.5rem;
+            margin-top: 23px;
         }  
         .title-pro{
             top: 0px;
@@ -1986,8 +1993,9 @@ span h1{
             margin-top: 22px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            top: -80px;
-            left: -960px;
+            top: -480px;
+            left: -253px;
+            display: block;
         }
         .container4 .title-ocu{
             padding-top: 0px;
@@ -1999,7 +2007,10 @@ span h1{
     }
     @media(max-width:1026px){
         .container3-5 iframe{
-            left: -970px;
+            left: -200px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -200px;
         }
         .container4{
             margin-left: -5px;
@@ -2032,14 +2043,11 @@ span h1{
         .container3-5 div > .oc-resp{
             left: -910px;
         }
-        .container3-5 .oc-resp .h1-gamer{
-            width: 140px;
-        }
         .container3-5 .sec3-5 .oc-resp{
-            left: -860px;
+            left: -200px;
         }
         .container3-5 iframe{
-            left: -900px;
+            left: -200px;
         }
     }
     @media(max-width:973px){
@@ -2091,7 +2099,7 @@ span h1{
             left: -895px;
         }
         .container3-5 iframe{
-            left: -905px
+            left: -200px;
         }
     }
     @media(max-width:925px){
@@ -2104,7 +2112,7 @@ span h1{
             left: -860px;
         }
         .container3-5 iframe{
-            left: -865px;
+            left: -200px;
         }
         .container5{
             height: 210vh;
@@ -2125,17 +2133,15 @@ span h1{
         }
     }
     @media(max-width:871px){
-        .container3-5 .oc-resp .h1-gamer{
-            width: 140px;
-        }
+
         .container3-5 div > .oc-resp{
             left: -780px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -795px;
+            left: -200px;
         }
         .container3-5 iframe{
-            left: -803px;
+            left: -200px;
         }
     }
 
@@ -2198,20 +2204,10 @@ span h1{
             height: 1137px;
         }
         .container3-5 iframe{
-            width: 250px;
-            height: 200px;
-            left: -760px;
-        }
-        .container3-5 .sec3-5 .oc-resp{
-            top: -55px;
-            left: -750px;  
-        }
-        .container3-5 .oc-resp .h1-gamer{
-            font-size: 1.5rem;
-            width: 120px;
+            left: -200px;
         }
         .container3-5 .oc-resp .but-gamer{
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
         .sec3{
             width: 730px;
@@ -2328,6 +2324,12 @@ span h1{
         .list-ul{
             margin-top: -150px;
         }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -150px;
+        }
+        .container3-5 iframe{
+            left: -150px;
+        }
 
     }
     @media(max-width:800px){
@@ -2385,10 +2387,10 @@ span h1{
             margin-top: 15px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -715px;
+            left: -150px;
         }
         .container3-5 iframe{
-            left: -718px;
+            left: -150px;
         }
         .container5{
             height: 197vh;
@@ -2399,17 +2401,16 @@ span h1{
             width: 600px;
         }
         .container3-5 .oc-resp .h1-gamer{
-            font-size: 13px;
-            width: 90px;
+            font-size: 2.5rem;
+            width: 300px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -670px;
-        }
-        .container3-5 .oc-resp .but-gamer{
-            font-size: 1.3rem;
+            left: -120px;
         }
         .container3-5 iframe{
-            left: -675px;
+            left: -115px;
+            width: 350px;
+            height: 350px;
         }
     }
     @media(max-width:702px){
@@ -2450,12 +2451,10 @@ span h1{
     }
     @media(max-width:683px){
         .container3-5 iframe{
-            width: 200px;
-            height: 200px;
-            left: -612px;
+            left: -115px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -610px;
+            left: -115px;
         }
     }
     @media(max-width:664px){
@@ -2478,17 +2477,7 @@ span h1{
             height: 435px;
         }
     }
-    @media(max-width:648px){
-        .container3-5 .sec3-5 .oc-resp{
-            left: -590px;
-            top: -43px;
-        }
-        .container3-5 iframe{
-            width: 200px;
-            height: 150px;
-            left: -595px;
-        }
-    }
+
     @media(max-width:648px){
         .navban{
             width: 550px;
@@ -2514,10 +2503,13 @@ span h1{
     }
     @media(max-width:600px){
         .container3-5 .sec3-5 .oc-resp{
-            left: -555px;
+            left: -100px;
         }
         .container3-5 iframe{
-            left: -557px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+
         }
     }
     @media(max-width:586px){
@@ -2567,12 +2559,7 @@ span h1{
         .blu-button1{
             margin-top: 390px;
         }
-        .container3-5 .sec3-5 .oc-resp{
-            left: -552px;
-        }
-        .container3-5 iframe{
-            left: -555px;
-        }
+    
         .container4 .sec4 ul img{
             width: 80%;
         }
@@ -2581,15 +2568,6 @@ span h1{
         }
         .container6 .list-ul ul h2{
             font-size: 2rem;
-        }
-    }
-    @media(max-width:573px){
-        .container3-5 .sec3-5 .oc-resp{
-            left: -306px;
-            top: -24px;
-        }
-        .container3-5 iframe{
-            left: -503px;
         }
     }
     @media(max-width:560px){
@@ -2667,6 +2645,23 @@ span h1{
             height: 174vh;
         }
     }
+    @media(max-width:511px){
+        .container3-5{
+            height: 470px;
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            font-size: 2.0rem;
+            width: 250px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            top: -400px;
+            left: -70px;
+        }
+        .container3-5 iframe{
+            left: -70px;
+            top: 230px;
+        }
+    }
     @media(max-width:500px){
         .container2-5{
             margin-top: 20px;
@@ -2712,10 +2707,10 @@ span h1{
             width: 190px;
         }
         .ban-pro{
-            height: 375px;
+            height: 700px;
         }
         .container2-5{
-            margin-top: -95px;
+            margin-top: 15px;
         }
         .container3{
             height: 915px;

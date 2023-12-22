@@ -898,6 +898,10 @@ span h1{
         margin-right: 20px;
         margin-top: 20px;
     }
+    .container2 .sec2 li a{
+        cursor: pointer;
+        width: 100%;
+    }
     .navban{
         width: 800px;
     }
@@ -921,17 +925,11 @@ span h1{
         margin: auto;
         text-align: center;
     }
-    .container3-5 iframe{
-        top: -375px;
-        left: -395px;
-    }
     .container3-5 .sec3-5 .oc-resp{
         width: 100%;
         height: 100%;
         text-align: center;
         margin: auto;
-        top: -805px;
-        left: -50px;
         position: relative;
     }
     .container4{
@@ -1222,8 +1220,6 @@ span h1{
         position: relative;
         z-index: 1;
         margin: auto;
-        width: 400px;
-        height: 300px;
     }
     .container3-5 .oc-resp .h1-gamer{
         position: relative;
@@ -1358,35 +1354,39 @@ span h1{
         margin-top: 25px;
     }
     .container2{
-        height: 40vw;
+        height: 42vw;
     }
     .container4{
-        height: 100vh;
+        height: 86vh;
     }
     .container4 .title-ocu{
         padding-top: 10px;
     }
     .container4 .sec4 ul{
         margin-top: 25px;
+        padding-top: 40px;
     }
     .blu-button-2{
         width: 100%;
         display: flex;
         margin: auto;
         text-align: center;
-        margin-top: -50px;
+        margin-top: 25px;
     }
     .titleb{
         margin-top: 13px;
     }
     .sec3{
-        height: 420px;
+        height: 440px;
     }
     .tit-blu{
         margin-top: -100px;
     }
+    .tit-blu{
+        margin-top: -27px;
+    }
     .blu-button-1{
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .sec3{
         width: 100vw;
@@ -1441,11 +1441,15 @@ span h1{
         position: relative;
         width: 20%;
     }
+    .container5{
+        height: 265vh;
+    }
     .container5 .sec5 .box img{
         width: 80%; /* As imagens ocuparão 100% da largura das colunas */
         height: auto; /* Mantém a proporção da imagem */
         border: 2px solid #000000;
         border-radius: 5px;
+        margin-top: 10px;
     }
     .container2 .art2 .sec2 ul{
         margin-left: -70px;
@@ -1490,6 +1494,7 @@ span h1{
         align-items: center;
         width: 100vw;
         background-color: #f9f0e675;
+        height: 400px;
     }
     .container3{
         height: 100vh;
@@ -1511,17 +1516,16 @@ span h1{
     }
     .container3-5 iframe{
         margin: auto;
-        top: -375px;
-        left: -415px;
+        top: 100px;
+        left: -350px;
     }
     .container3-5 div > .oc-resp{
         margin: auto;
         align-items: center;
         width: 100%;
         position: relative;
-        top: -670px;
-        left: -60px;
-
+        top: -415px;
+        left: -390px;
     }
     .container3-5 .oc-resp .h1-gamer{
         margin: auto;
@@ -1962,10 +1966,10 @@ span h1{
             margin-top: 10px;
         }
         .move-v{
-            margin-top: 52px;
+            margin-top: 68px;
         }
         .move-v1{
-            margin-top: 92px;
+            margin-top: 118px;
         }
         .sect1{
             padding-top: 95px;
@@ -2000,10 +2004,15 @@ span h1{
         .container4 .title-ocu{
             padding-top: 0px;
         }
+        .container5{
+            height: 242vh;
+        }
         .container5 .sec5 .box img{
             margin-top: 20px;
         }
-        
+        footer img{
+            margin-top: -245px;
+        }
     }
     @media(max-width:1026px){
         .container3-5 iframe{
@@ -2654,12 +2663,12 @@ span h1{
             width: 250px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            top: -400px;
-            left: -70px;
+            left: -60px;
+            top: -350px;
         }
+
         .container3-5 iframe{
-            left: -70px;
-            top: 230px;
+            left: -60px;
         }
     }
     @media(max-width:500px){
@@ -2676,6 +2685,26 @@ span h1{
         .but-img{
             width: 100px;
             font-size: 1.2rem;
+        }
+        .container5 .art5 .sec5{
+            gap: 10px;
+        }
+        .box h1{
+            font-size: 1.5rem;
+        }
+        .but5{
+            width: 40px;
+            font-size: 1.5rem;
+        }
+        .container5 .sec5 .box img{
+            width: 75%;
+        }
+        .container5{
+            height: 145vh;
+        }
+        .list-ul{
+            width: 75%;
+        }
         }
     }
     @media(max-width:490px){
@@ -2761,6 +2790,58 @@ span h1{
             width: 350px;
         }
     }
+    @media(max-width:420px){
+        .container3-5 iframe{
+            width: 250px;
+            height: 250px;
+            left: -40px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -40px;
+        }
+    }
+    @media(max-width:416px){
+        .container2 .art2 .sec2 ul{
+            gap: 0px;
+        }
+        .sec2{
+            width: 360px;
+        }
+        .sec3{
+            width: 360px;
+        }
+        .container4 .sec4{
+            width: 360px;
+        }
+        .container3 .sec3 ul{
+            gap: 0px;
+        }
+        .container3 .sec3 ul li{
+            width: 170px;
+        }
 
+    }
+    @media(max-width:405px){
+        .container6{
+            height: 645px;
+        }
+        footer img{
+            margin-top: -92px;
+            width: 50%;
+       }
+       .blu-button4{
+            font-size: 1.5rem;
+            width: 80px;
+            margin-left: 0px;
+            height: 30px;
+       }
+    }
+    @media(max-width:400px){
+        .navban{
+            width: 360px;
+        }
+        .content .list a{
+            font-size: 15px;
+        }
     }
 }

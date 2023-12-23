@@ -1913,7 +1913,7 @@ span h1{
         .container5{
             max-width: 1110px;
             margin: auto;
-            height: 240vh;
+            height: 202vh;
         }
         .tit-oc{
             margin: auto;
@@ -1966,10 +1966,10 @@ span h1{
             margin-top: 10px;
         }
         .move-v{
-            margin-top: 68px;
+            margin-top: 55px;
         }
         .move-v1{
-            margin-top: 118px;
+            margin-top: 95px;
         }
         .sect1{
             padding-top: 95px;
@@ -2005,7 +2005,7 @@ span h1{
             padding-top: 0px;
         }
         .container5{
-            height: 242vh;
+            height: 222vh;
         }
         .container5 .sec5 .box img{
             margin-top: 20px;
@@ -2037,6 +2037,9 @@ span h1{
         }
         .list-ul ul li h2{
             font-size: 1.5rem; 
+        }
+        .container5{
+            height: 205vh;
         }
     }
     @media(max-width:975px){
@@ -2077,7 +2080,7 @@ span h1{
     }
     @media(max-width:940px){
         .container2{
-            height: 1210px;
+            height: 1237px;
         }
         .container3{
             height: 1245px;
@@ -2124,7 +2127,7 @@ span h1{
             left: -200px;
         }
         .container5{
-            height: 210vh;
+            height:202vh;
         }
     }
     @media(max-width:880px){
@@ -2176,10 +2179,10 @@ span h1{
             margin-top: 21px;
         }
         .move-v{
-            margin-top: -17px;
+            margin-top: -5px;
         }
         .move-v1{
-            margin-top: 27px;
+            margin-top: 25px;
         }
         .container2{
             height: 1045px;
@@ -2508,6 +2511,11 @@ span h1{
         }
         .container4 .sec4{
             width: 550px;
+        }
+    }
+    @media(max-width:635px){
+        .container5{
+            height: 197vh;
         }
     }
     @media(max-width:600px){
@@ -2842,6 +2850,12 @@ span h1{
         }
         .content .list a{
             font-size: 15px;
+        }
+        .container6 {
+            height: 710px;
+        }
+        footer img{
+            margin-top: -140px;
         }
     }
 }

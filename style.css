@@ -1052,6 +1052,7 @@ span h1{
     }
     .container3{
         height: 95vh;
+        width: 100%;
     }
     .sec3{
         height: 500px;
@@ -1333,15 +1334,24 @@ span h1{
     .container4{
         height: 78vh;
     }
+    .container4 .art4 .sec4 ul li{
+        width: 100%;
+        padding: 15px;
+        margin: 0px;
+    }
+    .container4 .sec4 ul{
+        padding-top: 40px;
+    }
     .container5{
         height: 204vh;
     }
 
-
-
-
 }
-
+@media(max-width:1455px){
+    .container3-5 iframe{
+        left: -285px;
+    }
+}
 @media(max-width:1366px){
     .titlep{
         margin-top: 100px;
@@ -1359,10 +1369,14 @@ span h1{
     }
     .container1{
         width: 100vw;
-        height: 127vh;
+        height: 810px;
+    }
+    main > .container1 .sect1 .secban{
+        height: 515px;
     }
     .container2{
         width: 100vw;
+        height: 575px;
     }
     .container3{
         width: 100vw;
@@ -1383,6 +1397,8 @@ span h1{
         text-align: center;
         margin: auto;
         position: relative;
+        top: -682px;
+        left: -300px;
     }
     .container4{
         width: 100vw;
@@ -1404,16 +1420,16 @@ span h1{
         margin-top: 40px;
     }
     .container4{
-        height: 95vh;
-    }
-    .container4 .title-ocu{
-        padding-top: 11px;
+        height: 585px;
     }
     .promo-s{
         margin-top: 30px;
     }
+    .img-pro{
+        width: 100%;
+    }
     .ban-pro{
-        height: 100vh;
+        height: 550px;
         margin: auto;
         margin-top: 0px;
     }
@@ -1424,14 +1440,14 @@ span h1{
     }
     .titleb{
         width: auto;
-        margin-top: -50px;
+        margin-top: -28px;
     }
     .sec2{
         height: 445px;
-        margin-top: 30px;
+        margin-top: 60px;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: -16px;
+        margin-left: -7px;
         margin-top: -65px;
         text-align: center;
     }
@@ -1439,25 +1455,17 @@ span h1{
         display: flex;
         margin: auto;
         width: 100%;
-        position: absolute;
-    }
-    .blu-button{
-        margin-top: 350px;
-    }
-    .container3{
-        height: 100vh;
     }
     .container3-5{
         width: 100vw;
         margin: auto;
-        height: 71vh;
+        height: 700px;
     }
     .blu-button-1{
         width: 100%;
         display: flex;
         margin: auto;
         text-align: center;
-        margin-top: 15px;
     }
     .blu-button-1 > a{
         margin: auto;
@@ -1480,13 +1488,17 @@ span h1{
     }
     .Titlex{
         width: 100%;
+        height: 100px;
         margin: auto;
         text-align: center;
-        margin-top: 25px;
     }
     span{
         text-align: center;
         font-size: 2rem;
+    }
+    .tith1{
+        width: 200px;
+        margin-top: 25px;
     }
     .box{
         margin: auto;
@@ -1494,7 +1506,7 @@ span h1{
         width: 100%;
     }
     .container5{
-        height: 260vh;
+        height: 1800px;
     }
     .container5 .art5 .sec5{
         display: grid;
@@ -1504,7 +1516,6 @@ span h1{
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-top: 55px;
         margin-left: -15px;
     }
     .container5 .sec5 .box img{
@@ -1550,7 +1561,10 @@ span h1{
         text-decoration: underline #d64953;
     }
     .container6{
-        height: 70vh;
+        height: 900px;
+    }
+    #tex{
+        margin-top: -222px;
     }
     .lan2{
         width: 550px;
@@ -1585,24 +1599,25 @@ span h1{
         font-size: 3rem;
     }
     .container3{
-        margin-top: -65px;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        height: 585px;
     }
     .sec-lan .pos-lan .inf-oc1 ul > li{
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
     }
     .move-v{
-        margin-top: -45px;
+        margin-top: -22px;
     }
     .sec-lan .pos-lan .inf-oc2 ul > li{
-        width: 80px;
-        height: 80px;   
+        width: 100px;
+        height: 100px;   
     }
     .move-v1{
-        margin-top: -2px;
+        margin-top: 28px;
     }
     .container3 .sec3 li a{
         cursor: pointer;
@@ -1651,7 +1666,7 @@ span h1{
     }
     .ban2-5{
         max-width: 250px;
-        margin-top: -30px;
+        margin-top: 45px;
     }
     .but-img{
         font-size: 2rem;
@@ -1659,14 +1674,11 @@ span h1{
     .container3 .sec3 ul li img{
         width: 100%;
     }
-    .container3 .sec3 ul{
-        width: 100vw;
-    }
     .container3 .sec3 ul li{
-        margin: 15px;
-        width: 250px;
+        width: 100%;
+        padding: 15px;
+        margin: 0px;
         text-align: center;
-        margin-top: 35px;
     }
     .container3-5 iframe{
         position: relative;
@@ -1682,27 +1694,26 @@ span h1{
     .container3-5 .oc-resp .but-gamer{
         cursor: pointer;
         position: relative;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .title-blu{
         margin: auto;
         text-align: center;
         width: 100%;
         height: 100px;
-        margin-top: -75px;
+        margin-top: -62px;
         display: flex;
+        margin-bottom: 10px;
     }
     .tit-bot{
         font-size: 3rem;
         width: 10%;
-        margin-top: 30px;
     }
     .blu-button1{
         font-size: 2.5rem;
-        display: flex;
     }
     .tit-ten{
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 100%;
         margin-left: 0px;
         margin-bottom: 10px;
@@ -1728,24 +1739,24 @@ span h1{
         width: 30%;
     }
     .container4 .art4 .sec4 ul li{
-        width: 245px;
-        margin: 15px;
+        width: 100%;
+        margin-top: -70px;
+        padding: 15px;
+        margin: 0px;
         text-align: center;
-        margin-top: 35px;
     }
     .container4 .sec4 ul{
         margin: auto;
         width: 100%;
-        height: 80%;
         display: flex;
         align-items: center;
+        margin-left: -3px;
     }
     .container4 .sec4 .blu-button-2{
         margin: auto;
         width: 100%;
         text-align: center;
-        margin-top: -70px;
-
+        margin-top: -60px;
     }
     .but5{
         margin: auto;
@@ -1775,26 +1786,18 @@ span h1{
     footer{
         display: flex;
         text-align: center;
+        top: -66px;
+        left: 25px;
     }
     footer img{
-        width: 25%;
+        width: 35%;
         margin: auto;
         margin-top: -150px;
     }
 }
 @media(max-width:1360px){
-    .container1{
-        height: 125vh;
-    }
     .container1 .mod1{
         padding-top: 0px;
-    }
-    .container3 .sec3 ul{
-        padding-top: 30px;
-    }
-
-    .sec3{
-        height: 445px;
     }
     .mod1{
         width: 100vw;
@@ -1802,21 +1805,8 @@ span h1{
         text-align: center;
         padding-top: 65px;
     }
-    .Titlex{
-        margin-top: 25px;
-    }
     .container2{
         height: 42vw;
-    }
-    .container4{
-        height: 86vh;
-    }
-    .container4 .title-ocu{
-        padding-top: 10px;
-    }
-    .container4 .sec4 ul{
-        margin-top: 25px;
-        padding-top: 40px;
     }
     .blu-button-2{
         width: 100%;
@@ -1825,43 +1815,11 @@ span h1{
         text-align: center;
         margin-top: 25px;
     }
-    .titleb{
-        margin-top: 13px;
-    }
-    .sec3{
-        height: 440px;
-    }
-    .tit-blu{
-        margin-top: -100px;
-    }
-    .tit-blu{
-        margin-top: -27px;
-    }
-    .blu-button-1{
-        margin-top: 20px;
-    }
-    .sec3{
-        width: 100vw;
-    }
-    .tit-blu{
-        margin-top: -130px;
-    }
-    .container2 .art2 .sec2 ul li{
-        margin-left: -45px;
-        margin: 11px;
-        padding: 10px;
-    }
-    .container3 .sec3 ul li{
-        margin-left: 23px;
-    }
     .move-v a{
         color: #000000;
     }
     .move-v1 a{
         color: #000000;
-    }
-    main > .container1 .sect1 .secban{
-        height: 78vh;
     }
     .box h1{
         color: #000000;
@@ -1903,73 +1861,19 @@ span h1{
         border-radius: 5px;
         margin-top: 10px;
     }
-    .container2 .art2 .sec2 ul{
-        margin-left: -70px;
-        padding-left: 50px;
-        margin-top: -55px;
-    }
-    .resp-but{
-        margin: auto;
-        width: 100%;
-    }
-    .sec2{
-        margin: auto;
-    }
-    .sec3{
-        margin: auto;
-    }
-    .container3 .art3 .sec3 ul li{
-        margin: auto;
-        margin: 8px;
-    }
-    .titleb2{
-        left: -33px;
-    }
     .blu-button1{
         cursor: pointer;
-    }
-    .promo-s{
-        left: -25px;
-    }
-    .sec2{
-            margin-top: 20px;
-    }
-    .tit-blu{
-        position: relative;
-        margin: auto;
     }
     .tit-bot{
         text-align: center;
     }
-    .sec4{
-        margin: auto;
-        align-items: center;
-        width: 100vw;
-        background-color: #f9f0e675;
-        height: 400px;
-    }
-    .container3{
-        height: 100vh;
-    }
-    .container2-5{
-        margin-left: -25px;
-    }
-    .container3-5{
-        width: 100vw;
-    }
-    .sec3-5{
-        width: 100%;
-        height: 100%;
+    .container2 .art2 .sec2 ul{
+        margin-left: -4px;
     }
     .container3-5 img{
         text-align: center;
         width: 100%;
         margin: auto;
-    }
-    .container3-5 iframe{
-        margin: auto;
-        top: 100px;
-        left: -350px;
     }
     .container3-5 div > .oc-resp{
         margin: auto;
@@ -1979,36 +1883,10 @@ span h1{
         top: -415px;
         left: -390px;
     }
-    .container3-5 .oc-resp .h1-gamer{
-        margin: auto;
-        color: #fff;
-        text-align: center;
-        text-decoration: underline red;
-        position: relative;
-    }
-    .container3-5 .oc-resp .but-gamer{
-        position: relative;
-        margin-top: 10px;
-    }
-    .container3-5 .sec3-5 .video{
+    .ban-ten span{
         margin: auto;
         text-align: center;
-        width: 100%;
-    }
-    .container4{
-        margin-top: 0px;
-    }
-    .tit-ten{
-        font-size: 1.5rem;
-        font-weight: bold;
-        border: 1px solid black;
-    }
-    .container4 .art4 .sec4 ul li{
-        margin: 15px;
-    }
-    .promo-s{
-        top: 265px;
-        left: -30px;
+        font-size: 2rem;
     }
     .container6{
         height: 85vh;
@@ -2037,10 +1915,13 @@ span h1{
     footer .img{
         margin-top: -150px;
     }
-
+    .container4 .art4 .sec4 ul li{
+        margin-top: -80px;
+    }
     .container6 .list-ul li:hover{
         text-decoration: underline #d64953;
     }
+
 }
 @media(max-width:1280px){
     .pos-lan{
@@ -2053,10 +1934,6 @@ span h1{
     }
     .titleb2{
         left: -23px;
-    }
-    .promo-s{
-        left: -17px;
-        top: -90px;
     }
     .sec3{
         padding-top: 170px;

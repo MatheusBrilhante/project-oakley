@@ -1420,7 +1420,7 @@ span h1{
         margin-top: 40px;
     }
     .container4{
-        height: 585px;
+        height: 571px;
     }
     .promo-s{
         margin-top: 30px;
@@ -1470,7 +1470,7 @@ span h1{
     .blu-button-1 > a{
         margin: auto;
         display: flex;
-        width: 100%;
+        
     }
     
     header{
@@ -1516,7 +1516,6 @@ span h1{
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin-left: -15px;
     }
     .container5 .sec5 .box img{
         width: 80%;
@@ -1627,10 +1626,6 @@ span h1{
         cursor: pointer;
         width: 100%;
     }
-    .container4 a {
-        width: 100%;
-        cursor: pointer;
-    }    
     .pos-lan{
         margin-top: -100px;
     }
@@ -1707,7 +1702,6 @@ span h1{
     }
     .tit-bot{
         font-size: 3rem;
-        width: 10%;
     }
     .blu-button1{
         font-size: 2.5rem;
@@ -1844,15 +1838,10 @@ span h1{
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-top: 360px;
-        margin-left: -15px;
     }
     .tith1{
         position: relative;
         width: 20%;
-    }
-    .container5{
-        height: 265vh;
     }
     .container5 .sec5 .box img{
         width: 80%; /* As imagens ocuparão 100% da largura das colunas */
@@ -1888,30 +1877,6 @@ span h1{
         text-align: center;
         font-size: 2rem;
     }
-    .container6{
-        height: 85vh;
-    }
-    .list-ul {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: auto;
-        margin-top: 25px;
-    }
-    .list-ul h1{
-        font-size: 2.5rem;
-        text-align: center;
-        text-decoration: underline #d64953;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    .list-ul ul h2{
-        color: #000000;
-        font-weight: bold;
-        font-size: 2rem;
-        padding: 10px;
-    }
     footer .img{
         margin-top: -150px;
     }
@@ -1924,77 +1889,24 @@ span h1{
 
 }
 @media(max-width:1280px){
-    .pos-lan{
-        margin-top: -60px;
+    .container2{
+        height: 45vw;
     }
-    .lan1{
-        width: 550px;
-        height: 500px;
-        padding-top: 55px;
+    .blu-button1{
+        margin-top: 15px;
     }
-    .titleb2{
-        left: -23px;
+    .container3-5 iframe{
+        left: -260px;
     }
-    .sec3{
-        padding-top: 170px;
+    .container3-5 .sec3-5 .oc-resp{
+        left: -260px;
     }
-    .container3 .sec3 ul li{
-        margin: 2px; 
-    }
-    .container3 .sec3 ul{
-        height: 440px;
-        margin-top: 85px;
-    }
-    .tit-bot{
-        top: 80px;
-        left: -935px;
-    }
-    .container3 .sec3 ul li{
-        margin-top: -35px;
-        margin-left: 4px;
-        padding-left: 12px;
-    }
-    .lan2{
-        width: 550px;
-        height: 500px;
-        padding-top: 55px;
-    }
-    .move-v{
-        margin-top: -11px;
-    }
-    .move-v1{
-        margin-top: 30px;
-    }
-    .sec2{
-        margin-top: -140px;
-        height: 440px;
-    }
-    .container2 .art2 .sec2 ul li{
-        margin: -2px;
-        margin-left: 13px;
-    }
-    .container2 .art2 .sec2 ul{
-        margin-left: -17px;
-    }
-    .ban-pro{
-        margin-top: -385px;
-        padding-top: 175px;
-    }
-    .container3 .sec3 ul{
-        margin-left: -10px;
-    }
-    .container4 .sec4 ul{
-        height: 440px;
-        margin-left: -704px;
-    }
-    .container4 .art4 .sec4 ul li{
-        margin: 5px;
-        margin-top: -40px;
-    }
-    .blu-button4{
-        margin-left: -1800px;
-        margin-top: 130px;
-    }
+
+
+
+    
+
+
     .tith1{
         height: auto;
     }

@@ -571,7 +571,6 @@ span h1{
         margin-left: 200px;
         margin-top: -20px;
     }
-
     .verm{
         font-size: 2.5rem;
         text-align: center;
@@ -583,18 +582,14 @@ span h1{
         padding: 5px;
         border-radius: 100px;
         text-decoration: underline #d64953;
-
     }
-
     .move-v{
         text-align: center;
         margin-top: -35px;
-        margin-left: -35px;
     }
     .move-v1{
         text-align: center;
     }
-
     /* CONTAINER 2 */
     .container2{
         width: 100vw;
@@ -2045,11 +2040,14 @@ span h1{
         .tit-bot{
             margin-top: 7px;
         }
+        .container5{
+            height: 1640px;
+        }
     }
 
     @media(max-width:1110px){
         .container1{
-            height: 780px;
+            height: 740px;
             margin: auto;
             max-width: 1110px;
         }
@@ -2060,28 +2058,35 @@ span h1{
         .mod1{
             padding-top: 0px;
         }
+        .h1-pro{
+            width: 220px;
+        }
         .container2{
             margin-top: 0px;
             align-items:flex-start;
-            height: 1385px;
+            height: 975px;
             margin: auto;
             max-width: 1110px;
+        }
+        .titleb2{
+            margin-top: 25px;
         }
         .container4 .sec4 .blu-button-2{
             margin-top: -55px;
         }
         .sec2{
-            width: 950px;
-            height: 1280px;
+            width: 1000px;
+            height: 850px;
             margin: auto;
             text-align: center;
             border-radius: 10px;
-            margin-top: 21px;
+            margin-top: -53px;
+            margin-left: -15px;
         }
         .container2 .art2 .sec2 ul{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
+            gap: 0px;
             margin: auto;
             text-align: center;
             align-items: center;
@@ -2095,11 +2100,10 @@ span h1{
         .blu-button{
             text-align: center;
             margin: auto;
-            margin-top: 1160px;
             display: flex;
         }
         .blu-button1{
-            margin-top: 690px;
+            margin-top: -15px;
         }
         .ban-pro{
             margin-top: 0px;
@@ -2114,7 +2118,7 @@ span h1{
         }
         .container3{
             margin-top: 0px;
-            height: 1310px;
+            height: 1450px;
             align-items: flex-start;
             max-width: 1110px;
         }
@@ -2135,13 +2139,13 @@ span h1{
             text-align: center;
         }
         .title-blu{
-            margin-top: -4px;
+            margin-top: -16px;
         }
         .sec3{
             margin-top: 0px;
             padding-top: 0px;
-            height: 1200px;
-            width: 950px;
+            height: 1330px;
+            width: 1000px;
             margin: auto;
             border-radius: 10px;
         }
@@ -2191,14 +2195,15 @@ span h1{
         } 
         .container3-5 .oc-resp .but-gamer{
             font-size: 2.5rem;
-            margin-top: 23px;
+            margin-top: 10px;
+            left: -350px;
         }  
         .title-pro{
             top: 0px;
             left: 0px;
         }
         .container4{
-            height: 1400px;
+            height: 1385px;
             max-width: 1110px;
         }
         .container4 .title-ocu{
@@ -2206,22 +2211,30 @@ span h1{
         }
         .sec4{
             height: 1265px;
-            width: 950px;
+            width: 1000px;
             margin: auto;
             border-radius: 10px;
+            margin-top: 18px;
         }
         .container4 .sec4 ul{
             display: grid;
             height: 100%;
             grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
             margin: auto;
             text-align: center;
             align-items: center;
             justify-content: center;
         }
+        .container4 .sec4 .ban-ocu1{
+            max-width: 300px;
+        }
         .container4 .art4 .sec4 ul li{
-            margin: auto;
+            width: 100%;
+            padding: 15px;
+            margin: 0px;
+            text-align: center;
+            margin-left: 90px;
+            padding-left: 0px;
         }
         .container4 .sec4 ul{
             width: 100%;
@@ -2238,9 +2251,6 @@ span h1{
         .tit-oc{
             margin: auto;
             margin-top: -1px;
-        }
-        .sec4{
-            margin-top: 10px;
         }
         .tit-blu{
             margin-bottom: 10px;
@@ -2259,7 +2269,7 @@ span h1{
         }
         main > .container1 .sect1 .secban{
             width: 95%;
-            height: 88vh;
+            height: 550px;
             margin: auto;
             margin-top: 15px;
             margin-left: 20px;
@@ -2272,6 +2282,9 @@ span h1{
         }
         .container2 .art2 .sec2 ul li{
             margin: 20px;
+            width: 80%;
+            padding: 10px;
+            margin-left: 35px;
         }
         .container2 .art2 .sec2 ul{
             margin-top: 50px;
@@ -2280,16 +2293,16 @@ span h1{
             height: 90vh;
         }
         .img1{
-            margin-top: -20px;
+            margin-top: -10px;
         }
         .img2{
-            margin-top: 10px;
+            margin-top: 20px;
         }
         .move-v{
-            margin-top: 55px;
+            margin-top: 40px;
         }
         .move-v1{
-            margin-top: 95px;
+            margin-top: 79px;
         }
         .sect1{
             padding-top: 95px;
@@ -2309,48 +2322,89 @@ span h1{
         }
         .ban2-5{
             margin: auto;
+            margin-top: 50px;
         }
         .titleb{
             width: 100%;
             margin: auto;
             text-align: center;
-            margin-top: 22px;
+            margin-top: 1px;
         }
         .container3-5 .sec3-5 .oc-resp{
             top: -480px;
-            left: -253px;
+            left: 105px;
             display: block;
         }
         .container4 .title-ocu{
             padding-top: 0px;
         }
         .container5{
-            height: 222vh;
+            height: 1650px;
         }
         .container5 .sec5 .box img{
             margin-top: 20px;
+        }
+        footer{
+            top: -2px;
         }
         footer img{
             margin-top: -245px;
         }
     }
-    @media(max-width:1026px){
-        .container3-5 iframe{
-            left: -200px;
+    @media(max-width:1065px){
+        .sec3{
+            margin-left: -12px;
         }
-        .container3-5 .sec3-5 .oc-resp{
-            left: -200px;
+
+    }
+    @media(max-width:1026px){
+        .container2{
+            height: 915px;
+        }
+        .sec2{
+            width: 900px;
+            height: 793px;
+        }
+        .sec3{
+            width: 900px;
+        }
+        .sec4{
+            width: 900px;
+        }
+        .container3-5 iframe{
+            left: -207px;
         }
         .container4{
             margin-left: -5px;
+        }
+        .container5{
+            height: 1570px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -305px;
         }
     }
     @media(max-width:1000px){
         .container2{
             margin-left: -5px;
         }
+        .sec2{
+            margin-left: -2px;
+        }
         .container3{
             margin-left: -5px;
+        }
+        .container3 .art3 .sec3 ul li{
+            margin-left: 72px;
+        }
+        .sec3{
+            margin-left: 0px;
+        }
+        .container4{
+            margin-left: -7px;
+        }
+        .container4 .art4 .sec4 ul li{
+            margin-left: 75px;
         }
         .list-ul h1{
             font-size: 2.0rem;
@@ -2358,13 +2412,35 @@ span h1{
         .list-ul ul li h2{
             font-size: 1.5rem; 
         }
-        .container5{
-            height: 205vh;
+        .move-v{
+            margin-top: 14px;
+        }
+        .move-v1{
+            margin-top: 46px;
+        }
+        .container3 iframe{
+            left: -195px;
         }
     }
     @media(max-width:975px){
         .sec2{
             width: 900px;
+        }
+        .img1{
+            width: 90%;
+            margin-top: -5px;
+            margin-left: 20px;
+        }
+        .img2{
+            width: 90%;
+            margin-left: 25px;
+            margin-top: 25px;
+        }
+        .move-v{
+            margin-top: 41px;
+        }
+        .move-v1{
+            margin-top: 65px;
         }
         .sec3{
             width: 900px;
@@ -2374,9 +2450,6 @@ span h1{
         }
         .container3-5 div > .oc-resp{
             left: -910px;
-        }
-        .container3-5 .sec3-5 .oc-resp{
-            left: -200px;
         }
         .container3-5 iframe{
             left: -200px;
@@ -2388,6 +2461,16 @@ span h1{
         }
         .lan2{
             width: 400px;
+        }
+    }
+    @media(max-width:950px){
+        .container3-5 iframe{
+            left: -169px;
+        }
+    }
+    @media(max-width:950px){
+        .container5{
+            height: 1510px;
         }
     }
     @media(max-width:940px){

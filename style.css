@@ -2485,27 +2485,27 @@ span h1{
     }
     @media(max-width:940px){
         .container2{
-            height: 845px;
+            height: 883px;
         }
         .container3{
-            height: 1450px;
+            height: 1295px;
         }
         .sec2{
             width: 850px;
-            height: 720px;
+            height: 760px;
         }
         .sec3{
             width: 850px;
-            height: 1330px;
+            height: 1175px;
         }
         .sec4{
             width: 850px;
         }
         .blu-button{
-            margin-top: 35px;
+            margin-top: 1px;
         }
         .blu-button1{
-            margin-top: -15px;
+            margin-top: 5px;
         }
         .tit-bot{
             width: 180px;
@@ -2520,11 +2520,24 @@ span h1{
         }
     }
     @media(max-width:925px){
+        .container2{
+            height: 830px;
+        }
         .container2 .art2 .sec2 ul li{
             margin: auto;
         }
+        .sec2{
+            height: 706px;
+        }
+        
+        .blu-button{
+            margin-top: 28px;
+        }
     }
     @media(max-width:910px){
+        .container2{
+            height: 830px;
+        }
         .container3-5 div > .oc-resp{
             left: -860px;
         }
@@ -2534,6 +2547,7 @@ span h1{
         .container5{
             height:202vh;
         }
+       
     }
     @media(max-width:900px){
         .container3-5 iframe{
@@ -2551,7 +2565,7 @@ span h1{
     }
     @media(max-width:880px){
         .container2{
-            height: 800px;
+            height: 830px;
         }
         .sec2{
             width: 800px;
@@ -2581,10 +2595,10 @@ span h1{
             left: -780px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -200px;
+            left: 105px;
         }
         .container3-5 iframe{
-            left: -200px;
+            left: -130px;
         }
     }
 

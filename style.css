@@ -2949,6 +2949,7 @@ span h1{
         }
         .img-oc2{
             margin-top: -20px;
+            max-width: 300px;
         }
         .img2{
             width: 100%;
@@ -3462,6 +3463,9 @@ span h1{
         #tex{
             margin-top: -50px;
         }
+        footer{
+            top: -70px;
+        }
         footer img{
             margin-top: -20px;
         }
@@ -3492,6 +3496,9 @@ span h1{
         }
     }
     @media(max-width:500px){
+        main > .container1 .sect1 .secban{
+            height: 132vh;
+        }
         .container2-5{
             margin-top: 20px;
             flex-wrap: wrap;
@@ -3500,7 +3507,7 @@ span h1{
             width: 50%;
         }
         .ban-pro{
-            height: 740px;
+            height: 850px;
         }
         .but-img{
             width: 100px;
@@ -3522,8 +3529,27 @@ span h1{
         .container5{
             height: 135vh;
         }
+        .img-oc1{
+            margin-top: -25px;
+        }
+        .img-oc2{
+            max-width: 300px;
+        }
+        .img1{
+            width: 90%;
+            margin-top: 32px;
+            margin-left: 25px;
+        }   
+        .img2{
+            width: 90%;
+            margin-left: 25px;
+            margin-top: 40px;
+        }     
         .list-ul{
             width: 75%;
+        }
+        .container3-5 iframe{
+            left: -50px;
         }
     }
     @media(max-width:490px){

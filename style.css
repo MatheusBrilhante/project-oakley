@@ -3289,7 +3289,7 @@ span h1{
         }
         .container4 .sec4{
             width: 500px;
-            height: 955px;
+            height: 984px;
         }
         .blu-button4{
             font-size: 2.5rem;
@@ -3307,10 +3307,10 @@ span h1{
             width: 70%;
         }
         .container4{
-            height: 1072px;
+            height: 1107px;
         }
         .container4 .sec4 .blu-button-2{
-            margin-top: 457px;
+            margin-top: 485px;
         }
         .container4 .sec4 .ban-ocu1{
             margin-left: 20px;
@@ -3384,6 +3384,9 @@ span h1{
         .container6 .list-ul ul h2{
             font-size: 1.5rem;
         }
+        .container4 .sec4 .blu-button-2{
+            margin-top: 420px;
+        }
 
     }
     @media(max-width:520px){
@@ -3450,8 +3453,17 @@ span h1{
         .container5{
             height: 140vh;
         }
+        .container6{
+            height: 670px;
+        }
         .container6 .list-ul{
-            margin-top: -45px;
+            margin-top: -50px;
+        }
+        #tex{
+            margin-top: -50px;
+        }
+        footer img{
+            margin-top: -20px;
         }
     }
     @media(max-width:511px){
@@ -3459,16 +3471,24 @@ span h1{
             height: 470px;
         }
         .container3-5 .oc-resp .h1-gamer{
-            font-size: 2.0rem;
+            font-size: 2.5rem;
             width: 250px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -60px;
-            top: -350px;
+            left: 69px;
+            top: -385px;
         }
-
+        .container3-5 .oc-resp .but-gamer{
+            left: -122px;
+        }
         .container3-5 iframe{
             left: -60px;
+        }
+        .container4 .art4 .sec4 ul li{
+            margin-left: -9px;
+        }
+        .container4 .sec4 .blu-button-2{
+            margin-top: 415px;
         }
     }
     @media(max-width:500px){
@@ -3500,11 +3520,10 @@ span h1{
             width: 75%;
         }
         .container5{
-            height: 145vh;
+            height: 135vh;
         }
         .list-ul{
             width: 75%;
-        }
         }
     }
     @media(max-width:490px){
@@ -3650,4 +3669,4 @@ span h1{
             margin-top: -140px;
         }
     }
-
+}

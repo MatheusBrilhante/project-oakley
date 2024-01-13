@@ -19,8 +19,7 @@ typeWriter(titulo2,);
 window.sr = ScrollReveal({ reset: true });
 
 sr.reveal('.container4', { duration: 1000 });
-sr.reveal('.container5', { duration: 1000 });
-sr.reveal('.container6', { duration: 1000 });
+
 // Obtenha o header
 // criando uma variavel e adicionando que podemos alterar diversas formas no scroll como "animacoes"etc..
 

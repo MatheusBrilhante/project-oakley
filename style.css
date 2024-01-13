@@ -2556,7 +2556,7 @@ span h1{
             left: -200px;
         }
         .container5{
-            height:202vh;
+            height: 1500px;
         }
        
     }
@@ -2568,7 +2568,7 @@ span h1{
             left: -245px;
         }
         .container5{
-            height: 190vh;
+            height: 1470px;
         }
     }
     @media(max-width:880px){
@@ -2615,7 +2615,7 @@ span h1{
             height: 705px;
         }
         main > .container1 .sect1 .secban{
-            height: 68vh;
+            height: 525px;
         }
         .lan1{
             height: 380px;
@@ -2733,7 +2733,7 @@ span h1{
             margin-top: 620px;
         }
         .container5{
-            height: 190vh;
+            height: 1467px;
         }
         .blu-button4{
             font-size: 2.5rem;
@@ -2786,9 +2786,6 @@ span h1{
     }
 
     @media(max-width:848px){
-        .container5{
-            height: 187vh;
-        }
         .container6{
             display: grid;
             grid-template-columns: repeat(2 , 1fr);
@@ -2840,9 +2837,6 @@ span h1{
         .blu-button1{
             margin-top: -44px;
         }
-        .container5{
-            height: 182vh;
-        }
     }
     @media(max-width:820px){
         .container6{
@@ -2860,6 +2854,9 @@ span h1{
         .container3-5 iframe{
             left: -150px;
         }
+        .container5{
+            height: 1467px;
+        }
 
     }
     @media(max-width:800px){
@@ -2871,6 +2868,9 @@ span h1{
     @media(max-width:790px){
         .container3-5 .oc-resp .but-gamer{
             left: -185px;
+        }
+        .container5{
+            height: 1370px;
         }
     }
     @media(max-width:750px){
@@ -2910,7 +2910,7 @@ span h1{
             height: 100%;
         }
         main > .container1 .sect1 .secban{
-            height: 130vh;
+            height: 1000px;
             width: 600px;
             margin-left: 0px;
             margin: auto;
@@ -2927,12 +2927,12 @@ span h1{
             left: -100px;
         }
         .container5{
-            height: 197vh;
+            height: 1365px;
         }
     }
     @media(max-width:735px){
         .container1{
-            height: 1200px;
+            height: 1185px;
         }
         .container3-5 .sec3-5 .oc-resp{
             left: 50px;
@@ -2960,9 +2960,7 @@ span h1{
         .move-v1{
             margin-top: 42px;
         }
-        .container5{
-            height: 175vh;
-        }
+        
     }
     @media(max-width:720px){
         .navban{
@@ -2983,7 +2981,7 @@ span h1{
     }
     @media(max-width:702px){
         .move-v1{
-            margin-top: 68px;
+            margin-top: 28px;
         }
         .container2{
             height: 1060px;
@@ -3036,14 +3034,14 @@ span h1{
             left: 95px;
         }
         .container4{
-            height: 1165px;
+            height: 1220px;
         }
         .container4 .sec4{
             width: 600px;
-            height: 1043px;
+            height: 1096px;
         }
         .container4 .sec4 .blu-button-2{
-            margin-top: 530px;
+            margin-top: 590px;
         }
         .blu-button4{
             font-size: 2.3rem;
@@ -3061,7 +3059,7 @@ span h1{
             font-size: 2.5rem;
         }
         .container5{
-            height: 165vh;
+            height: 1240px;
         }
         .sec5 .box h1{
             width: 180px;
@@ -3148,9 +3146,6 @@ span h1{
         .container4 .sec4 .ban-ocu1{
             width: 210px;
         }
-        .container5{
-            height: 180vh;
-        }
         .container5 .art5 .sec5{
             margin-left: -5px;
         }
@@ -3184,17 +3179,12 @@ span h1{
         .container4 .sec4 .blu-button-2{
             margin-top: 505px;
         }
+    }
+    @media(max-width:620px){
         .container5{
-            height: 157vh;
+            height: 1175px;
         }
     }
-}
-    @media(max-width:635px){
-        .container5{
-            height: 155vh;
-        }
-    }
-
     @media(max-width:600px){
         .container3-5 .sec3-5 .oc-resp{
             left: 55px;
@@ -3206,11 +3196,25 @@ span h1{
             left: -100px;
             width: 300px;
             height: 300px;
-
+        }
+        .container5 .art5 .sec5{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .container5{
+            height: 2265px;
+        }
+        .container6 .list-ul{
+            margin-top: -80px;
+        }
+        footer img{
+            margin-top: -100px;
         }
     }
 
     @media(max-width:586px){
+        .container1{
+            height: 1180px;
+        }
         .navban{
             width: 500px;
         }
@@ -3527,7 +3531,7 @@ span h1{
             width: 75%;
         }
         .container5{
-            height: 135vh;
+            height: 271vh;
         }
         .img-oc1{
             margin-top: -25px;
@@ -3567,21 +3571,27 @@ span h1{
         }
     }
     @media(max-width:470px){
+        .move-v{
+            margin-top: 0px;
+        }
+        .move-v1{
+            margin-top: 40px;
+        }
         .container2{
-            height: 1368px;
+            height: 910px;
         }
         .sec2{
             width: 400px;
-            height: 1250px;
-        }
-        .blu-button{
-            margin-top: 1198px;
+            height: 789px;
         }
         .container2 .art2 .sec2 ul li{
             width: 190px;
         }
+        .blu-button{
+            margin-top: 30px;
+        }
         .ban-pro{
-            height: 700px;
+            height: 822px;
         }
         .container2-5{
             margin-top: 15px;
@@ -3589,16 +3599,23 @@ span h1{
         .container3{
             height: 915px;
         }
-        .blu-button1{
-            margin-top: 315px;
+        .tit-ten{
+            width: 60%;
+            font-size: 1.5rem;
         }
         .sec3{
             width: 400px;
             height: 800px;
         }
+        .blu-button1{
+            margin-top: -20px;
+        }
         .container3 .sec3 ul li{
             width: 190px;
             margin-left: -13px;
+        }
+        .container3 .art3 .sec3 ul li{
+            margin-left: -5px;
         }
         .container3 .sec3 ul li img{
             width: 75%;
@@ -3608,21 +3625,17 @@ span h1{
         }
         .container4 .sec4{
             width: 400px;
-            height: 850px;
+            height: 968px;
         }
         .container4 .art4 .sec4 ul li{
            width: 190px; 
+           margin-left: -25px;
         }
-        .blu-button4{
-            font-size: 1.8rem;
-            width: 100px;
+        .container4 .sec4 .blu-button-2{
+            margin-top: 471px;
         }
     }
     @media(max-width:440px){
-        .titlep{
-            width: 250px;
-            font-size: 2rem;
-        }
         .lan1{
             width: 330px;
             margin-left: 8px;
@@ -3633,6 +3646,50 @@ span h1{
         }
         main > .container1 .sect1 .secban{
             width: 350px;
+        }
+        .but-img{
+            width: 120px;
+            font-size: 1.5rem;
+        }
+        .container3{
+            height: 975px;
+        }
+        .sec3{
+            height: 860px;
+        }
+        .container3-5 iframe{
+            left: -20px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 47px;
+            top: -385px;
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            font-size: 2.5rem;
+            width: 300px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -75px;
+        }
+        .container4{
+            height: 1046px;
+        }
+        .container4 .sec4{
+            height: 925px;
+        }
+        .tit-ten{
+            width: 70%;
+            font-size: 1.5rem;
+        }
+        .container5{
+            height: 145vh;
+        }
+        .container5 .sec5 .box img{
+            width: 90%;
+        }
+        .sec5 .box button{
+            font-size: 1.5rem;
+            height: 25px;
         }
     }
     @media(max-width:420px){

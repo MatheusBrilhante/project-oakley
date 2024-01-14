@@ -734,6 +734,7 @@ span h1{
         width: 50%;
         text-align: center;
         margin: auto;
+    }
 }
 @media(max-width:1670px){
     .titlep{
@@ -3209,8 +3210,19 @@ span h1{
         footer img{
             margin-top: -100px;
         }
+        .move-v1{
+            margin-top: 35px;
+        }
+        .titlep{
+                margin-top: 7px;
+        }
+        .container3-5{
+            height: 520px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            top: -410px;
+        }
     }
-
     @media(max-width:586px){
         .container1{
             height: 1180px;
@@ -3231,7 +3243,7 @@ span h1{
         }
         .titlep{
             width: 350px;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
         }
         .container3-5 iframe{
             left: -65px;
@@ -3321,7 +3333,7 @@ span h1{
             margin-left: 20px;
         }
         .container5{
-            height: 150vh;
+            height: 2215px;
         }
         .container4 .sec4 ul img{
             width: 80%;
@@ -3339,15 +3351,7 @@ span h1{
             font-size: 2.5rem;
         }
         .container5{
-            height: 145vh;
-        }
-        .sec5 .box h1{
-            width: 140px ;
-            font-size: 1.6rem;
-        }
-        .sec5 .box span{
-            font-size: 1.5rem;
-            width: 120px;
+            height: 2180px;
         }
     }
     @media(max-width:536px){

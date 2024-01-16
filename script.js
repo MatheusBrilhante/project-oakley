@@ -46,12 +46,15 @@ window.addEventListener("scroll", function(){
 
 // ! 1 Oculos //
 
+document.getElementById("myImage").style.marginTop = '-10px'
+document.getElementById("bt1").style.marginTop = '-0px'
+
 // Função chamada quando o mouse passa sobre a imagem
 function changeImage1(){
      // Altere o atributo src para a imagem maior
     document.getElementById("myImage").src="img.oc/oc16t.png";
     
-    document.getElementById("myImage").style.marginTop = '10px'
+    document.getElementById("myImage").style.marginTop = '25px'
 
  //ADICIONANDO UMA POSICAO FIXA NA TELA    
     document.getElementById("bt1").style.marginTop = '65px'
@@ -62,9 +65,10 @@ function resetImage1(){
     // Restaure o atributo src para a imagem original
     document.getElementById("myImage") .src="img.oc/oc12t.png";
 
+    document.getElementById("myImage").style.marginTop = '-25px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '-10px'
+    document.getElementById("bt1").style.marginTop = '30px'
 
 }
 
@@ -76,7 +80,7 @@ function changeImage2(){
     document.getElementById("myImage").style.marginTop = '5px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '45px'
+    document.getElementById("bt1").style.marginTop = '60px'
 
 }
 
@@ -85,9 +89,10 @@ function resetImage2(){
    // Restaure o atributo src para a imagem original
     document.getElementById("myImage") .src="img.oc/oc12t.png";
 
-    
+    document.getElementById("myImage").style.marginTop = '-25px'
+
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '-10px'
+    document.getElementById("bt1").style.marginTop = '35px'
 }
 
 // ! 3 Oculos //
@@ -98,7 +103,7 @@ function changeImage3(){
     document.getElementById("myImage").style.marginTop = '20px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '30px'
+    document.getElementById("bt1").style.marginTop = '50px'
 
 }
 
@@ -107,8 +112,10 @@ function resetImage3(){
    // Restaure o atributo src para a imagem original
     document.getElementById("myImage") .src="img.oc/oc12t.png";
 
+    document.getElementById("myImage").style.marginTop = '-15px'
+
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '-23px'
+    document.getElementById("bt1").style.marginTop = '25px'
 }
 
 function changeImage4(){

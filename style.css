@@ -585,7 +585,6 @@ span h1{
     }
     .move-v{
         text-align: center;
-        margin-top: -35px;
     }
     .move-v1{
         text-align: center;
@@ -921,14 +920,27 @@ span h1{
 }
 @media(max-width:1520px){
     .container1{
-        height: 130vh;
+        height: 885px;
     }
-    
-    .container2{
-        height: 40vw;
+    .titlep{
+        margin-top: 108px;
+    }
+    .pos-lan .inf-oc1 h1{
+        font-size: 2.8rem;
     }
     main > .container1 .sect1 .secban{
-        height: 85vh;
+        height: 575px;
+    }
+    .img1{
+        width: 100%;
+        margin-top: -20px;
+    }
+    
+    .img2{
+        width: 100%;
+    }
+    .container2{
+        height: 40vw;
     }
     .lan1{
         width: 600px;
@@ -947,18 +959,6 @@ span h1{
     .navban{
         width: 900px;
     }
-    .img1{
-        width: 115%;
-    }
-    .img2{
-        width: 115%;
-    }
-    .move-v{
-        margin-top: -14px;
-    }
-    .move-v1{
-        margin-top: 39px;
-    }
     .move-v a{
         color: #000000;
         margin-top: 3px;
@@ -969,7 +969,7 @@ span h1{
     }
     .titlep{
         margin-top: 115px;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .container1 .sect1 .secban .lan1 .inf-oc1 ul li a img{
         width: 90%;
@@ -982,7 +982,7 @@ span h1{
         height: 100px;
     }
     .sec2{
-        margin-top: 5px;
+        margin-top: -6px;
         height: 470px;
     }
     .container2 .art2 .sec2 ul{
@@ -1010,7 +1010,7 @@ span h1{
         font-weight: bold;
     }
     .titleb{
-        margin-top: -25px;
+        margin-top: -36px;
     }
     .resp-but{
         width: 100%;
@@ -1102,11 +1102,14 @@ span h1{
     }
     .Titlex{
         width: 100%;
-        height: 60px;
+        height: 100px;
         margin: auto;
         text-align: center;
         display: flex;
         align-items: center;
+    }
+    .tith1{
+        font-size: 3rem;
     }
     .sec5{
         width: 100%;
@@ -1177,7 +1180,7 @@ span h1{
     .container3-5 iframe{
         position: relative;
         top: 130px;
-        left: -353px;
+        left: -285px;
         width: 600px;
         height: 500px;
     }
@@ -1275,9 +1278,7 @@ span h1{
 
 }
 @media(max-width:1500px){
-    .container1{
-        height: 115vh;
-    }
+    
     main > .container1 .sect1 .secban{
         height: 575px;
     }
@@ -1288,7 +1289,7 @@ span h1{
         height: 600px;
     }
     .container2 .art2 .sec2 ul{
-        margin-left: -7px;
+        margin-left: -2px;
         width: 100%;
     }
     .container2 .art2 .sec2 ul li{
@@ -1307,7 +1308,7 @@ span h1{
     }
     .container3 .sec3 ul{
         width: 100%;
-        margin-left: -5px;
+        margin-left: -3px;
     }
     .container3 .sec3 ul li{
         width: 100%;
@@ -1318,13 +1319,19 @@ span h1{
         height: 470px;
     }
     .container3-5{
-        height: 85vh;
+        height: 700px;
     }
     .container4 .sec4 ul{
-        margin-left: -8px;
+        margin-left: -2px;
     }
     .container4{
-        height: 78vh;
+        height: 610px;
+    }
+    .sec4{
+        height: 485px;
+    }
+    span{
+        font-size: 2rem;
     }
     .container4 .art4 .sec4 ul li{
         width: 100%;
@@ -1335,7 +1342,7 @@ span h1{
         padding-top: 40px;
     }
     .container5{
-        height: 204vh;
+        height: 1565px;
     }
     .container3 .sec3 li .ban-ten{
         margin: auto;
@@ -1345,6 +1352,9 @@ span h1{
 @media(max-width:1455px){
     .container3-5 iframe{
         left: -285px;
+    }
+    .container2 .sec2 .art2 ul{
+        margin-left: -7px;
     }
 }
 @media(max-width:1366px){
@@ -1371,7 +1381,7 @@ span h1{
     }
     .container2{
         width: 100vw;
-        height: 575px;
+        height: 560px;
     }
     .container3{
         width: 100vw;
@@ -1690,7 +1700,7 @@ span h1{
         text-align: center;
         width: 100%;
         height: 100px;
-        margin-top: -62px;
+        margin-top: -35px;
         display: flex;
         margin-bottom: 10px;
     }
@@ -1730,7 +1740,6 @@ span h1{
         width: 100%;
         margin-top: -70px;
         padding: 15px;
-        margin: 0px;
         text-align: center;
     }
     .container4 .sec4 ul{
@@ -1782,7 +1791,7 @@ span h1{
         margin: auto;
         margin-top: -150px;
     }
-}
+
 @media(max-width:1360px){
     .container1 .mod1{
         padding-top: 0px;
@@ -1792,9 +1801,6 @@ span h1{
         margin: auto;
         text-align: center;
         padding-top: 65px;
-    }
-    .container2{
-        height: 42vw;
     }
     .blu-button-2{
         width: 100%;
@@ -1882,6 +1888,11 @@ span h1{
     }
 
 }
+@media(max-width:1300px){
+    .sec2{
+        height: 430px;
+    }
+}
 @media(max-width:1280px){
     .container2{
         height: 45vw;
@@ -1895,12 +1906,6 @@ span h1{
     .container3-5 .sec3-5 .oc-resp{
         left: -260px;
     }
-
-
-
-    
-
-
     .tith1{
         height: auto;
     }
@@ -3725,7 +3730,6 @@ span h1{
         .container3 .sec3 ul li{
             width: 170px;
         }
-
     }
     @media(max-width:405px){
         .container6{
@@ -3756,4 +3760,5 @@ span h1{
             margin-top: -140px;
         }
     }
+}
 }

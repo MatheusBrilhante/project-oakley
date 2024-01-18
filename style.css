@@ -3457,6 +3457,21 @@ span h1{
         .sec4{
             width: 500px;
         }
+        .title-blu{
+            margin-top: -3px;
+        }
+        .container3-5 iframe{
+            left: -47px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -108px;
+        }
+        .tit-oc{
+            font-size: 3rem;
+        }
+        .container4{
+            height: 1129px;
+        }
     }
     @media(max-width:521px){
         .container2{
@@ -3465,9 +3480,7 @@ span h1{
         .sec2{
             height: 845px;
         }
-        .container5{
-            height: 195vh;
-        }
+       
         .container6{
             height: 600px;
         }
@@ -3510,7 +3523,7 @@ span h1{
             font-size: 1.5rem;
         }
         .container3{
-            height: 955px;
+            height: 962px;
         }
         .sec3{
             width: 450px;
@@ -3544,7 +3557,7 @@ span h1{
             height: 1045px;
         }
         .container5{
-            height: 140vh;
+            height: 2110px;
         }
         .container6{
             height: 670px;
@@ -3564,7 +3577,7 @@ span h1{
     }
     @media(max-width:511px){
         .container3-5{
-            height: 470px;
+            height: 500px;
         }
         .container3-5 .oc-resp .h1-gamer{
             font-size: 2.5rem;
@@ -3588,9 +3601,6 @@ span h1{
         }
     }
     @media(max-width:500px){
-        main > .container1 .sect1 .secban{
-            height: 132vh;
-        }
         .container2-5{
             margin-top: 20px;
             flex-wrap: wrap;
@@ -3599,11 +3609,11 @@ span h1{
             width: 50%;
         }
         .ban-pro{
-            height: 850px;
+            height: 875px;
         }
         .but-img{
-            width: 100px;
-            font-size: 1.2rem;
+            width: 150px;
+            font-size: 1.8rem;
         }
         .container5 .art5 .sec5{
             gap: 10px;
@@ -3619,7 +3629,7 @@ span h1{
             width: 75%;
         }
         .container5{
-            height: 271vh;
+            height: 1985px;
         }
         .img-oc1{
             margin-top: -25px;
@@ -3678,14 +3688,12 @@ span h1{
         .blu-button{
             margin-top: 30px;
         }
-        .ban-pro{
-            height: 822px;
-        }
+
         .container2-5{
             margin-top: 15px;
         }
         .container3{
-            height: 915px;
+            height: 990px;
         }
         .tit-ten{
             width: 60%;
@@ -3693,7 +3701,13 @@ span h1{
         }
         .sec3{
             width: 400px;
-            height: 800px;
+            height: 865px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -105px;
+        }
+        .container3-5 iframe{
+            left: -45px;
         }
         .blu-button1{
             margin-top: -20px;
@@ -3709,18 +3723,21 @@ span h1{
             width: 75%;
         }
         .container4{
-            height: 965px;
+            height: 1118px;
         }
         .container4 .sec4{
             width: 400px;
-            height: 968px;
+            height: 994px;
         }
         .container4 .art4 .sec4 ul li{
            width: 190px; 
            margin-left: -25px;
         }
         .container4 .sec4 .blu-button-2{
-            margin-top: 471px;
+            margin-top: 485px;
+        }
+        .container5{
+            height: 1935px;
         }
     }
     @media(max-width:440px){
@@ -3739,8 +3756,11 @@ span h1{
             width: 120px;
             font-size: 1.5rem;
         }
+        .ban-pro{
+            height: 820px;
+        }
         .container3{
-            height: 975px;
+            height: 983px;
         }
         .sec3{
             height: 860px;
@@ -3760,17 +3780,20 @@ span h1{
             left: -75px;
         }
         .container4{
-            height: 1046px;
+            height: 1070px;
         }
         .container4 .sec4{
-            height: 925px;
+            height: 948px;
+        }
+        .container4 .sec4 .blu-button-2{
+            margin-top: 440px;
         }
         .tit-ten{
             width: 70%;
             font-size: 1.5rem;
         }
         .container5{
-            height: 145vh;
+            height: 2030px;
         }
         .container5 .sec5 .box img{
             width: 90%;
@@ -3778,6 +3801,9 @@ span h1{
         .sec5 .box button{
             font-size: 1.5rem;
             height: 25px;
+        }
+        .container6 .list-ul{
+            margin-left: -6px;
         }
     }
     @media(max-width:420px){

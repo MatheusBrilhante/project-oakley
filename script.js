@@ -18,8 +18,6 @@ typeWriter(titulo2,);
 
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.container4', { duration: 1000 });
-
 // Obtenha o header
 // criando uma variavel e adicionando que podemos alterar diversas formas no scroll como "animacoes"etc..
 
@@ -46,9 +44,6 @@ window.addEventListener("scroll", function(){
 
 // ! 1 Oculos //
 
-document.getElementById("myImage").style.marginTop = '-10px'
-document.getElementById("bt1").style.marginTop = '-0px'
-
 // Função chamada quando o mouse passa sobre a imagem
 function changeImage1(){
      // Altere o atributo src para a imagem maior
@@ -57,7 +52,7 @@ function changeImage1(){
     document.getElementById("myImage").style.marginTop = '25px'
 
  //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '65px'
+    document.getElementById("bt1").style.marginTop = '68px'
 }
 
 // Função chamada quando o mouse sai da imagem
@@ -65,10 +60,10 @@ function resetImage1(){
     // Restaure o atributo src para a imagem original
     document.getElementById("myImage") .src="img.oc/oc12t.png";
 
-    document.getElementById("myImage").style.marginTop = '-25px'
+    document.getElementById("myImage").style.marginTop = '11px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '30px'
+    document.getElementById("bt1").style.marginTop = '-4px'
 
 }
 
@@ -77,7 +72,7 @@ function changeImage2(){
     // Altere o atributo src para a imagem maior
     document.getElementById("myImage") .src="img.oc/oc14t.png";
 
-    document.getElementById("myImage").style.marginTop = '5px'
+    document.getElementById("myImage").style.marginTop = '3px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
     document.getElementById("bt1").style.marginTop = '60px'
@@ -89,10 +84,10 @@ function resetImage2(){
    // Restaure o atributo src para a imagem original
     document.getElementById("myImage") .src="img.oc/oc12t.png";
 
-    document.getElementById("myImage").style.marginTop = '-25px'
+    document.getElementById("myImage").style.marginTop = '11px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '35px'
+    document.getElementById("bt1").style.marginTop = '-4px'
 }
 
 // ! 3 Oculos //
@@ -100,10 +95,10 @@ function changeImage3(){
     // Altere o atributo src para a imagem maior
     document.getElementById("myImage") .src="img.oc/oc9t.png";
 
-    document.getElementById("myImage").style.marginTop = '20px'
+    document.getElementById("myImage").style.marginTop = '17px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '50px'
+    document.getElementById("bt1").style.marginTop = '45px'
 
 }
 
@@ -112,11 +107,13 @@ function resetImage3(){
    // Restaure o atributo src para a imagem original
     document.getElementById("myImage") .src="img.oc/oc12t.png";
 
-    document.getElementById("myImage").style.marginTop = '-15px'
+    document.getElementById("myImage").style.marginTop = '11px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt1").style.marginTop = '25px'
+    document.getElementById("bt1").style.marginTop = '-4px'
 }
+
+
 
 function changeImage4(){
      // Altere o atributo src para a imagem maior
@@ -127,7 +124,7 @@ function changeImage4(){
     document.getElementById("myImage5").style.marginLeft = '20px' 
 
  //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '-18px' 
+    document.getElementById("bt2").style.marginTop = '10px' 
 
 }
 
@@ -135,10 +132,10 @@ function changeImage4(){
 function resetImage4(){
     // Restaure o atributo src para a imagem original
     document.getElementById("myImage5").src="img.oc/oc7.png";
-    document.getElementById("myImage5").style.marginTop = '35px'
+    document.getElementById("myImage5").style.marginTop = '29px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '-8px' 
+    document.getElementById("bt2").style.marginTop = '30px' 
     
     document.getElementById("bt2").style.zIndex = '5' 
 
@@ -150,7 +147,9 @@ function changeImage5(){
      // Altere o atributo src para a imagem maior
     document.getElementById("myImage5").src="img.oc/oc15t.png";
 
-    document.getElementById("bt2").style.marginTop = '30px'
+    document.getElementById("myImage5").style.marginTop = '29px'
+
+    document.getElementById("bt2").style.marginTop = '72px' 
   
 }
 
@@ -159,10 +158,11 @@ function resetImage5(){
     // Restaure o atributo src para a imagem original
     document.getElementById("myImage5") .src="img.oc/oc7.png";
 
+    document.getElementById("myImage5").style.marginTop = '29px'
     document.getElementById("bt2").style.zIndex = '5' 
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '-10px' 
+    document.getElementById("bt2").style.marginTop = '30px' 
 
 }
 
@@ -171,9 +171,11 @@ function resetImage5(){
 function changeImage6(){
      // Altere o atributo src para a imagem maior
     document.getElementById("myImage5").src="img.oc/oc4.png";
-    
+  
+    document.getElementById("myImage5").style.marginTop = '29px'
+
  //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '15px'
+    document.getElementById("bt2").style.marginTop = '57px' 
 
 }
 
@@ -182,12 +184,41 @@ function resetImage6(){
     // Restaure o atributo src para a imagem original
     document.getElementById("myImage5") .src="img.oc/oc7.png";
 
+    document.getElementById("myImage5").style.marginTop = '29px'
 
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '-10px' 
+    document.getElementById("bt2").style.marginTop = '30px'  
 
 }
 
+function ajustarPosicao(){
+    var larguraTela = window.innerWidth;
+    
+    var elemento0 = window.document.getElementById("myImage");
+    var elemento1 = window.document.getElementById("bt1");
+
+    var elemento2 = window.document.getElementById("myImage5");
+    var elemento3 = window.document.getElementById("bt2");
+
+    if(larguraTela < 1511){
+        elemento0.style.marginTop = '10px'
+        elemento1.style.marginTop = '-5px'
+
+        elemento2.style.marginTop = '35px'
+        elemento3.style.marginTop = '25px'
+    } else if (larguraTela < 1366){
+        elemento0.style.marginTop = '10px'
+        elemento1.style.marginTop = '-5px'
+
+
+    } else{
+        elemento1.style.top = '70px';
+    }
+
+}
+
+ajustarPosicao();
+window.addEventListener('resize' , ajustarPosicao);
 
 //const imgs = document.getElementById('sec2-1');
 //const img = document.querySelectorAll('#img img');

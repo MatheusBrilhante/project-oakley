@@ -52,7 +52,7 @@ function changeImage1(){
     document.getElementById("myImage").style.marginTop = '25px'
 
  //ADICIONANDO UMA POSICAO FIXA NA TELA    
-
+ document.getElementById("bt1").style.marginTop = '60px'
 }
 
 // Função chamada quando o mouse sai da imagem
@@ -196,25 +196,12 @@ function ajustarPosicao(){
     var elemento2 = window.document.getElementById("myImage5");
     var elemento3 = window.document.getElementById("bt2");
  
-    if(larguraTela < 867){
+    if(larguraTela < 1511){
         elemento0.style.marginTop = '-10px';
         elemento1.style.marginTop = '18px';
         elemento2.style.marginTop = '17px';
         elemento3.style.marginTop = '4px';
-    }else if(larguraTela < 1366){
-        changeImage1();
-        document.getElementById("bt1").style.marginTop = '80px'
-    
-        elemento0.style.marginTop = '-10px';
-        elemento1.style.marginTop = '18px';
-        elemento2.style.marginTop = '17px';
-        elemento3.style.marginTop = '4px';
-    }else if(larguraTela < 1511){
-        elemento0.style.marginTop = '10px';
-        elemento1.style.marginTop = '-5px';
-        elemento2.style.marginTop = '35px';
-        elemento3.style.marginTop = '25px';
-    };
+    }
 }
 
 ajustarPosicao();

@@ -967,6 +967,12 @@ span h1{
         color: #000000;
         margin-top: 48px;
     }
+    .pos-lan .inf-oc1 h1{
+        width: 100%;
+    }
+    .pos-lan .inf-oc2 h1{
+        width: 100%;
+    }
     .titlep{
         margin-top: 115px;
         font-size: 3.5rem;

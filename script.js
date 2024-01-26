@@ -45,6 +45,7 @@ window.addEventListener("scroll", function(){
 // ! 1 Oculos //
 
 // Função chamada quando o mouse passa sobre a imagem
+//755 A 867
 function changeImage1(){
     // Altere o atributo src para a imagem maior
     document.getElementById("myImage").src="img.oc/oc16t.png";
@@ -63,7 +64,7 @@ function resetImage1(){
     document.getElementById("bt1").style.marginTop = '15px'
     
 }
-
+//867 A 974
 function changeImage12(){
     // Altere o atributo src para a imagem maior
     document.getElementById("myImage").src="img.oc/oc16t.png";
@@ -81,8 +82,27 @@ function resetImage12(){
     document.getElementById("bt1").style.marginTop = '9px'
    
 }
+//974 A 1110
+function changeImage13(){
+    // Altere o atributo src para a imagem maior
+    document.getElementById("myImage").src="img.oc/oc16t.png";
+    document.getElementById("myImage").style.marginTop = '25px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '69px'
+    
+}
+
+function resetImage13(){
+    // Restaure o atributo src para a imagem original
+    document.getElementById("myImage") .src="img.oc/oc12t.png";
+    document.getElementById("myImage").style.marginTop = '-10px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '19px'
+   
+}
 
 // ! 2 Oculos //
+//755 A 867
 function changeImage2(){
     // Altere o atributo src para a imagem maior
     document.getElementById("myImage") .src="img.oc/oc14t.png";
@@ -98,7 +118,7 @@ function resetImage2(){
      //ADICIONANDO UMA POSICAO FIXA NA TELA    
      document.getElementById("bt1").style.marginTop = '15px'
  }
-
+//867 A 974
 function changeImage22(){
     // Altere o atributo src para a imagem maior
     document.getElementById("myImage") .src="img.oc/oc14t.png";
@@ -113,7 +133,9 @@ function resetImage22(){
      document.getElementById("myImage").style.marginTop = '-10px'
      //ADICIONANDO UMA POSICAO FIXA NA TELA    
      document.getElementById("bt1").style.marginTop = '9px'
- }
+}
+//974 A 1110
+
 // ! 3 Oculos //
 function changeImage3(){
     // Altere o atributo src para a imagem maior
@@ -259,191 +281,226 @@ function resetImage61(){
 
 // IMAGEM 1
 function resetImages() {
-    if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         resetImage1();
-    }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         resetImage12();
-    }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
-        console.log('testando5')
-    }else if (window.innerWidth >= 1366 && window.innerWidth < 1511){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
+        resetImage13();
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
         console.log('testando4')
-    } else{
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
     }
 }
 
 function changeImages() {
-   if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         changeImage1();
         
-   }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         changeImage12();
     
-   }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
-        console.log('testando')
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
+        changeImage13();
     
-   }else if(window.innerWidth >= 1366 && window.innerWidth < 1511){
-        console.log('testando2')
-   }else{
-        console.log('123')
-   }
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+    console.log('testando4')
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }else{
+    console.log('123')
+    }
 }
 
 //IMAGEM 2
 function resetImagesTWO() {
-    if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         resetImage2();
-    }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         resetImage22();
-    }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando5')
-    }else if (window.innerWidth >= 1366 && window.innerWidth < 1511){
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
         console.log('testando4')
-    } else{
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
     }
 }
 
 function changeImagesTWO() {
-   if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         changeImage2();
         
-   }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         changeImage22();
     
-   }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando')
     
-   }else if(window.innerWidth >= 1366 && window.innerWidth < 1511){
-        console.log('testando2')
-   }else{
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        console.log('testando4')
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
-   }
+    }
 }
 
 //IMAGEM 3
 
 function resetImagesTRHEE() {
-    if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         resetImage3();
-    }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         resetImage31();
-    }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando5')
-    }else if (window.innerWidth >= 1366 && window.innerWidth < 1511){
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
         console.log('testando4')
-    } else{
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
     }
 }
 
 function changeImagesTRHEE() {
-   if(window.innerWidth >= 755 && window.innerWidth < 866){
+   if(window.innerWidth >= 755 && window.innerWidth <= 866){
         changeImage3();
         
-   }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+   }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         changeImage31();
     
-   }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+   }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando')
     
-   }else if(window.innerWidth >= 1366 && window.innerWidth < 1511){
-        console.log('testando2')
-   }else{
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        console.log('testando4')
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
-   }
+    }
 }
 
 //IMAGEM 4 
 function resetImagesFOR() {
-    if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         resetImage4();
-    }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         resetImage41();
-    }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando5')
-    }else if (window.innerWidth >= 1366 && window.innerWidth < 1511){
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
         console.log('testando4')
-    } else{
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
     }
 }
 
 function changeImagesFOR() {
-   if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         changeImage4();     
-   }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         changeImage41();
-   }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando')
     
-   }else if(window.innerWidth >= 1366 && window.innerWidth < 1511){
-        console.log('testando2')
-   }else{
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        console.log('testando4')
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
-   }
+    }
 }
 
 //IMAGEM 5
 
 function resetImagesFIVE() {
-    if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         resetImage5();
-    }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         resetImage51();
-    }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando5')
-    }else if (window.innerWidth >= 1366 && window.innerWidth < 1511){
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
         console.log('testando4')
-    } else{
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
     }
 }
 
 function changeImagesFIVE() {
-   if(window.innerWidth >= 755 && window.innerWidth < 866){
+   if(window.innerWidth >= 755 && window.innerWidth <= 866){
         changeImage5();
-   }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+   }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         changeImage51();
-   }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+   }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando')
     
-   }else if(window.innerWidth >= 1366 && window.innerWidth < 1511){
-        console.log('testando2')
-   }else{
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        console.log('testando4')
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
-   }
+    }
 }
 
 //IMAGEM 6
 
 function resetImagesSIX() {
-    if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         resetImage6();
-    }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         resetImage61();
-    }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando5')
-    }else if (window.innerWidth >= 1366 && window.innerWidth < 1511){
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
         console.log('testando4')
-    } else{
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
         console.log('123')
     }
 }
 
 function changeImagesSIX() {
-   if(window.innerWidth >= 755 && window.innerWidth < 866){
+    if(window.innerWidth >= 755 && window.innerWidth <= 866){
         changeImage6(); 
-   }else if (window.innerWidth >= 867 && window.innerWidth < 974){
+    }else if (window.innerWidth >= 867 && window.innerWidth <= 974){
         changeImage61();
-   }else if (window.innerWidth >= 975 && window.innerWidth < 1110){
+    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         console.log('testando')
     
-   }else if(window.innerWidth >= 1366 && window.innerWidth < 1511){
-        console.log('testando2')
-   }else{
-        
-   }
+    }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        console.log('testando4')
+    }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
+
+    }
+    else{
+        console.log('123')
+    }
 }
 
 function ajustarPosicao() {
@@ -471,7 +528,7 @@ function ajustarPosicao() {
         elemento1.style.marginTop = '15px';
         elemento2.style.marginTop = '17px';
         elemento3.style.marginTop = '1px';
-    }else if (larguraTela >= 867 && larguraTela < 974) {
+    }else if (larguraTela >= 867 && larguraTela <= 974) {
         // Alteração para changeImage4 quando a largura é menor que 974
         console.log('Teste 2');
         elemento0.style.marginTop = '-10px';
@@ -490,7 +547,7 @@ function ajustarPosicao() {
         resetImagesFIVE();
         changeImagesSIX();
         resetImagesSIX();
-    }else if (larguraTela > 975 && larguraTela < 1110) {
+    }else if (larguraTela >= 975 && larguraTela <= 1110) {
         // Alteração para changeImage7 quando a largura está entre 975 e 1110
         console.log('Teste 3');
         changeImages();
@@ -506,9 +563,14 @@ function ajustarPosicao() {
         changeImagesSIX();
         resetImagesSIX();
         elemento0.style.marginTop = '-10px';
-        elemento1.style.marginTop = '7px';
+        elemento1.style.marginTop = '17px';
         elemento2.style.marginTop = '17px';
-    }else if (larguraTela < 1511) {
+        elemento3.style.marginTop = '8px';
+    }
+    else if (larguraTela >= 1111 && larguraTela <= 1366){
+
+    }
+    else if (larguraTela >= 1367 && larguraTela <= 1920) {
         changeImages();
         resetImages();
         changeImagesTWO();

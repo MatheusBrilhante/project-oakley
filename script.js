@@ -100,6 +100,24 @@ function resetImage13(){
     document.getElementById("bt1").style.marginTop = '17px'
    
 }
+//1110 A 1366 
+function changeImage14(){
+    // Altere o atributo src para a imagem maior
+    document.getElementById("myImage").src="img.oc/oc16t.png";
+    document.getElementById("myImage").style.marginTop = '25px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '78px'
+    
+}
+
+function resetImage14(){
+    // Restaure o atributo src para a imagem original
+    document.getElementById("myImage") .src="img.oc/oc12t.png";
+    document.getElementById("myImage").style.marginTop = '-10px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '27px'
+   
+}
 
 // ! 2 Oculos //
 //755 A 867
@@ -151,7 +169,22 @@ function resetImage23(){
      //ADICIONANDO UMA POSICAO FIXA NA TELA    
      document.getElementById("bt1").style.marginTop = '17px'
 }
+//1110 A 1366 
+function changeImage24(){
+    // Altere o atributo src para a imagem maior
+    document.getElementById("myImage") .src="img.oc/oc14t.png";
+    document.getElementById("myImage").style.marginTop = '3px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '72px'
+}
 
+function resetImage24(){
+    // Restaure o atributo src para a imagem original
+     document.getElementById("myImage") .src="img.oc/oc12t.png";
+     document.getElementById("myImage").style.marginTop = '-10px'
+     //ADICIONANDO UMA POSICAO FIXA NA TELA    
+     document.getElementById("bt1").style.marginTop = '27px'
+}
 
 // ! 3 Oculos //
 //755 A 867
@@ -207,7 +240,24 @@ function resetImage32(){
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
     document.getElementById("bt1").style.marginTop = '17px'
 }
+// 1110 A 1366
+function changeImage33(){
+    // Altere o atributo src para a imagem maior
+    document.getElementById("myImage") .src="img.oc/oc9t.png";
+    document.getElementById("myImage").style.marginTop = '17px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '62px'
 
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage33(){
+   // Restaure o atributo src para a imagem original
+   
+    document.getElementById("myImage") .src="img.oc/oc12t.png";
+    document.getElementById("myImage").style.marginTop = '-10px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt1").style.marginTop = '29px'
+}
 // OCULOS 4
 //755 A 867
 function changeImage4(){
@@ -263,11 +313,31 @@ function changeImage42(){
 // Função chamada quando o mouse sai da imagem
 function resetImage42(){
    // Restaure o atributo src para a imagem original
-   console.log('asd')
+   
    document.getElementById("myImage5").src="img.oc/oc7.png";
    document.getElementById("myImage5").style.marginTop = '18px'
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
    document.getElementById("bt2").style.marginTop = '57px'
+   document.getElementById("bt2").style.zIndex = '5' 
+}
+//1110 A 1366 
+function changeImage43(){
+    // Altere o atributo src para a imagem maior
+   document.getElementById("myImage5").src="img.oc/oc10t.png";
+   document.getElementById("myImage5").style.marginTop = '-15px'
+   document.getElementById("myImage5").style.marginLeft = '25px'
+ 
+//ADICIONANDO UMA POSICAO FIXA NA TELA    
+   document.getElementById("bt2").style.marginTop = '11px'
+   
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage43(){
+   // Restaure o atributo src para a imagem original
+   document.getElementById("myImage5").src="img.oc/oc7.png";
+   document.getElementById("myImage5").style.marginTop = '18px'
+   //ADICIONANDO UMA POSICAO FIXA NA TELA    
+   document.getElementById("bt2").style.marginTop = '38px'
    document.getElementById("bt2").style.zIndex = '5' 
 }
 // ! 5 Oculos
@@ -319,6 +389,22 @@ function resetImage52(){
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
    document.getElementById("bt2").style.marginTop = '53px' 
 }
+// 1110 A 1366 
+function changeImage53(){
+    // Altere o atributo src para a imagem maior
+   document.getElementById("myImage5").src="img.oc/oc15t.png";
+   document.getElementById("myImage5").style.marginTop = '37px'
+   document.getElementById("bt2").style.marginTop = '60px' 
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage53(){
+   // Restaure o atributo src para a imagem original
+   document.getElementById("myImage5") .src="img.oc/oc7.png";
+   document.getElementById("myImage5").style.marginTop = '22px'
+   document.getElementById("bt2").style.zIndex = '5' 
+   //ADICIONANDO UMA POSICAO FIXA NA TELA    
+   document.getElementById("bt2").style.marginTop = '33px' 
+}
 
 // ! 6 Oculos
 function changeImage6(){
@@ -367,6 +453,21 @@ function resetImage62(){
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
     document.getElementById("bt2").style.marginTop = '60px'
 }
+function changeImage63(){
+    // Altere o atributo src para a imagem maior
+    document.getElementById("myImage5").src="img.oc/oc4.png";
+    document.getElementById("myImage5").style.marginTop = '18px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '63px' 
+}
+// Função chamada quando o mouse sai da imagem
+function resetImage63(){
+    // Restaure o atributo src para a imagem original
+    document.getElementById("myImage5") .src="img.oc/oc7.png";
+    document.getElementById("myImage5").style.marginTop = '14px'
+    //ADICIONANDO UMA POSICAO FIXA NA TELA    
+    document.getElementById("bt2").style.marginTop = '40px'
+}
 
 
 // IMAGEM 1
@@ -378,7 +479,7 @@ function resetImages() {
     }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         resetImage13();
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        resetImage14();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -398,7 +499,7 @@ function changeImages() {
         changeImage13();
     
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-    console.log('testando4')
+        changeImage14();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }else{
@@ -416,6 +517,7 @@ function resetImagesTWO() {
         resetImage23();
         console.log('testando5')
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        resetImage24();
         console.log('testando4')
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
@@ -437,6 +539,7 @@ function changeImagesTWO() {
         console.log('testando')
     
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        changeImage24();
         console.log('testando4')
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
@@ -457,6 +560,7 @@ function resetImagesTRHEE() {
         resetImage32();
         console.log('testando5')
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        resetImage33();
         console.log('testando4')
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
@@ -478,6 +582,7 @@ function changeImagesTRHEE() {
         console.log('testando')
     
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
+        changeImage33();
         console.log('testando4')
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
@@ -495,9 +600,9 @@ function resetImagesFOR() {
         resetImage41();
     }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         resetImage42();
-        console.log('testando5')
+        
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        resetImage43();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -513,10 +618,8 @@ function changeImagesFOR() {
         changeImage41();
     }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         changeImage42();
-        console.log('testando')
-    
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        changeImage43();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -534,9 +637,8 @@ function resetImagesFIVE() {
         resetImage51();
     }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         resetImage52();
-        
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        resetImage53();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -552,9 +654,8 @@ function changeImagesFIVE() {
         changeImage51();
    }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         changeImage52();
-    
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        changeImage53();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -572,9 +673,8 @@ function resetImagesSIX() {
         resetImage61();
     }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         resetImage62();
-        console.log('testando5')
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        resetImage63();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -590,10 +690,8 @@ function changeImagesSIX() {
         changeImage61();
     }else if (window.innerWidth >= 975 && window.innerWidth <= 1110){
         changeImage62();
-        console.log('testando')
-    
     }else if (window.innerWidth >= 1111 && window.innerWidth <= 1366){
-        console.log('testando4')
+        changeImage63();
     }else if (window.innerWidth >= 1367 && window.innerWidth <= 1520){
 
     }
@@ -667,7 +765,23 @@ function ajustarPosicao() {
         elemento3.style.marginTop = '53px';
     }
     else if (larguraTela >= 1111 && larguraTela <= 1366){
-
+        console.log('Teste 4');
+        changeImages();
+        resetImages();
+        changeImagesTWO();
+        resetImagesTWO();
+        changeImagesTRHEE();
+        resetImagesTRHEE();
+        changeImagesFOR();
+        resetImagesFOR();
+        changeImagesFIVE();
+        resetImagesFIVE();
+        changeImagesSIX();
+        resetImagesSIX();
+        elemento0.style.marginTop = '-10px';
+        elemento1.style.marginTop = '27px';
+        elemento2.style.marginTop = '22px';
+        elemento3.style.marginTop = '34px';
     }
     else if (larguraTela >= 1367 && larguraTela <= 1920) {
         changeImages();

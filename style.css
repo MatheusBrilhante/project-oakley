@@ -849,9 +849,6 @@ span h1{
     .sec-lan .pos-lan .inf-oc2 > ul > li > img{
         border: none;
     }
-    .move-v1{
-        margin-top: 10px;
-    }
     .blu-button{
         font-size: 2.5rem;
         text-align: center;
@@ -1670,9 +1667,6 @@ span h1{
         width: 100px;
         height: 100px;   
     }
-    .move-v1{
-        margin-top: 28px;
-    }
     .container3 .sec3 li a{
         cursor: pointer;
         width: 100%;
@@ -2087,9 +2081,6 @@ span h1{
         .move-v{
             margin-top: -15px;
         }
-        .move-v1{
-            margin-top: 25px;
-        }
         .container2{
             height: 47vw;
         }
@@ -2396,9 +2387,6 @@ span h1{
         .move-v{
             margin-top: 7px;
         }
-        .move-v1{
-            margin-top: 49px;
-        }
         .sect1{
             padding-top: 95px;
             width: 100%;
@@ -2513,9 +2501,6 @@ span h1{
         .list-ul ul li h2{
             font-size: 1.8rem; 
         }
-        .move-v{
-            margin-top: 14px;
-        }
         .move-v1{
             margin-top: 46px;
         }
@@ -2540,9 +2525,6 @@ span h1{
             width: 90%;
             margin-left: 25px;
             margin-top: 25px;
-        }
-        .move-v{
-            margin-top: 41px;
         }
         .move-v1{
             margin-top: 65px;

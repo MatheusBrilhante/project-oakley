@@ -403,6 +403,25 @@ span h1{
         margin-right: 20px;
         margin-top: -55px;
     }
+    .car-2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .car-2 i{
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+        width: 30px;
+        height: 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: #FFF;
+    }
     .container3-5{
         height: 100vh;
     }
@@ -787,7 +806,6 @@ span h1{
         width: 100%;
     }
     .container4 .art4 .sec4 ul li{
-        padding: 10px;
         margin: 170px;
         width: 202px;
     }
@@ -4062,5 +4080,6 @@ span h1{
         }
 
     }
+
 }
-}
+};

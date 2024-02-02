@@ -36,7 +36,7 @@ window.addEventListener("scroll", function(){
         document.getElementById("myheader").style.top ="-80px";
         document.getElementById("car1").style.top = "-50px";
     }
-
+    
     prevscroll = crscrollpos;
 
 });

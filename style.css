@@ -20,8 +20,49 @@
     background-color: #d64953;
     border-radius: 10px;
 }
+.models{
+    display: none;
+}
+.menu-openner{
+    margin-right: 15px;
+    font-size: 26px;
+    background-color: #d64953;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 105px;
+    height: 45px;
+    float: right;
+    margin-top: -60px;
+}
+.menu-openner span{
+    margin-right: 5px;
+    color: #000000;
+}
+.menu-openner i{
+    color: #000000;
+}
+.menu-closer{
+    width: 32px;
+    height: 32px;
+    display: none;
+    font-size: 30px;
+}
+aside{
+    background-color: #ffffffad;
+    width: 0vw;
+    font-family: 'Roboto', sans-serif;
+    transition: all ease .2s;
+    overflow-x: hidden;
+}
+/* QUANDO ACONTECER .SHOW IRA ADICIONA ELEMENTOS COM TRANSICAO DE 30VW */
+aside.show{
+    width: 30vw;
+}
+.cart--area{
+    padding: 20px;
+}
+
 html{
-    
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden;
@@ -47,15 +88,15 @@ html h1{
 }
 main{
     width: 100vw;
+    flex: 1;
     text-align: center;
     margin: auto;
-    /* text-align: center; */
 }
 .container1{
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
-    ,rgba(29, 29, 29, 0.486)),url(./img/mod6.jpg);
+    , rgba(29, 29, 29, 0.486)), url(./img/mod6.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -1852,7 +1893,7 @@ span h1{
         margin: auto;
         margin-top: -150px;
     }
-
+}
 @media(max-width:1360px){
     .container1 .mod1{
         padding-top: 0px;
@@ -2042,7 +2083,8 @@ span h1{
         text-align: center;
         margin: auto;
     }
-    @media(max-width:1205px){
+}
+@media(max-width:1205px){
         .container2{
             height: 45vw;
         }
@@ -2070,18 +2112,17 @@ span h1{
         .container4 .sec4 .blu-button-2{
             margin-top: -95px;
         }
-
-    }
+}
     @media(max-width:1172px){
         .container5{
             height: 1660px;
         }
-    }
+}
     @media(max-width:1168px){
         .blu-button1{
             margin-top: 15px;
         }
-    }
+}
     @media(max-width:1168px){
         .lan1{
             width: 500px;
@@ -2111,7 +2152,7 @@ span h1{
         .container3-5 .sec3-5 .oc-resp{
             left: -240px;
         }
-    }
+}
     @media(max-width:1130px){
         .container2{
             height: 48vw;
@@ -4078,8 +4119,4 @@ span h1{
         .container5{
             height: 1910px;
         }
-
-    }
-
 }
-};

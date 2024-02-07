@@ -1,3 +1,46 @@
+const c = (el)=>document.querySelector(el);
+const cs = (el)=>document.querySelectorAll(el);
+
+modelsJson.map((item,index)=>{
+    let modelsItem = c('.models .models-item').cloneNode(true);
+    modelsItem.setAttribute('data-key',index)
+    const carElemnts = window.document.querySelectorAll('.car-1');
+
+    carElemnts.forEach(carElement =>{
+        carElement.addEventListener("click", (e) =>{
+            e.preventDefault();
+            c('.modelsWindowArea').style.opacity = 0;
+            c('.modelsWindowArea').style.display = 'flex';
+            setTimeout(()=>{
+                c('.modelsWindowArea').style.opacity = 1;
+            },200);
+
+            const parentElement = e.target.closest('.ban-blu.ban-ten.ban-ocu1.box');
+            if(parentElement){
+                const imgElement = parentElement.querySelector('img');
+                if(imgElement){
+                    const h1Element = parentElement.querySelector('h1');
+
+                    const modelsWindowArea = c('.modelsWindowArea');
+                    modelsWindowArea.innerHTML = '';
+
+                    const imgClone = imgElement.cloneNode(true);
+                    const h1Clone = h1Element.cloneNode(true);
+
+                    const modelsBigImg = c('.modelsBig img');
+                    const modelsInfoH1 = c('.modelsInfo h1');
+
+                    modelsBigImg.src = imgClone.src;
+                    modelsInfoH1.innerHTML = h1Clone.innerHTML;
+                }else{
+                    console.error('Elemento img nao encontrado');
+                }
+            } else{
+                console.error("parentelement nao encotrnado");
+            }
+        });
+    });
+});
 
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');

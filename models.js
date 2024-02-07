@@ -32,7 +32,7 @@ let modelsJson = [
     sizes:['1/72', '1/48', '1/32'], description:'Radar lancamento nas lentes Blue.'},
     {id:15, name:'Oakley Radar - Black', img:'img.oc/oc17.jpg', price:[100.00, 150.00, 200.00],
     sizes:['1/72', '1/48', '1/32'], description:'Radar Lancamento nas lentes Black'},
-    // JULIET
+    //JULIET
     {id:16, name:'24K - Gold', img:'img.juli/24k.png', price:[100.00, 150.00, 200.00],
     sizes:['1/72', '1/48', '1/32'], description:'Juliet 24k lentes Gold.'},
     {id:17, name:'Mars - Black', img:'img.juli/mars.png', price:[100.00, 150.00, 200.00],

@@ -137,6 +137,7 @@ aside.show{
     justify-content: center;
     align-items: center;
     overflow: auto;
+    z-index: 5;
 }
 .modelsWindowBody{
     width: 900px;
@@ -160,7 +161,7 @@ aside.show{
 }
 .modelsBig img{
     height: 400px;
-    width: auto;
+    width: 400px;
 }
 .modelsInfo{
     flex: 1;
@@ -169,6 +170,7 @@ aside.show{
 }
 .modelsInfo h1{
     margin-top: 50px;
+    font-size: 20px;
 }
 .modelsInfo .modelsInfo--desc{
     font-size: 15px;
@@ -184,12 +186,12 @@ aside.show{
     margin-bottom: 10px;
 }
 /* PARTE DOS TAMANHOS E DAS IMAGENS QUANDO ABRIR CARRINHO */
-.models--sizes{
+.modelsInfo--sizes{
     display: inline-flex;
     border-radius: 10px;
     overflow: hidden;
 }
-.modelsInfo--size{
+.modelsInfo--sizes{
     padding: 10px 15px;
     color: #000000;
     background-color: #eeeeee;
@@ -715,6 +717,9 @@ span h1{
     text-align: center;
     margin: auto;
 }
+.ban-blu .ban-ten .ban-ocu1 .box{
+    box-shadow: 0px 0px 15px;
+}
 
 @media(max-width:1920px){
     .car-1{
@@ -891,13 +896,14 @@ span h1{
         height: 600px;
         margin: auto;
         padding-top: 50px;
-
+        box-shadow: 0px 0px 3px 0px black;
     }
     .lan2{
         width: 800px;
         height: 600px;
         margin: auto;
         padding-top: 50px;
+        box-shadow: 0px 0px 3px 0px black;
     }
 
     .img1{
@@ -940,6 +946,7 @@ span h1{
     }
     .container2 .art2 .sec2 ul img{
         border: 1px solid black;
+        box-shadow: 0px 0px 5px 0px black;
         border-radius: 10px;
     }
     .promo-s{
@@ -981,6 +988,7 @@ span h1{
     }
     .container3 .sec3 ul li img{
         border: 1px solid black;
+        box-shadow: 0px 0px 5px 0px black;
         border-radius: 10px;
     }
     .but-img{
@@ -999,6 +1007,7 @@ span h1{
         text-align: center;
         padding: 5px;
         border: 1px solid black;
+        box-shadow: 0px 0px 5px 0px black;
     }
     .blu-button1{
         text-align: center;
@@ -1020,6 +1029,7 @@ span h1{
     .container4 .sec4 ul img{
         border-radius: 10px;
         border: 1px solid black;
+        box-shadow: 0px 0px 5px 0px black;
     }
     .blu-button4{
         font-size: 2.5rem;
@@ -1070,6 +1080,9 @@ span h1{
         width: 50%;
         text-align: center;
         margin: auto;
+    }
+    .container5 .sec5 .box img{
+        box-shadow: 0px 0px 5px 0px black;
     }
 }
 @media(max-width:1670px){
@@ -1607,7 +1620,6 @@ span h1{
         width: 100%;
         position: relative;
         margin: auto;
-        z-index: 1;
         top: -300px;
     }
     footer img{
@@ -2136,8 +2148,6 @@ span h1{
         margin-top: -60px;
     }
     .but5{
-        margin: auto;
-        z-index: 1;
         margin: auto;
         text-align: center;
         width: 30%;

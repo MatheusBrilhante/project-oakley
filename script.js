@@ -1,46 +1,63 @@
-const c = (el)=>document.querySelector(el);
-const cs = (el)=>document.querySelectorAll(el);
-
-modelsJson.map((item,index)=>{
-    let modelsItem = c('.models .models-item').cloneNode(true);
-    modelsItem.setAttribute('data-key',index)
-    const carElemnts = window.document.querySelectorAll('.car-1');
-
-    carElemnts.forEach(carElement =>{
-        carElement.addEventListener("click", (e) =>{
-            e.preventDefault();
-            c('.modelsWindowArea').style.opacity = 0;
-            c('.modelsWindowArea').style.display = 'flex';
-            setTimeout(()=>{
-                c('.modelsWindowArea').style.opacity = 1;
-            },200);
-
-            const parentElement = e.target.closest('.ban-blu.ban-ten.ban-ocu1.box');
-            if(parentElement){
-                const imgElement = parentElement.querySelector('img');
-                if(imgElement){
-                    const h1Element = parentElement.querySelector('h1');
-
-                    const modelsWindowArea = c('.modelsWindowArea');
-                    modelsWindowArea.innerHTML = '';
-
-                    const imgClone = imgElement.cloneNode(true);
-                    const h1Clone = h1Element.cloneNode(true);
-
-                    const modelsBigImg = c('.modelsBig img');
-                    const modelsInfoH1 = c('.modelsInfo h1');
-
-                    modelsBigImg.src = imgClone.src;
-                    modelsInfoH1.innerHTML = h1Clone.innerHTML;
-                }else{
-                    console.error('Elemento img nao encontrado');
+document.addEventListener('DOMContentLoaded', () => {
+    const c = (el) => document.querySelector(el);
+    const cs = (el) => document.querySelectorAll(el);
+    
+    modelsJson.map((item, index) => {
+        let modelsItem = c('.models .models-item').cloneNode(true);
+        modelsItem.setAttribute('data-key', index);
+        const carElements = window.document.querySelectorAll('.car-1');
+    
+        carElements.forEach(carElement => {
+            carElement.addEventListener("click", (e) => {
+                e.preventDefault();
+                c('.modelsWindowArea').style.opacity = 0;
+                c('.modelsWindowArea').style.display = 'flex';
+                setTimeout(() => {
+                    c('.modelsWindowArea').style.opacity = 1;
+                }, 200);
+                
+                let currentElement = e.target;
+                console.log('Elemento alvo:', currentElement);
+    
+                while (currentElement && !currentElement.classList.contains('ban-blu') &&
+                    !currentElement.classList.contains('ban-ten') &&
+                    !currentElement.classList.contains('ban-ocu1') &&
+                    !currentElement.classList.contains('box')) {
+                    console.log('Pai atual:', currentElement);
+                    currentElement = currentElement.parentElement;
                 }
-            } else{
-                console.error("parentelement nao encotrnado");
-            }
+    
+                if (currentElement) {
+                    console.log('Elemento .ban-blu encontrado', currentElement);
+                    const imgElement = currentElement.querySelector('.img-blu1 img');
+                    if (imgElement) {
+                        console.log('Elemento img encontrado');
+                        
+                        const h1Element = currentElement.querySelector('.tit-blu');
+    
+                        const modelsWindowArea = c('.modelsWindowArea');
+                        modelsWindowArea.innerHTML = '';
+                        
+                        const imgClone = imgElement.cloneNode(true);
+                        const h1Clone = h1Element.cloneNode(true);
+    
+                        const modelsBigImg = c('.modelsBig img');
+                        const modelsInfoH1 = c('.modelsInfo h1');
+                        if(modelsBigImg && imgClone){
+                            modelsBigImg.src = imgClone.src;
+                            modelsInfoH1.innerHTML = h1Clone.innerHTML;
+                        }else{
+                            console.log('elemento imgclone e nulo');
+                        }
+                    } else {
+                        console.error('Elemento img nao encontrado');
+                    }
+                } else {
+                    console.error("parentelement nao encontrado");
+                }
+            });
         });
     });
-});
 
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');

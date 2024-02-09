@@ -1,63 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const c = (el) => document.querySelector(el);
-    const cs = (el) => document.querySelectorAll(el);
-    
-    modelsJson.map((item, index) => {
-        let modelsItem = c('.models .models-item').cloneNode(true);
-        modelsItem.setAttribute('data-key', index);
-        const carElements = window.document.querySelectorAll('.car-1');
-    
-        carElements.forEach(carElement => {
-            carElement.addEventListener("click", (e) => {
-                e.preventDefault();
-                c('.modelsWindowArea').style.opacity = 0;
-                c('.modelsWindowArea').style.display = 'flex';
-                setTimeout(() => {
-                    c('.modelsWindowArea').style.opacity = 1;
-                }, 200);
-                
-                let currentElement = e.target;
-                console.log('Elemento alvo:', currentElement);
-    
-                while (currentElement && !currentElement.classList.contains('ban-blu') &&
-                    !currentElement.classList.contains('ban-ten') &&
-                    !currentElement.classList.contains('ban-ocu1') &&
-                    !currentElement.classList.contains('box')) {
-                    console.log('Pai atual:', currentElement);
-                    currentElement = currentElement.parentElement;
-                }
-    
-                if (currentElement) {
-                    console.log('Elemento .ban-blu encontrado', currentElement);
-                    const imgElement = currentElement.querySelector('.img-blu1 img');
-                    if (imgElement) {
-                        console.log('Elemento img encontrado');
-                        
-                        const h1Element = currentElement.querySelector('.tit-blu');
-    
-                        const modelsWindowArea = c('.modelsWindowArea');
-                        modelsWindowArea.innerHTML = '';
-                        
-                        const imgClone = imgElement.cloneNode(true);
-                        const h1Clone = h1Element.cloneNode(true);
-    
-                        const modelsBigImg = c('.modelsBig img');
-                        const modelsInfoH1 = c('.modelsInfo h1');
-                        if(modelsBigImg && imgClone){
-                            modelsBigImg.src = imgClone.src;
-                            modelsInfoH1.innerHTML = h1Clone.innerHTML;
-                        }else{
-                            console.log('elemento imgclone e nulo');
-                        }
-                    } else {
-                        console.error('Elemento img nao encontrado');
-                    }
-                } else {
-                    console.error("parentelement nao encontrado");
-                }
-            });
-        });
-    });
+const c = (el) => document.querySelector(el);
+const cs = (el) => document.querySelectorAll(el);
+
+modelsJson.slice(0, 5).forEach((item, index) => {
+    // Criar uma cópia independente do modelo
+    let modelsItem = document.querySelector('.models .models-item').cloneNode(true);
+
+    // Atualizar os elementos dentro da cópia com base nos dados do item
+    modelsItem.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`
+    modelsItem.querySelector('.models-item--name').innerHTML = item.name;
+    modelsItem.querySelector('.models-item--desc').innerHTML = item.description;
+
+    // Adicionar a cópia à área de modelos
+    document.querySelector('.models-area').append(modelsItem);
+});
+
 
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');
@@ -1241,4 +1197,5 @@ function ajustarPosicao() {
 }
 ajustarPosicao();
 window.addEventListener('resize' , ajustarPosicao);
+
 

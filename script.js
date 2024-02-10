@@ -6,6 +6,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
     let modelsItem = document.querySelector('.models .models-item').cloneNode(true);
 
     // Atualizar os elementos dentro da cópia com base nos dados do item
+    modelsItem.querySelector('.models-item--img img').src = item.img;
     modelsItem.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`
     modelsItem.querySelector('.models-item--name').innerHTML = item.name;
     modelsItem.querySelector('.models-item--desc').innerHTML = item.description;

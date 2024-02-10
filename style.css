@@ -31,9 +31,10 @@
     padding: 5px 20px;
     border-radius: 5px;
     width: 105px;
-    height: 45px;
+    height: 50px;
     float: right;
     margin-top: -60px;
+    border: dashed 2px #000;
 }
 .menu-openner span{
     margin-right: 5px;
@@ -69,7 +70,7 @@ aside.show{
 .models-area{
     display: grid;
     width: 100%;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
@@ -77,7 +78,10 @@ aside.show{
     grid-template-columns: repeat(3,1fr);
 }
 .arti1{
-    width: 100vw;
+    background-color: #f9f0e675;
+    width: 1250px;
+    height: 800px;
+    border-radius: 10px;
     margin: auto;
     display: grid;
     align-items: center;
@@ -91,7 +95,7 @@ aside.show{
     text-align: center;
     max-width: 250px;
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto 50px auto;
+    margin: 20px auto 20px auto;
 }
 .models-item a{
     display: flex;
@@ -104,7 +108,7 @@ aside.show{
     height: 200px;
     background-color: #FFF;
     border-radius: 10px;
-    box-shadow: 0px 10px 50px rgba(0,0,0,0.2);
+    box-shadow: 2px 0px 20px 1px #000;
 }
 .models-item--img img{
     width: 100%;
@@ -117,6 +121,7 @@ aside.show{
     border-radius: 25px;
     background-color: #d64953;
     text-align: center;
+    border: solid 2px #000;
     color: #fff;
     font-size: 22px;
     cursor: pointer;
@@ -124,23 +129,30 @@ aside.show{
     transition: all ease .2s;
 }
 .models-item--add:hover{
-    background-color: #b3111c;
+    background-color: #000000;
+    border: solid 2px red;
+}
+#cartP:hover{
+    color:#f8f8f8;
 }
 .models-item--price{
-    font-size: 15px;
-    color: #555;
+    font-size: 20px;
+    color: #000000;
     margin-top: 5px;
+    font-weight: bold;
 }
 .models-item--name{
-    font-size: 20px;
+    font-size: 22px;
     color: #000000;
     font-weight: bold;
     margin-top: 5px;
+    text-decoration: underline rgb(0, 0, 0);
 }
 .models-item--desc{
-    font-size: 13px;
-    color: #555;
+    font-size: 15px;
+    color: #000;
     margin-top: 10px;
+    font-weight: bold;
 }
 .modelsWindowArea{
     position: fixed;
@@ -474,12 +486,10 @@ main > .container1 .sect1 .secban{
     background-color: #eeeeee;
     padding: 5px;
     border-radius: 100px;
-    text-decoration: underline #d64953;
 }
 .titleb{
     text-align: center;
     width: 100%;
-    margin: auto;
     display: flex;
 }
 .titleb2{
@@ -1091,12 +1101,14 @@ span h1{
         width: 50%;
         text-align: center;
         margin: auto;
+        text-decoration: underline #000;
     }
     .pos-lan .inf-oc2 h1{
         font-size: 2.5rem;
         width: 50%;
         text-align: center;
         margin: auto;
+        text-decoration: underline #000;
     }
     .container5 .sec5 .box img{
         box-shadow: 0px 0px 5px 0px black;
@@ -1347,8 +1359,7 @@ span h1{
         width: 90%;
     }
     .titleb{
-        margin-top: -150px;
-        height: 100px;
+        height: 70px;
     }
     .sec2{
         margin-top: -6px;
@@ -1378,12 +1389,8 @@ span h1{
         font-size: 2rem;
         font-weight: bold;
     }
-    .titleb{
-        margin-top: -36px;
-    }
     .resp-but{
         width: 100%;
-        margin: auto;
         text-align: center;
         height: 60px;
         display: flex;
@@ -1654,9 +1661,6 @@ span h1{
     .container2 .art2 .sec2 ul{
         margin-left: -10px;
     }
-    .titleb{
-        margin-top: -25px;
-    }
     .title-blu{
         padding-top: 25px
     }
@@ -1693,9 +1697,6 @@ span h1{
     
     main > .container1 .sect1 .secban{
         height: 575px;
-    }
-    .titleb{
-        margin-top: -15px;
     }
     .container2{
         height: 600px;
@@ -1793,7 +1794,8 @@ span h1{
     }
     .container2{
         width: 100vw;
-        height: 750px;
+        height: 970px;
+        margin: auto;
     }
     .container3{
         width: 100vw;
@@ -1856,8 +1858,7 @@ span h1{
         padding-top: 10px;
     }
     .titleb{
-        width: auto;
-        margin-top: -28px;
+        margin-top: -35px;
     }
     .sec2{
         height: 445px;
@@ -1873,8 +1874,8 @@ span h1{
     }
     .resp-but{
         display: flex;
-        margin: auto;
         width: 100%;
+        margin-top: -10px;
     }
     .container3-5{
         width: 100vw;

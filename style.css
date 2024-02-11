@@ -113,6 +113,7 @@ aside.show{
 .models-item--img img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 .models-item--add{
     width: 50px;
@@ -160,7 +161,7 @@ aside.show{
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0, 0, 0, 0.548);
     display: none;
     transition: all ease .5s;
     justify-content: center;
@@ -191,6 +192,8 @@ aside.show{
 .modelsBig img{
     height: 400px;
     width: 400px;
+    border: solid 1px #030303;
+    border-radius: 10px;
 }
 .modelsInfo{
     flex: 1;
@@ -199,11 +202,13 @@ aside.show{
 }
 .modelsInfo h1{
     margin-top: 50px;
+    text-decoration: underline rgb(0, 0, 0);
     font-size: 20px;
 }
 .modelsInfo .modelsInfo--desc{
     font-size: 15px;
-    color: #FFF;
+    color: #000000;
+    font-weight: bold;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
 }

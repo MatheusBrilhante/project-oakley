@@ -4,13 +4,31 @@ const cs = (el) => document.querySelectorAll(el);
 modelsJson.slice(0, 5).forEach((item, index) => {
     // Criar uma cópia independente do modelo
     let modelsItem = document.querySelector('.models .models-item').cloneNode(true);
-
+    //IRA ATRIBUIR A CADA IMAGEM DE 0,5 UM DATA KEY PRA NA HORA EVENTO CLICK ELE SELECIONAR 
+    modelsItem.setAttribute('data-key',index);
     // Atualizar os elementos dentro da cópia com base nos dados do item
     modelsItem.querySelector('.models-item--img img').src = item.img;
     modelsItem.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`
     modelsItem.querySelector('.models-item--name').innerHTML = item.name;
     modelsItem.querySelector('.models-item--desc').innerHTML = item.description;
 
+    modelsItem.querySelector('a').addEventListener('click',(e) =>{
+        //Nao ira permitir que a pagina atualize
+        e.preventDefault();
+        // key ira adiciona Paramentro evento no mais proximo em models.item,
+        //e ira adicionar o data key
+        let key = e.target.closest('.models-item').getAttribute('data-key');
+        //IRA PUXAR A IMAGEM QUE FOI CLICADA PELO MODELSJSON DE 0 A 5 COM VARIAVEL KEY
+        document.querySelector('.modelsBig img').src = modelsJson[key].img;
+        document.querySelector('.modelsInfo H1').innerHTML = modelsJson[key].name;
+        document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[key].description;
+
+        c('.modelsWindowArea').style.opacity = 0;
+        c('.modelsWindowArea').style.display = 'flex';
+        setTimeout(()=>{
+            c('.modelsWindowArea').style.opacity = 1;
+        },200);
+    });
     // Adicionar a cópia à área de modelos
     document.querySelector('.models-area').append(modelsItem);
 });

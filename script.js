@@ -22,7 +22,9 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
         document.querySelector('.modelsInfo H1').innerHTML = modelsJson[key].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[key].description;
-
+        cs('.modelsInfo--size').forEach((size, sizeIndex) =>{
+            size.innerHTML = modelsJson[key].sizes[sizeIndex];
+        });
         c('.modelsWindowArea').style.opacity = 0;
         c('.modelsWindowArea').style.display = 'flex';
         setTimeout(()=>{

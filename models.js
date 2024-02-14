@@ -2,15 +2,15 @@ let modelsJson = [
      
     //BLUSAS
     {id:0, name:'Oakley Canguru - Black', img:'img.blu/blu8.png', price:[100.00, 150.00, 200.00],
-    sizes:['P', ,'M', 'G'], description:'Blusa Lancamento na cor Preta.'},
+    sizes:['P', 'M', 'G'], description:'Blusa Lancamento na cor Preta.'},
     {id:1, name:'Oakley Mark || - White', img:'img.blu/blu10.jpg', price:[100.00, 150.00, 200.00],
-    sizes:['P', ,'M', 'G'], description:'Blusa social Oakley Lancamento.'},
+    sizes:['P', 'M', 'G'], description:'Blusa social Oakley Lancamento.'},
     {id:2, name:'Moletom Oakley - White', img:'img.blu/blu11.jpg', price:[100.00, 150.00, 200.00],
-    sizes:['P', ,'M', 'G'], description:'Moletom Oakley cor Branca lancamento.'},
+    sizes:['P', 'M', 'G'], description:'Moletom Oakley cor Branca lancamento.'},
     {id:3, name:'Blusa Oakley Preta', img:'img.blu/blu3.jpg', price:[100.00, 150.00, 200.00],
-    sizes:['P', ,'M', 'G'], description:'Blusa social Oakley Lancamento.'},
+    sizes:['P', 'M', 'G'], description:'Blusa social Oakley Lancamento.'},
     {id:4, name:'Blusa Oakley Preta', img:'img.blu/blu5.jpg', price:[100.00, 150.00, 200.00],
-    sizes:['P', ,'M', 'G'], description:'Bluca social Oakley Lancamento.'},
+    sizes:['P', 'M', 'G'], description:'Bluca social Oakley Lancamento.'},
     //BOTAS
     {id:6, name:'Oakley Stratus - Brown', img:'img.bot/b1.jpg', price:[650.00],
     sizes:['38/39', '40/41', '42/43'], description:'Bota modelo Stratus Lancamento.'},

@@ -1,6 +1,36 @@
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
+modelsJson.slice(5,10).forEach((item, index) => {
+    let modelsItem1 = document.querySelector('.models .models-item').cloneNode(true);
+    document.querySelector('.models-area1').append(modelsItem1);
+
+    modelsItem1.setAttribute('data-key',index);
+
+    modelsItem1.querySelector('.models-item--img img').src = item.img;
+    modelsItem1.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`
+    modelsItem1.querySelector('.models-item--name').innerHTML = item.name;
+    modelsItem1.querySelector('.models-item--desc').innerHTML = item.description;
+    
+
+    modelsItem1.querySelector('a').addEventListener('click',(e) =>{
+        e.preventDefault();
+
+        c('.modelsWindowArea').style.opacity = 0;
+        c('.modelsWindowArea').style.display = 'flex';
+        setTimeout(()=>{
+            c('.modelsWindowArea').style.opacity = 1;
+        },200);
+
+        let key = e.target.closest('.models-item').getAttribute('data-key');
+        document.querySelector('.modelsBig img').src = modelsJson[5 + parseInt(key)].img;
+    
+    });
+    
+    document.querySelector('.models-area1').append(modelsItem1);
+});
+
+
 modelsJson.slice(0, 5).forEach((item, index) => {
     // Criar uma cópia independente do modelo
     let modelsItem = document.querySelector('.models .models-item').cloneNode(true);
@@ -22,8 +52,13 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
         document.querySelector('.modelsInfo H1').innerHTML = modelsJson[key].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[key].description;
-        cs('.modelsInfo--size').forEach((size, sizeIndex) =>{
-            size.innerHTML = modelsJson[key].sizes[sizeIndex];
+        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[2].toFixed(2)}`
+        c('.modelsInfo--size.selected').classList.remove('selected');
+        cs('.modelsInfo--size').forEach((size, sizeIndex) => {
+            if(sizeIndex == 0){
+                size.classList.add('selected');
+            }
+            size.querySelector('span').innerHTML = modelsJson[key].sizes[sizeIndex];
         });
         c('.modelsWindowArea').style.opacity = 0;
         c('.modelsWindowArea').style.display = 'flex';

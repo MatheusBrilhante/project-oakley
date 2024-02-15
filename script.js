@@ -2,21 +2,49 @@ let modalQt = 0;
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
+modelsJson.slice(10,15).forEach((item, index) => {
+    let modelsItem2 = document.querySelector('.models .models-item').cloneNode(true);
+    modelsItem2.setAttribute('data-key',index);
+    modelsItem2.querySelector('.models-item--img img').src = item.img;
+    modelsItem2.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`;
+    modelsItem2.querySelector('.models-item--name').innerHTML = item.name;
+    modelsItem2.querySelector('.models-item--desc').innerHTML = item.description;
+
+    modelsItem2.querySelector('a').addEventListener('click',(e) =>{
+        e.preventDefault();
+        c('.modelsWindowArea').style.opacity = 0;
+        c('.modelsWindowArea').style.display = 'flex';
+        setTimeout(()=>{
+            c('.modelsWindowArea').style.opacity = 1;
+        },200);
+        c('.modelsInfo--qt').innerHTML = modalQt;
+        let key = e.target.closest('.models-item').getAttribute('data-key');
+        modalQt = 1;
+        document.querySelector('.modelsBig img').src = modelsJson[10 + parseInt(key)].img;
+        document.querySelector('.modelsInfo h1').innerHTML = modelsJson[10 + parseInt(key)].name;
+        document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[10 + parseInt(key)].description;
+        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[10 + parseInt(key)].price[0].toFixed(2)}`;
+        c('.modelsInfo--size.selected').classList.remove('selected');
+        cs('.modelsInfo--size').forEach((size,sizeIndex) =>{
+            if(sizeIndex == 0){
+                size.classList.add('selected');
+            }
+            size.querySelector('span').innerHTML = modelsJson[10 + parseInt(key)].sizes[sizeIndex];
+        });
+    });
+    document.querySelector('.models-area1-5').append(modelsItem2);
+});
+
 modelsJson.slice(5,10).forEach((item, index) => {
     let modelsItem1 = document.querySelector('.models .models-item').cloneNode(true);
-    document.querySelector('.models-area1').append(modelsItem1);
-
     modelsItem1.setAttribute('data-key',index);
-
     modelsItem1.querySelector('.models-item--img img').src = item.img;
-    modelsItem1.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`
+    modelsItem1.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`;
     modelsItem1.querySelector('.models-item--name').innerHTML = item.name;
     modelsItem1.querySelector('.models-item--desc').innerHTML = item.description;
     
-
     modelsItem1.querySelector('a').addEventListener('click',(e) =>{
         e.preventDefault();
-
         c('.modelsWindowArea').style.opacity = 0;
         c('.modelsWindowArea').style.display = 'flex';
         setTimeout(()=>{

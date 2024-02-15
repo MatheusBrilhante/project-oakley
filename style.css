@@ -265,11 +265,10 @@ aside.show{
     color: #000000;
     font-weight: bold;
 }
-
 .modelsInfo--size span{
     font-size: 20px;
     color: #000;
-    font-weight: normal;
+    font-weight: bold;
     margin: 10px;
 }
 .modelsInfo--size.selected span{
@@ -680,7 +679,6 @@ main > .container1 .sect1 .secban{
     background-repeat: no-repeat;
 }
 .container3{
-    height: 100vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.486)
     ,rgba(29, 29, 29, 0.486)),url(img/mod1.jpg);
     background-position: center center;
@@ -1024,7 +1022,7 @@ span h1{
     /* CONTAINER 2 */
     .container2{
         width: 100vw;
-        height: 45vw;
+        height: 970px;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -1057,9 +1055,6 @@ span h1{
     }
     .ban2-5{
         margin: auto;
-    }
-    .container3{
-        height: 85vh;
     }
     .titlep{
         font-size: 4rem;
@@ -1372,12 +1367,8 @@ span h1{
         width: 100%;
         margin-top: -20px;
     }
-    
     .img2{
         width: 100%;
-    }
-    .container2{
-        height: 40vw;
     }
     .lan1{
         width: 600px;
@@ -1479,10 +1470,6 @@ span h1{
         text-align: center;
         font-size: 3rem;
         width: 250px;  
-    }
-    .container3{
-        height: 95vh;
-        width: 100%;
     }
     .sec3{
         height: 500px;
@@ -1651,9 +1638,6 @@ span h1{
         text-align: center;
         top: 25px;
     }
-    .container4{
-        height: 88vh;
-    }
     .sec4{
         background-color: #f9f0e675;
         align-items: center;
@@ -1717,17 +1701,11 @@ span h1{
     .container1{
         height: 888px;
     }
-    .container2{
-        height: 590px;
-    }
     .container2 .art2 .sec2 ul{
         margin-left: -10px;
     }
     .title-blu{
         padding-top: 25px
-    }
-    .container3{
-        height: 600px;
     }
     .sec3{
         height: 470px;
@@ -1748,9 +1726,6 @@ span h1{
         width: 160px;
         top: 20px;
     }
-    .container4{
-        height: 593px;
-    }
     .container5{
         height: 1600px;
     }
@@ -1759,9 +1734,6 @@ span h1{
     
     main > .container1 .sect1 .secban{
         height: 575px;
-    }
-    .container2{
-        height: 600px;
     }
     .container2 .art2 .sec2 ul{
         margin-left: -2px;
@@ -1777,9 +1749,6 @@ span h1{
     }
     .title-blu{
         padding-top: 26px;
-    }
-    .container3{
-        height: 600px;
     }
     .container3 .sec3 ul{
         width: 100%;
@@ -1798,9 +1767,6 @@ span h1{
     }
     .container4 .sec4 ul{
         margin-left: -2px;
-    }
-    .container4{
-        height: 610px;
     }
     .sec4{
         height: 485px;
@@ -1859,9 +1825,6 @@ span h1{
         height: 970px;
         margin: auto;
     }
-    .container3{
-        width: 100vw;
-    }
     .sec3-5{
         width: 100%;
         height: 100%;
@@ -1901,7 +1864,28 @@ span h1{
         margin-top: 40px;
     }
     .container4{
-        height: 571px;
+        width: 100vw;
+        height: 988px;
+        margin: auto;
+    }
+    .art2-0{
+        background-color: #f9f0e675;
+        width: 1250px;
+        height: 800px;
+        border-radius: 10px;
+        margin: auto;
+        display: grid;
+        align-items: center;
+    }
+    .models-area1-5{
+        display: grid;
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        grid-template-columns: repeat(3,1fr);
     }
     .promo-s{
         margin-top: 30px;
@@ -1949,7 +1933,7 @@ span h1{
         display: flex;
         margin: auto;
         text-align: center;
-        margin-top: 13px;
+        margin-top: 14px;
     }
     .blu-button-1 > a{
         margin: auto;
@@ -2083,8 +2067,11 @@ span h1{
     }
     .container3{
         width: 100vw;
-        height: 998px;
+        height: 989px;
         margin: auto;
+    }
+    .blu-button-2{
+        margin-top: 15px;
     }
     .sec-lan .pos-lan .inf-oc1 ul > li{
         width: 100px;
@@ -2174,9 +2161,9 @@ span h1{
         text-align: center;
         width: 100%;
         height: 100px;
-        margin-top: -35px;
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+        padding-top: 0px;
     }
     .tit-bot{
         font-size: 3rem;

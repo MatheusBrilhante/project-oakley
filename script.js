@@ -1,3 +1,4 @@
+let modalQt = 0;
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
@@ -21,10 +22,20 @@ modelsJson.slice(5,10).forEach((item, index) => {
         setTimeout(()=>{
             c('.modelsWindowArea').style.opacity = 1;
         },200);
-
+        c('.modelsInfo--qt').innerHTML = modalQt;
         let key = e.target.closest('.models-item').getAttribute('data-key');
+        modalQt = 1;
         document.querySelector('.modelsBig img').src = modelsJson[5 + parseInt(key)].img;
-    
+        document.querySelector('.modelsInfo h1').innerHTML = modelsJson[5 + parseInt(key)].name;
+        document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[5 + parseInt(key)].description;
+        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[5 + parseInt(key)].price[0].toFixed(2)}`;
+        c('.modelsInfo--size.selected').classList.remove('selected');
+        cs('.modelsInfo--size').forEach((size, sizeIndex) => {
+            if(sizeIndex == 1){
+                size.classList.add('selected');
+            }
+            size.querySelector('span').innerHTML = modelsJson[5 + parseInt(key)].sizes[sizeIndex];
+        });
     });
     
     document.querySelector('.models-area1').append(modelsItem1);
@@ -38,7 +49,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
     modelsItem.setAttribute('data-key',index);
     // Atualizar os elementos dentro da cópia com base nos dados do item
     modelsItem.querySelector('.models-item--img img').src = item.img;
-    modelsItem.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`
+    modelsItem.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`;
     modelsItem.querySelector('.models-item--name').innerHTML = item.name;
     modelsItem.querySelector('.models-item--desc').innerHTML = item.description;
 
@@ -47,16 +58,19 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         e.preventDefault();
         // key ira adiciona Paramentro evento no mais proximo em models.item,
         //e ira adicionar o data key
+        c('.modelsInfo--qt').innerHTML = modalQt;
         let key = e.target.closest('.models-item').getAttribute('data-key');
+        modalQt = 1;
         //IRA PUXAR A IMAGEM QUE FOI CLICADA PELO MODELSJSON DE 0 A 5 COM VARIAVEL KEY
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
         document.querySelector('.modelsInfo H1').innerHTML = modelsJson[key].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[key].description;
-        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[2].toFixed(2)}`
+        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[0].toFixed(2)}`
         c('.modelsInfo--size.selected').classList.remove('selected');
         cs('.modelsInfo--size').forEach((size, sizeIndex) => {
             if(sizeIndex == 0){
                 size.classList.add('selected');
+                document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[sizeIndex].toFixed(2)}`
             }
             size.querySelector('span').innerHTML = modelsJson[key].sizes[sizeIndex];
         });
@@ -69,7 +83,6 @@ modelsJson.slice(0, 5).forEach((item, index) => {
     // Adicionar a cópia à área de modelos
     document.querySelector('.models-area').append(modelsItem);
 });
-
 
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');

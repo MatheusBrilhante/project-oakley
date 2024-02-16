@@ -1137,7 +1137,6 @@ span h1{
     }
     .container5{
         width: 100vw;
-        height: 240vh;
         margin: auto;
     }
     .tith1{
@@ -1726,9 +1725,6 @@ span h1{
         width: 160px;
         top: 20px;
     }
-    .container5{
-        height: 1600px;
-    }
 }
 @media(max-width:1500px){
     
@@ -1782,13 +1778,9 @@ span h1{
     .container4 .sec4 ul{
         padding-top: 40px;
     }
-    .container5{
-        height: 1565px;
-    }
     .container3 .sec3 li .ban-ten{
         margin: auto;
     }
-
 }
 @media(max-width:1455px){
     .container3-5 iframe{
@@ -1974,7 +1966,26 @@ span h1{
         width: 100%;
     }
     .container5{
-        height: 1800px;
+        height: 1400px;
+    }
+    .art2{
+        background-color: #f9f0e675;
+        width: 1250px;
+        height: 1200px;
+        border-radius: 10px;
+        margin: auto;
+        display: grid;
+        align-items: center;
+    }
+    .models-area2{
+        display: grid;
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        grid-template-columns: repeat(3,1fr);
     }
     .container5 .art5 .sec5{
         display: grid;

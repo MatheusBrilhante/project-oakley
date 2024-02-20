@@ -1,9 +1,11 @@
+let cart = [];
+let key = 0;
 let modalQt = 0;
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
 modelsJson.slice(15,24).forEach((item ,index) =>{
-    let = modelsItem3 = document.querySelector('.models .models-item').cloneNode(true);
+    let modelsItem3 = document.querySelector('.models .models-item').cloneNode(true);
     modelsItem3.setAttribute('data-key',index);
     modelsItem3.querySelector('.models-item img').src = item.img;
     modelsItem3.querySelector('.models-item--name').innerHTML = item.name;
@@ -17,7 +19,7 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
         setTimeout(()=>{
             c('.modelsWindowArea').style.opacity = 1;
         },200);
-        let key = (e).target.closest('.models-item').getAttribute('data-key');
+        key = (e).target.closest('.models-item').getAttribute('data-key');
         document.querySelector('.modelsBig img').src = modelsJson[15 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[15 + parseInt(key)].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[15 + parseInt(key)].description;
@@ -28,6 +30,7 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
         cs('.modelsInfo--size').forEach((size, sizeIndex)=>{
             if(sizeIndex == 0){
                 size.classList.add('selected');
+                document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[sizeIndex].toFixed(2)}`;
             }
             size.querySelector('span').innerHTML = modelsJson[15 + parseInt(key)].sizes[sizeIndex];
         });
@@ -52,7 +55,7 @@ modelsJson.slice(10,15).forEach((item, index) => {
             c('.modelsWindowArea').style.opacity = 1;
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
-        let key = e.target.closest('.models-item').getAttribute('data-key');
+        key = e.target.closest('.models-item').getAttribute('data-key');
         modalQt = 0;
         document.querySelector('.modelsBig img').src = modelsJson[10 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[10 + parseInt(key)].name;
@@ -62,6 +65,7 @@ modelsJson.slice(10,15).forEach((item, index) => {
         cs('.modelsInfo--size').forEach((size,sizeIndex) =>{
             if(sizeIndex == 0){
                 size.classList.add('selected');
+                document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[sizeIndex].toFixed(2)}`;
             }
             size.querySelector('span').innerHTML = modelsJson[10 + parseInt(key)].sizes[sizeIndex];
         });
@@ -85,7 +89,7 @@ modelsJson.slice(5,10).forEach((item, index) => {
             c('.modelsWindowArea').style.opacity = 1;
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
-        let key = e.target.closest('.models-item').getAttribute('data-key');
+        key = e.target.closest('.models-item').getAttribute('data-key');
         modalQt = 0;
         document.querySelector('.modelsBig img').src = modelsJson[5 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[5 + parseInt(key)].name;
@@ -95,6 +99,7 @@ modelsJson.slice(5,10).forEach((item, index) => {
         cs('.modelsInfo--size').forEach((size, sizeIndex) => {
             if(sizeIndex == 1){
                 size.classList.add('selected');
+                document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[sizeIndex].toFixed(2)}`;
             }
             size.querySelector('span').innerHTML = modelsJson[5 + parseInt(key)].sizes[sizeIndex];
         });
@@ -121,7 +126,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         // key ira adiciona Paramentro evento no mais proximo em models.item,
         //e ira adicionar o data key
         c('.modelsInfo--qt').innerHTML = modalQt;
-        let key = e.target.closest('.models-item').getAttribute('data-key');
+        key = e.target.closest('.models-item').getAttribute('data-key');
         modalQt = 0;
         //IRA PUXAR A IMAGEM QUE FOI CLICADA PELO MODELSJSON DE 0 A 5 COM VARIAVEL KEY
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
@@ -159,7 +164,7 @@ function closeModal(){
 cs('.modelsInfo--cancelButton, .modelsInfo--cancelMobileButton').forEach((item1)=>{
     item1.addEventListener('click', closeModal);
 });
-//PARA ADICIONAR MAIS DE UM NA HORA DA COMPRA
+//PARA DIMINUIR NA HORA DA COMPRA
 
 c('.models-Info--qtmenos').addEventListener('click',()=>{
     if(modalQt > 1){
@@ -168,10 +173,39 @@ c('.models-Info--qtmenos').addEventListener('click',()=>{
     }
 });
 
+//PARA ADICIONAR MAIS DE UM NA HORA DA COMPRA
 c('.models-Info--qtmais').addEventListener('click',()=>{
     modalQt++;
     c('.modelsInfo--qt').innerHTML = modalQt;
 });
+
+//IRA TIRAR DO SIZE ESTA  MARCADO E ADICIONAR QUANDO FOR CLICADO
+//PARA SALVAR
+cs('.modelsInfo--size').forEach((size, sizeIndex)=>{
+    size.addEventListener('click', (e)=>{
+        c('.modelsInfo--size.selected').classList.remove('selected');
+        size.classList.add('selected');
+        
+        let clickedSizeIndex = parseInt(size.getAttribute('data-key'));
+
+        let selectedModel = modelsJson[key];
+        let selectedPrice = selectedModel.price[clickedSizeIndex].toFixed(2);
+        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${selectedPrice}`;
+    });
+});
+
+//EVENTO QUE IRA ARMAZENAR OS DADOS QUANDO CLICAR EM ADICIONAR 
+//MODELO / TAMANHO/ QUANTIDADE
+c('.modelsInfo--addButton').addEventListener('click',(e)=>{ 
+    let size = parseInt(c('.modelsInfo--size.selected').getAttribute('data-key')); 
+    cart.push({
+        id:modelsJson[key].id,
+        size,
+        qt:modalQt
+    });
+    closeModal();
+});
+
 
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');

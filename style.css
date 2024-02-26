@@ -49,20 +49,44 @@
     display: none;
     font-size: 30px;
 }
-article#art1{
+aside{
+    background-color: #ffffffd7;
+    width: 30vw;
     display: none;
-}
-aside#as1{
-    background-color: #ffffffad;
-    display: none;
-    width: 0vw;
     font-family: 'Roboto', sans-serif;
     transition: all ease .2s;
     overflow-x: hidden;
 }
+article#art1{
+    display: none;
+}
+main{
+    flex: 1;
+}
 /* QUANDO ACONTECER .SHOW IRA ADICIONA ELEMENTOS COM TRANSICAO DE 30VW */
 aside.show{
+    position: fixed;
+    top: 0;
     width: 30vw;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(250, 250, 250);
+    display: none;
+    transition: all ease .5s;
+    justify-content: center;
+    overflow: auto;
+    z-index: 5;
+}
+.sm1{
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline red;
+}
+.sub1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
 }
 .cart--area{
     padding: 20px;
@@ -1603,7 +1627,7 @@ span h1{
     }
     .container3-5 iframe{
         position: relative;
-        top: 130px;
+        top: 167px;
         left: -285px;
         width: 600px;
         height: 500px;
@@ -1925,7 +1949,7 @@ span h1{
         display: flex;
         margin: auto;
         text-align: center;
-        margin-top: 14px;
+        margin-top: 15px;
     }
     .blu-button-1 > a{
         margin: auto;
@@ -1966,7 +1990,7 @@ span h1{
         width: 100%;
     }
     .container5{
-        height: 1400px;
+        height: 1390px;
     }
     .art2{
         background-color: #f9f0e675;
@@ -2276,13 +2300,13 @@ span h1{
         display: flex;
         margin: auto;
         text-align: center;
-        margin-top: 25px;
+        margin-top: 14px;
     }
     .titleb2{
         margin-top: 26px;
     }
     .title-blu{
-        padding-top: 12px;
+        padding-top: 0px;
     }
     .move-v a{
         color: #000000;
@@ -2363,17 +2387,27 @@ span h1{
     }
 
 }
+
 @media(max-width:1300px){
-    .sec2{
-        height: 430px;
+    .arti1{
+        width: 1150px;
+    }
+    .art1-5{
+        width: 1150px;
+    }
+    .art2-0{
+        width: 1150px;
+    }
+    .art2{
+        width: 1150px;
     }
 }
 @media(max-width:1280px){
-    .container2{
-        height: 45vw;
-    }
     .blu-button1{
         margin-top: 15px;
+    }
+    .blu-button-1{
+        margin-top: 6px;
     }
     .container3-5 iframe{
         left: -260px;
@@ -2396,47 +2430,21 @@ span h1{
         border-radius: 5px;
     }
 }
-@media(max-width:1265px){
-    .container5{
-        height: 1730px;
-    }
-    .container5 .art5 .sec5{
-        margin-left: -5px;
-    }
-
-}
-@media(max-width:1243px){
-    .container5{
-        height: 1720px;
-    }
-}
 @media(max-width:1239px){
     .container2{
-        height: 43vw;
+        height: 985px;
     }
-    .sec2{
-        height: 415px;
-    }
-    .sec3{
-        height: 415px;
+    .titleb{
+        margin-top: -42px;
     }
     .blu-button1{
         margin-top: -3px;
     }
-    .sec4{
-        height: 415px;
-    }
-    .container3{
-        height: 535px;
+    .blu-button-1{
+        margin-top: 16px;
     }
     .tit-blu{
         padding-top: 4px;
-    }
-    .container4 .sec4 .blu-button-2{
-        margin-top: -87px;
-    }
-    .container4{
-        height: 540px;
     }
     .but-img{
         margin-top: 25px;
@@ -2452,17 +2460,11 @@ span h1{
     }
 }
 @media(max-width:1205px){
-        .container2{
-            height: 45vw;
-        }
-        .container4{
-            height: 540px;
-        }
-        .title-blu{
-            margin-top: -39px;
+        .titleb{
+            margin-top: -41px;
         }
         .blu-button{
-            margin-top: 20px;
+            margin-top: 10px;
         }
         .tit-blu{
             font-size: 1.7rem;
@@ -2470,25 +2472,24 @@ span h1{
         .tit-ten{
             font-size: 1.7rem;
         }
+        .ban-pro{
+            height: 535px;
+        }
         .titleb{
             margin-top: -35px;
         }
-        .container4 .sec4 ul{
-            padding-top: 10px;
+        .arti1{
+            width: 1050px;
         }
-        .container4 .sec4 .blu-button-2{
-            margin-top: -95px;
+        .art1-5{
+            width: 1050px;
         }
-}
-    @media(max-width:1172px){
-        .container5{
-            height: 1660px;
+        .art2-0{
+            width: 1050px;
         }
-}
-    @media(max-width:1168px){
-        .blu-button1{
-            margin-top: 15px;
-        }
+        .art2{
+            width: 1050px;
+        } 
 }
     @media(max-width:1168px){
         .lan1{
@@ -2496,6 +2497,9 @@ span h1{
         }
         .lan2{
             width: 500px;
+        }
+        .titleb{
+            margin-top: -44px;
         }
         .img1{
             width: 100%;
@@ -2505,11 +2509,7 @@ span h1{
             margin-top: -3px;
         }
         .container2{
-            height: 47vw;
-        }
-    
-        .container3{
-            height: 545px;
+            height: 980px;
         }
         .container3-5 iframe{
             left: -240px;

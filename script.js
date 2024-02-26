@@ -1,6 +1,6 @@
 let cart = [];
 let key = 0;
-let modalQt = 0;
+let modalQt = 0; 
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
@@ -19,7 +19,7 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
         setTimeout(()=>{
             c('.modelsWindowArea').style.opacity = 1;
         },200);
-        key = (e).target.closest('.models-item').getAttribute('data-key');
+        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
         document.querySelector('.modelsBig img').src = modelsJson[15 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[15 + parseInt(key)].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[15 + parseInt(key)].description;
@@ -38,7 +38,6 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
     document.querySelector('.models-area2').append(modelsItem3);
 });
 
-
 modelsJson.slice(10,15).forEach((item, index) => {
     let modelsItem2 = document.querySelector('.models .models-item').cloneNode(true);
     modelsItem2.setAttribute('data-key',index);
@@ -55,7 +54,7 @@ modelsJson.slice(10,15).forEach((item, index) => {
             c('.modelsWindowArea').style.opacity = 1;
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
-        key = e.target.closest('.models-item').getAttribute('data-key');
+        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
         modalQt = 0;
         document.querySelector('.modelsBig img').src = modelsJson[10 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[10 + parseInt(key)].name;
@@ -89,7 +88,7 @@ modelsJson.slice(5,10).forEach((item, index) => {
             c('.modelsWindowArea').style.opacity = 1;
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
-        key = e.target.closest('.models-item').getAttribute('data-key');
+        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
         modalQt = 0;
         document.querySelector('.modelsBig img').src = modelsJson[5 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[5 + parseInt(key)].name;
@@ -108,7 +107,6 @@ modelsJson.slice(5,10).forEach((item, index) => {
     document.querySelector('.models-area1').append(modelsItem1);
 });
 
-
 modelsJson.slice(0, 5).forEach((item, index) => {
     // Criar uma cópia independente do modelo
     let modelsItem = document.querySelector('.models .models-item').cloneNode(true);
@@ -126,7 +124,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         // key ira adiciona Paramentro evento no mais proximo em models.item,
         //e ira adicionar o data key
         c('.modelsInfo--qt').innerHTML = modalQt;
-        key = e.target.closest('.models-item').getAttribute('data-key');
+        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
         modalQt = 0;
         //IRA PUXAR A IMAGEM QUE FOI CLICADA PELO MODELSJSON DE 0 A 5 COM VARIAVEL KEY
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
@@ -179,33 +177,52 @@ c('.models-Info--qtmais').addEventListener('click',()=>{
     c('.modelsInfo--qt').innerHTML = modalQt;
 });
 
-//IRA TIRAR DO SIZE ESTA  MARCADO E ADICIONAR QUANDO FOR CLICADO
-//PARA SALVAR
-cs('.modelsInfo--size').forEach((size, sizeIndex)=>{
-    size.addEventListener('click', (e)=>{
+cs('.modelsInfo--size').forEach((size, sizeIndex) => {
+    size.addEventListener('click', () => {
         c('.modelsInfo--size.selected').classList.remove('selected');
         size.classList.add('selected');
-        
-        let clickedSizeIndex = parseInt(size.getAttribute('data-key'));
-
-        let selectedModel = modelsJson[key];
-        let selectedPrice = selectedModel.price[clickedSizeIndex].toFixed(2);
-        document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${selectedPrice}`;
+        c('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[key].price[sizeIndex].toFixed(2)}`;
     });
 });
 
 //EVENTO QUE IRA ARMAZENAR OS DADOS QUANDO CLICAR EM ADICIONAR 
 //MODELO / TAMANHO/ QUANTIDADE
+
 c('.modelsInfo--addButton').addEventListener('click',(e)=>{ 
-    let size = parseInt(c('.modelsInfo--size.selected').getAttribute('data-key')); 
-    cart.push({
-        id:modelsJson[key].id,
-        size,
-        qt:modalQt
-    });
+    let size = parseInt(c('.modelsInfo--size.selected').getAttribute('data-key'));
+    //IRA IDENTIFICA QUAIS DENTRO DO SELECIONADO SAO IGUAIS E JUNTA ELES
+    //NO CONSOLE PARA NAO DUPLICA E SIM SOMA EM UM ID APENAS
+    let identifier = modelsJson[key].id+'@'+size;
+    let localId = cart.findIndex((item)=> item.identifier == identifier);
+    if(localId > - 1){
+        cart[localId].qt += modalQt;
+    } else{
+        cart.push({
+            identifier,
+            id:modelsJson[key].id,
+            size,
+            qt:modalQt
+        });
+    }
     closeModal();
+    updateCart();
 });
 
+//CASO DENTRO DO CARRINHO TENHA ALGUM ITEM SERA ACIONADO O ASIDE
+//E A CLASSLIST SHOW 
+function updateCart() {
+    console.log('Update Cart Function Called');
+    console.log('Cart Length:', cart.length);
+
+    if (cart.length > 0) {
+        console.log('Adding Show Class');
+        c('aside').style.display = 'flex';
+        c('aside').classList.add('show');
+    } else {
+        console.log('Removing Show Class');
+        c('aside').classList.remove('show');
+    }
+}
 
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');
@@ -215,7 +232,7 @@ function typeWriter(elemento){
             elemento.innerHTML += letra;
         }, 45 * i)
     });
-}
+};
 
 const titulo = document.getElementById('fun1')
 const titulo1 = document.getElementById('fun2')

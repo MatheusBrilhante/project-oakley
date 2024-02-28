@@ -709,7 +709,7 @@ function changeImage41(){
    document.getElementById("myImage5").style.marginLeft = '25px'
  
 //ADICIONANDO UMA POSICAO FIXA NA TELA    
-   document.getElementById("bt2").style.marginTop = '-5px'
+   document.getElementById("bt2").style.marginTop = '60px'
    
 }
 // Função chamada quando o mouse sai da imagem
@@ -718,8 +718,7 @@ function resetImage41(){
    document.getElementById("myImage5").src="img.oc/oc7.png";
    document.getElementById("myImage5").style.marginTop = '10px'
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
-   document.getElementById("bt2").style.marginTop = '19px'
-   document.getElementById("bt2").style.zIndex = '5' 
+   document.getElementById("bt2").style.marginTop = '84px'
 }
 //974 A 1110
 function changeImage42(){
@@ -836,16 +835,16 @@ function changeImage51(){
     // Altere o atributo src para a imagem maior
    document.getElementById("myImage5").src="img.oc/oc15t.png";
    document.getElementById("myImage5").style.marginTop = '27px'
-   document.getElementById("bt2").style.marginTop = '40px' 
+   document.getElementById("bt2").style.marginTop = '105px' 
 }
 // Função chamada quando o mouse sai da imagem
 function resetImage51(){
    // Restaure o atributo src para a imagem original
    document.getElementById("myImage5") .src="img.oc/oc7.png";
    document.getElementById("myImage5").style.marginTop = '13px'
-   document.getElementById("bt2").style.zIndex = '5' 
+
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
-   document.getElementById("bt2").style.marginTop = '16px' 
+   document.getElementById("bt2").style.marginTop = '81px' 
 }
 //974 A 1110
 function changeImage52(){
@@ -859,7 +858,6 @@ function resetImage52(){
    // Restaure o atributo src para a imagem original
    document.getElementById("myImage5") .src="img.oc/oc7.png";
    document.getElementById("myImage5").style.marginTop = '22px'
-   document.getElementById("bt2").style.zIndex = '5' 
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
    document.getElementById("bt2").style.marginTop = '53px' 
 }
@@ -875,7 +873,6 @@ function resetImage53(){
    // Restaure o atributo src para a imagem original
    document.getElementById("myImage5") .src="img.oc/oc7.png";
    document.getElementById("myImage5").style.marginTop = '22px'
-   document.getElementById("bt2").style.zIndex = '5' 
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
    document.getElementById("bt2").style.marginTop = '33px' 
 }
@@ -891,7 +888,6 @@ function resetImage54(){
    // Restaure o atributo src para a imagem original
    document.getElementById("myImage5") .src="img.oc/oc7.png";
    document.getElementById("myImage5").style.marginTop = '22px'
-   document.getElementById("bt2").style.zIndex = '5' 
    //ADICIONANDO UMA POSICAO FIXA NA TELA    
    document.getElementById("bt2").style.marginTop = '49px' 
 }
@@ -950,7 +946,7 @@ function changeImage61(){
     document.getElementById("myImage5").src="img.oc/oc4.png";
     document.getElementById("myImage5").style.marginTop = '18px'
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '35px' 
+    document.getElementById("bt2").style.marginTop = '100px' 
 }
 // Função chamada quando o mouse sai da imagem
 function resetImage61(){
@@ -958,7 +954,7 @@ function resetImage61(){
     document.getElementById("myImage5") .src="img.oc/oc7.png";
     document.getElementById("myImage5").style.marginTop = '14px'
     //ADICIONANDO UMA POSICAO FIXA NA TELA    
-    document.getElementById("bt2").style.marginTop = '15px'
+    document.getElementById("bt2").style.marginTop = '80px'
 }
 function changeImage62(){
     // Altere o atributo src para a imagem maior
@@ -1309,7 +1305,7 @@ function ajustarPosicao() {
         elemento1.style.marginTop = '-1px';
         elemento2.style.marginTop = '40px';
         elemento3.style.marginTop = '10px';
-    }else if(larguraTela >= 751 && larguraTela <= 866){
+    }else if(larguraTela >= 751 && larguraTela <= 867){
         changeImages();
         resetImages();
         changeImagesTWO();
@@ -1326,13 +1322,9 @@ function ajustarPosicao() {
         elemento1.style.marginTop = '15px';
         elemento2.style.marginTop = '17px';
         elemento3.style.marginTop = '1px';
-    }else if (larguraTela >= 867 && larguraTela <= 974) {
+    }else if(larguraTela >= 867 && larguraTela <= 974) {
         // Alteração para changeImage4 quando a largura é menor que 974
-        
-        elemento0.style.marginTop = '-10px';
-        elemento1.style.marginTop = '43px';
-        elemento2.style.marginTop = '17px';
-        elemento3.style.marginTop = '1px';
+        console.log('teste3');
         changeImages();
         resetImages();
         changeImagesTWO();
@@ -1345,7 +1337,11 @@ function ajustarPosicao() {
         resetImagesFIVE();
         changeImagesSIX();
         resetImagesSIX();
-    }else if (larguraTela >= 975 && larguraTela <= 1110) {
+        elemento0.style.marginTop = '-10px';
+        elemento1.style.marginTop = '43px';
+        elemento2.style.marginTop = '17px';
+        elemento3.style.marginTop = '77px';
+    }else if(larguraTela >= 975 && larguraTela <= 1110){
         // Alteração para changeImage7 quando a largura está entre 975 e 1110
         changeImages();
         resetImages();
@@ -1364,7 +1360,7 @@ function ajustarPosicao() {
         elemento2.style.marginTop = '22px';
         elemento3.style.marginTop = '53px';
     }
-    else if (larguraTela >= 1111 && larguraTela <= 1366){
+    else if(larguraTela >= 1111 && larguraTela <= 1366){
         changeImages();
         resetImages();
         changeImagesTWO();
@@ -1382,7 +1378,7 @@ function ajustarPosicao() {
         elemento2.style.marginTop = '22px';
         elemento3.style.marginTop = '34px';
     }
-    else if (larguraTela >= 1367 && larguraTela <= 1920) {
+    else if(larguraTela >= 1367 && larguraTela <= 1920) {
         changeImages();
         resetImages();
         changeImagesTWO();

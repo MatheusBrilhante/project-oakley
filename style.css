@@ -3455,6 +3455,19 @@ span h1{
         .container5{
             height: 1370px;
         }
+        .arti1{
+            width: 700px;
+        }
+        .art1-5{
+            width: 700px;
+        }
+        .art2-0{
+            width: 700px;
+        }
+        .art2{
+            width: 700px;
+        }
+
     }
     @media(max-width:750px){
         .container3-5 .sec3-5 .oc-resp{
@@ -3463,6 +3476,7 @@ span h1{
         .container3-5 iframe{
             left: -735px;
         }
+       
     }
     @media(max-width:750px){
         .container1{
@@ -4142,6 +4156,12 @@ span h1{
         }
     }
     @media(max-width:500px){
+        .move-v{
+            margin-top: -5px;
+        }
+        .move-v1{
+            margin-top: 15px;
+        }
         .container2-5{
             margin-top: 20px;
             flex-wrap: wrap;

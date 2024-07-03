@@ -3453,7 +3453,13 @@ span h1{
     }
     @media(max-width:800px){
         .container3{
-            height: 1255px;
+            height: 1375px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 48px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -200px;
         }
         .tith1{
             font-size: 3rem;
@@ -3471,7 +3477,7 @@ span h1{
             left: -185px;
         }
         .container5{
-            height: 1370px;
+            height: 2135px;
         }
         .arti1{
             width: 700px;
@@ -3509,7 +3515,13 @@ span h1{
             margin-left: 50px;
         }
         .container2{
-            height: 800px;
+            height: 1350px;
+        }
+        .blu-button{
+            margin-top: 20px;
+        }
+        .titleb2{
+            margin-top: 22px;
         }
         .sec2{
             width: 685px;

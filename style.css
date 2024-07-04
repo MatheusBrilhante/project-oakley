@@ -3515,10 +3515,10 @@ span h1{
             margin-left: 50px;
         }
         .container2{
-            height: 1350px;
+            height: 1370px;
         }
         .blu-button{
-            margin-top: 20px;
+            margin-top: 22px;
         }
         .titleb2{
             margin-top: 22px;
@@ -3530,8 +3530,14 @@ span h1{
         .sec3{
             width: 685px;
         }
+        .container3-5 iframe{
+            left: -127px;
+        }
         .container4 .sec4{
             width: 685px;
+        }
+        .container5{
+            height: 2140px;
         }
         .pos-lan{
             display: grid;
@@ -3556,9 +3562,6 @@ span h1{
         }
         .container3-5 iframe{
             left: -100px;
-        }
-        .container5{
-            height: 1365px;
         }
         .img1{
             width: 85%;
@@ -3592,6 +3595,21 @@ span h1{
             margin-top: 42px;
         }  
     }
+    @media(max-width:730px){
+        .arti1{
+            width: 650px;
+        }
+        .art1-5{
+            width: 650px;
+        }
+        .art2-0{
+            width: 650px;
+        }
+        .art2{
+            width: 650px;
+        }
+
+    }
     @media(max-width:720px){
         .navban{
             width: 600px;
@@ -3616,9 +3634,6 @@ span h1{
         .move-v1{
             margin-top: 28px;
         }
-        .container2{
-            height: 1090px;
-        }
         .sec2{
             width: 600px;
             height: 968px;
@@ -3636,9 +3651,6 @@ span h1{
             width: 150px;
             font-size: 1.6rem;
         }
-        .container3{
-            height: 1185px;
-        }
         .sec3{
             width: 600px;
             height: 1066px;
@@ -3648,7 +3660,7 @@ span h1{
             font-size: 1.7rem;
         }
         .blu-button1{
-            margin-top: -12px;
+            margin-top: -43px;
         }
         .container3 .art3 .sec3 ul li{
             margin-left: 10px;
@@ -3664,10 +3676,14 @@ span h1{
             left: -95px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: 95px;
+            left: 103px;
         }
         .container4{
-            height: 1220px;
+            height: 1380px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            top: 13px;
+            left: 195px;
         }
         .container4 .sec4{
             width: 600px;
@@ -3676,15 +3692,11 @@ span h1{
         .container4 .sec4 .blu-button-2{
             margin-top: 590px;
         }
-        .blu-button4{
-            font-size: 2.3rem;
-            width: 120px;
-        }
         .container4 .art4 .sec4 ul li{
             padding-left: -5px;
         }
         .blu-button4{
-            margin-top: 6px; 
+            margin-top: -1px;
             font-size: 2.5rem;
             width: 150px;
         }
@@ -3692,7 +3704,7 @@ span h1{
             font-size: 2.5rem;
         }
         .container5{
-            height: 1240px;
+            height: 2138px;
         }
         .sec5 .box h1{
             width: 180px;
@@ -3706,21 +3718,30 @@ span h1{
         }
     }
     @media(max-width:683px){
-        .container3{
-            height: 1193px;
-        }
         .container3-5 iframe{
             left: -83px;
-            top: 180px;
+            top: 205px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: 110px;
+            left: 105px;
         }
         .container3-5 .oc-resp .h1-gamer{
             font-size: 3rem;
         }
         .container3-5 .oc-resp .but-gamer{
             left: -190px;
+        }
+        .arti1{
+            width: 600px;
+        }
+        .art1-5{
+            width: 600px;
+        }
+        .art2-0{
+            width: 600px;
+        }
+        .art2{
+            width: 600px;
         }
     }
     @media(max-width:664px){
@@ -3743,6 +3764,9 @@ span h1{
         .ban-pro{
             height: 435px;
         }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 97px;
+        }
     }
 
     @media(max-width:648px){
@@ -3755,9 +3779,6 @@ span h1{
         .lan1{
             margin-left: 25px;
         }
-        .container2{
-            height: 1020px;
-        }
         .sec2{
             height: 900px;
         }
@@ -3768,8 +3789,8 @@ span h1{
             width: 90%;
             font-size: 1.8rem;        
         }
-        .container3{
-            height: 1147px;
+        .container3-5 .sec3-5 .oc-resp{
+            left: 90px;
         }
         .sec3{
             height: 1030px;

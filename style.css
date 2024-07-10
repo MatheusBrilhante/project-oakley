@@ -3619,7 +3619,7 @@ span h1{
             width: 300px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -120px;
+            left: 105px;
         }
         .container3-5 iframe{
             left: -95px;
@@ -3627,7 +3627,7 @@ span h1{
             height: 350px;
         }
         .container3-5 .oc-resp .but-gamer{
-            left: -155px;
+            left: -200px;
         }
     }
     @media(max-width:702px){
@@ -3683,7 +3683,7 @@ span h1{
         }
         .container3-5 .oc-resp .but-gamer{
             top: 13px;
-            left: 195px;
+
         }
         .container4 .sec4{
             width: 600px;
@@ -3767,6 +3767,21 @@ span h1{
         .container3-5 .sec3-5 .oc-resp{
             left: 97px;
         }
+        .promo-s{
+            top: -15px;
+        }
+        .container2-5{
+            margin-top: -20px;
+        }
+        .tith1{
+            margin-top: 23px;
+        }
+        .art2{
+            margin-top: -10px;
+        }
+        .container5{
+            height: 2130px;
+        }
     }
 
     @media(max-width:648px){
@@ -3789,6 +3804,9 @@ span h1{
             width: 90%;
             font-size: 1.8rem;        
         }
+        .container3-5 .oc-resp .but-gamer{
+            left: -166px;
+        }
         .container3-5 .sec3-5 .oc-resp{
             left: 90px;
         }
@@ -3805,11 +3823,20 @@ span h1{
             left: -80px;
         }
         .container4{
-            height: 1130px;
+           height: 1380px;
         }
         .container4 .sec4 .ban-ocu1{
             width: 210px;
         }
+        .tith1{
+            margin-top: 20px;
+        }
+        .Titlex{
+            height: 85px;
+        }
+        .container5{
+            height:2115px;
+        } 
         .container5 .art5 .sec5{
             margin-left: 0px;
         }
@@ -3844,28 +3871,39 @@ span h1{
             margin-top: 505px;
         }
     }
+    @media(max-width:640px){
+        .arti1{
+            width: 550px;
+        }
+        .art1-5{
+            width: 550px;
+        }
+        .art2-0{
+            width: 550px;
+        }
+        .art2{
+            width: 550px;
+        }
+    }
     @media(max-width:620px){
-        .container5{
-            height: 1175px;
+        .container3-5 .sec3-5 .oc-resp{
+            left: 70px;
         }
     }
     @media(max-width:600px){
         .container3-5 .sec3-5 .oc-resp{
-            left: 55px;
+            left: 75px;
         }
         .container3-5 .oc-resp .but-gamer{
             left: -150px;
         }
         .container3-5 iframe{
-            left: -100px;
+            left: -75px;
             width: 300px;
             height: 300px;
         }
         .container5 .art5 .sec5{
             grid-template-columns: repeat(2, 1fr);
-        }
-        .container5{
-            height: 2265px;
         }
         .container6 .list-ul{
             margin-top: -80px;
@@ -3884,6 +3922,20 @@ span h1{
         }
         .container3-5 .sec3-5 .oc-resp{
             top: -410px;
+        }
+    }
+    @media(max-width:590px){
+        .arti1{
+            width: 520px;
+        }
+        .art1-5{
+            width: 520px;
+        }
+        .art2-0{
+            width: 520px;
+        }
+        .art2{
+            width: 520px;
         }
     }
     @media(max-width:586px){
@@ -3914,7 +3966,9 @@ span h1{
         .container3-5 .sec3-5 .oc-resp{
             left: 80px;
         }
-
+        .container3-5 .oc-resp .but-gamer{
+            left: -140px;
+        }
     }
     @media(max-width:573px){
         .container1{
@@ -3940,6 +3994,9 @@ span h1{
         .container2-5{
             margin-top: -1px;
         }
+        .models-item--name{
+            font-size: 20px;
+        }
         .promo-s{
             width: 200px;
             top: -11px;
@@ -3948,27 +4005,30 @@ span h1{
             margin-top: -10px;
         }
         .container3{
-            height: 1050px;
+            height: 1375px;
         }
         .container3 .art3 .sec3 ul li{
             margin-left: 10px;
             margin-top: -10px;
         }
         .container3-5{
-            height: 500px; 
+            height: 535px; 
         }
         .container3-5 iframe{
             left: -70px;
         }
         .container3-5 .sec3-5 .oc-resp{
             left: 68px;
-            top: -400px;
+            top: -430px;
         }
         .container3-5 .oc-resp .but-gamer{
             left: -135px;
         }
         .tit-bot{
             top: -6px;
+        }
+        .container4{
+            height: 1380px;
         }
         .container4 .sec4{
             width: 500px;
@@ -3990,16 +4050,13 @@ span h1{
             width: 70%;
         }
         .container4{
-            height: 1107px;
+            height: 1380px;
         }
         .container4 .sec4 .blu-button-2{
             margin-top: 485px;
         }
         .container4 .sec4 .ban-ocu1{
             margin-left: 20px;
-        }
-        .container5{
-            height: 2215px;
         }
         .container4 .sec4 ul img{
             width: 80%;
@@ -4012,24 +4069,30 @@ span h1{
         }
     }
     @media(max-width:560px){
+        .arti1{
+            width: 485px;
+        }
+        .art1-5{
+            width: 485px;
+        }
+        .art2-0{
+            width: 485px;
+        }
+        .art2{
+            width: 485px;
+        }
         .tit-oc{
             width: 150px;
             font-size: 2.5rem;
         }
-        .container2{
-            height: 1030px;
-        }
         .sec2{
             height: 910px;
-        }
-        .container3{
-            height: 1065px;
         }
         .sec3{
             height: 948px;
         }
-        .container4{
-            height: 1145px;
+        .container3-5 .sec3-5 .oc-resp{
+            left: 58px;
         }
         .container4 .sec4{
             height: 1023px;
@@ -4037,11 +4100,11 @@ span h1{
         .container4 .sec4 ul{
             margin-left: 1px;
         }
-        .container5{
-            height: 2180px;
-        }
         .container4 .sec4 .blu-button-2{
             margin-top: 505px;
+        }
+        .models-item--name{
+            font-size: 19px;
         }
     }
     @media(max-width:536px){
@@ -4075,13 +4138,42 @@ span h1{
         .tit-oc{
             font-size: 3rem;
         }
-        .container4{
-            height: 1129px;
-        }
     }
     @media(max-width:521px){
+        .models-area{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .titleb{
+            margin-top: -9px;
+        }
+        .titleb2{
+            margin-top: 10px;
+            font-size: 2.5rem;
+            width: 155px;
+        }
+        .resp-but{
+            margin-top: -20px;
+        }
+        .arti1{
+            width: 460px;
+            height: 2760px;
+            margin-top: -20px;
+        }
+        .models-item--img{
+            width: 350px;
+            height: 350px;
+        }
+        .models-item--name{
+            font-size: 23px;
+        }
+        .models-item--desc{
+            font-size: 21px;
+        }
+        .models-item--price{
+            font-size: 25px;
+        }
         .container2{
-            height: 960px;
+            height: 2930px;
         }
         .sec2{
             height: 845px;
@@ -4114,9 +4206,6 @@ span h1{
         .sec2{
             width: 450px;
             height: 810px;
-        }
-        .container2{
-            height: 930px;
         }
         .container2 .art2 .sec2 ul img{
             width: 80%;

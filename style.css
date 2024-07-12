@@ -2902,6 +2902,9 @@ span h1{
         .container4 .sec4 .ban-ocu1{
             max-width: 245px;
         }
+        .list{
+            justify-content: space-evenly;
+        }
         .container4 .sec4 .blu-button-2{
             margin-top: 605px;
         }
@@ -4218,7 +4221,20 @@ span h1{
             font-size: 1.5rem;
         }
         .container3{
-            height: 962px;
+            height: 2935px;
+        }
+        .art1-5{
+            height: 2760px;
+            width: 460px;
+        }
+        .models-area1{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 63px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -110px;
         }
         .sec3{
             width: 450px;
@@ -4249,10 +4265,28 @@ span h1{
             height: 920px;
         }
         .container4{
-            height: 1045px;
+            height: 2945px;
+        }
+        .art2-0{
+            height: 2765px;
+            width: 460px;
+        }
+        .models-area1-5{
+            grid-template-columns: repeat(1 , 1fr);
         }
         .container5{
-            height: 2110px;
+            height: 5130px;
+        }
+        .models-area2{
+            grid-template-columns: repeat(1 , 1fr);
+        }
+        .art2{
+            height: 4953px;
+            margin-top: 9px;
+            width: 460px;
+        }
+        .Titlex{
+            padding-top: 5px;
         }
         .container6{
             height: 670px;
@@ -4272,7 +4306,7 @@ span h1{
     }
     @media(max-width:511px){
         .container3-5{
-            height: 500px;
+            height: 520px;
         }
         .container3-5 .oc-resp .h1-gamer{
             font-size: 2.5rem;
@@ -4280,7 +4314,7 @@ span h1{
         }
         .container3-5 .sec3-5 .oc-resp{
             left: 69px;
-            top: -385px;
+            top: -400px;
         }
         .container3-5 .oc-resp .but-gamer{
             left: -122px;
@@ -4296,6 +4330,16 @@ span h1{
         }
     }
     @media(max-width:500px){
+        header{
+            margin-top: 0px;
+        }
+        main > .container1 .sect1 .secban{
+            height: 1008px;
+        }
+        .navban{
+            width: 390px;
+            height: 60px;
+        }
         .move-v{
             margin-top: -5px;
         }
@@ -4328,9 +4372,6 @@ span h1{
         }
         .container5 .sec5 .box img{
             width: 75%;
-        }
-        .container5{
-            height: 1985px;
         }
         .img-oc1{
             margin-top: -25px;

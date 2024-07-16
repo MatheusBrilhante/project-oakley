@@ -4333,6 +4333,18 @@ span h1{
         header{
             margin-top: 0px;
         }
+        .container2{
+            margin-left: -5px;
+        }
+        .container3{
+            margin-left: -5px;
+        }
+        .container4{
+            margin-left: -5px;
+        }
+        .container5{
+            margin-left: -5px;
+        }
         main > .container1 .sect1 .secban{
             height: 1008px;
         }
@@ -4341,10 +4353,10 @@ span h1{
             height: 60px;
         }
         .move-v{
-            margin-top: -5px;
+            margin-top: -10px;
         }
         .move-v1{
-            margin-top: 15px;
+            margin-top: 17px;
         }
         .container2-5{
             margin-top: 20px;
@@ -4410,15 +4422,33 @@ span h1{
             width: 350px;
         }
     }
+    @media(max-width:485px){
+        .arti1{
+            width: 430px;
+        }
+        .art1-5{
+            width: 430px;
+        }
+        .art2-0{
+            width: 430px;
+        }
+        .art2{
+            width: 430px;
+        }
+        .tit-bot{
+            top: -2px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -115px;
+            top: 7px;
+        }
+    }
     @media(max-width:470px){
         .move-v{
             margin-top: 0px;
         }
         .move-v1{
             margin-top: 40px;
-        }
-        .container2{
-            height: 910px;
         }
         .sec2{
             width: 400px;
@@ -4428,14 +4458,13 @@ span h1{
             width: 190px;
         }
         .blu-button{
-            margin-top: 30px;
+            margin-top: 22px;
         }
-
+        .blu-button1{
+            margin-top: -44px;
+        }
         .container2-5{
             margin-top: 15px;
-        }
-        .container3{
-            height: 990px;
         }
         .tit-ten{
             width: 60%;
@@ -4464,9 +4493,6 @@ span h1{
         .container3 .sec3 ul li img{
             width: 75%;
         }
-        .container4{
-            height: 1118px;
-        }
         .container4 .sec4{
             width: 400px;
             height: 994px;
@@ -4478,8 +4504,37 @@ span h1{
         .container4 .sec4 .blu-button-2{
             margin-top: 485px;
         }
-        .container5{
-            height: 1935px;
+        .blu-button1{
+            margin-top: -41px;
+        }
+    }
+    @media(max-width:460px){
+        .container2{
+            height: 2650px;
+        }
+        .arti1{
+            width: 410px;
+            height: 2550px;
+            margin-top: -26px;
+        }
+        .titleb{
+            margin-top: 0px;
+        }
+        .titleb2{
+            margin-top: 1px;
+        }
+        .art1-5{
+            width: 410px;
+        }
+        .art2-0{
+            width: 410px;
+        }
+        .art2{
+            width: 410px;
+        }
+        .models-item--img{
+            width: 300px;
+            height: 300px;
         }
     }
     @media(max-width:440px){

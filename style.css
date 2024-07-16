@@ -4509,8 +4509,26 @@ span h1{
         }
     }
     @media(max-width:460px){
+        .move-v{
+            margin-top: -10px;
+        }
+        .move-v1{
+            margin-top: 19px;
+        }
         .container2{
-            height: 2650px;
+            height: 2710px;
+        }
+        .container3{
+            height: 2745px;
+        }
+        .container4{
+            height: 2755px;
+        }
+        .container5{
+            height: 4752px;
+        }
+        .container3-5 iframe{
+            left: -35px;
         }
         .arti1{
             width: 410px;
@@ -4525,17 +4543,20 @@ span h1{
         }
         .art1-5{
             width: 410px;
+            height: 2570px;
         }
         .art2-0{
             width: 410px;
+            height: 2575px;
         }
         .art2{
             width: 410px;
+            height: 4575px;
         }
         .models-item--img{
             width: 300px;
             height: 300px;
-        }
+        } 
     }
     @media(max-width:440px){
         .lan1{
@@ -4556,9 +4577,6 @@ span h1{
         .ban-pro{
             height: 820px;
         }
-        .container3{
-            height: 983px;
-        }
         .sec3{
             height: 860px;
         }
@@ -4576,9 +4594,6 @@ span h1{
         .container3-5 .oc-resp .but-gamer{
             left: -60px;
         }
-        .container4{    
-            height: 1070px;
-        }
         .container4 .sec4{
             height: 948px;
             margin-left: 24px;
@@ -4590,9 +4605,6 @@ span h1{
             width: 70%;
             font-size: 1.5rem;
         }
-        .container5{
-            height: 2030px;
-        }
         .container5 .sec5 .box img{
             width: 90%;
         }
@@ -4603,16 +4615,22 @@ span h1{
         .container6 .list-ul{
             margin-left: -6px;
         }
+        .arti1{
+            width: 400px;
+        }
+        .art1-5{
+            width: 400px;
+        }
+        .art2-0{
+            width: 400px;
+        }
+        .art2{
+            width: 400px;
+        }
     }
     @media(max-width:420px){
-        .container2{
-            height: 920px;
-        }
         .sec2{
             height: 800px;
-        }
-        .container3{
-            height: 996px;
         }
         .sec3{
             height: 873px;
@@ -4637,6 +4655,18 @@ span h1{
         .container4 .sec4{
             margin-left: 14px;
             height: 956px;
+        }
+        .arti1{
+            width: 365px;
+        }
+        .art1-5{
+            width: 365px;
+        }
+        .art2-0{
+            width: 365px;
+        }
+        .art2{
+            width: 365px;
         }
     }
     @media(max-width:416px){
@@ -4673,19 +4703,16 @@ span h1{
         .container3 .sec3 ul li{
             width: 170px;
         }
-        .blu-button-1{
-            margin-top: -2px;
-        }
         .container4 .art4 .sec4 ul li{
             width: 190px;
             margin-left: -36px; 
         }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 55px;
+        }
         .container4 .sec4 .ban-ocu1{
             margin-left: 25px;
             width: 200px;
-        }
-        .container5{
-            height: 1985px;
         }
         .container6 .list-ul{
                 margin-left: -10px;
@@ -4694,7 +4721,6 @@ span h1{
             margin-top: -5px;
         }
     }
-    
     @media(max-width:405px){
         .img1{
             width: 80%;
@@ -4703,9 +4729,6 @@ span h1{
         .img2{
             width: 80%;
             margin-left: 35px;        
-        }
-        .container6{
-            height: 700px;
         }
         .container6 .list-ul{
             margin-top: -45px;
@@ -4724,19 +4747,18 @@ span h1{
         .container6 {
             height: 710px;
         }
-        
     }
     @media(max-width:400px){
-        .container5{
-            height: 1935px;
+        .move-v{
+            margin-top: 15px;
+        }
+        .move-v1{
+            margin-top: 37px;
         }
     }
     @media(max-width:390px){
         .ban-pro{
             height: 780px;
-        }
-        .blu-button-1{
-            margin-top: 8px;
         }
         .container3-5 iframe{
             left: -15px;

@@ -4333,6 +4333,9 @@ span h1{
         header{
             margin-top: 0px;
         }
+        .mod1{
+            height: 50px;
+        }
         .container2{
             margin-left: -5px;
         }
@@ -4643,8 +4646,8 @@ span h1{
             height: 300px;
             left: -5px;
         }
-        .container3-5 .sec3-5 .oc-resp{
-            left: 30px;
+        .tit-oc{
+            top: 23px;
         }
         .container3-5 .oc-resp .but-gamer{
             margin-top: 20px;
@@ -4682,9 +4685,6 @@ span h1{
         .container4 .sec4{
             width: 360px;
         }
-        .container3{
-            height: 950px;
-        }
         .sec3{
             height: 825px;
         }
@@ -4707,9 +4707,6 @@ span h1{
             width: 190px;
             margin-left: -36px; 
         }
-        .container3-5 .sec3-5 .oc-resp{
-            left: 55px;
-        }
         .container4 .sec4 .ban-ocu1{
             margin-left: 25px;
             width: 200px;
@@ -4729,6 +4726,9 @@ span h1{
         .img2{
             width: 80%;
             margin-left: 35px;        
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 45px;
         }
         .container6 .list-ul{
             margin-top: -45px;
@@ -4755,6 +4755,9 @@ span h1{
         .move-v1{
             margin-top: 37px;
         }
+        .container3-5 .oc-resp .but-gamer{
+            margin-top: 20px;
+        }
     }
     @media(max-width:390px){
         .ban-pro{
@@ -4769,23 +4772,57 @@ span h1{
     }
     @media(max-width:390px){
         .container2{
-            height: 875px;
+            height: 2460px;
         }
         .sec2{
             width: 350px;
             height: 760px;
         }
+        .models-area{
+            margin-top: 10px;
+        }
         .container2 .art2 .sec2 ul li{
             width: 185px;
         }
-        .blu-button{
-            margin-top: 15px;
+        .arti1{
+            height: 2300px;
+        }
+        .tit-bot{
+            top: -3px;
+        }
+        .blu-button1{
+            margin-top: -42px;
         }
         .sec3{
             width: 350px;
         }
         .container4 .sec4{
             width: 350px;
+        }
+        .arti1{
+            width: 345px;
+        }
+        .art1-5{
+            width: 345px;
+        }
+        .art2-0{
+            width: 345px;
+        }
+        .art2{
+            width: 345px;
+        }
+        .models-item--img{
+            width: 270px;
+            height: 270px;
+        }
+        .models-item--price{
+            font-size: 20px;
+        }
+        .models-item--name{
+            font-size: 21px;
+        }
+        .models-item--desc{
+            font-size: 19px;
         }
     }
     @media(max-width:382px){

@@ -3494,7 +3494,6 @@ span h1{
         .art2{
             width: 700px;
         }
-
     }
     @media(max-width:750px){
         .container3-5 .sec3-5 .oc-resp{
@@ -3503,7 +3502,12 @@ span h1{
         .container3-5 iframe{
             left: -735px;
         }
-       
+        .move-v{
+            margin-top: -23px;
+        }
+        .move-v1{
+            margin-top: 10px;
+        }
     }
     @media(max-width:750px){
         .container1{
@@ -4758,8 +4762,58 @@ span h1{
         .container3-5 .oc-resp .but-gamer{
             margin-top: 20px;
         }
+        .container3-5 .sec3-5 .oc-resp{
+            left: 40px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -45px;
+        }
+    }
+    @media(max-width:395px){
+        .container3-5 .oc-resp .but-gamer{
+            left: 42px;
+        }
     }
     @media(max-width:390px){
+        .container2{
+            height: 2430px;
+        }
+        .arti1{
+          height: 2265px;  
+        }
+        .container3{
+            height: 2480px;
+        }
+        .art1-5{
+            height: 2305px;   
+        }
+        .container3-5 .oc-resp .h1-gamer{
+            width: 250px;
+            margin-top: 0px;
+        }
+        .container3-5 .sec3-5 .oc-resp{
+            left: -65px;
+        }
+        .container3-5 .oc-resp .but-gamer{
+            left: -70px;
+            margin-top: 23px;
+        }
+        .container4{
+            height: 2485px;
+        }
+        .art2-0{
+            height: 2305px;
+        }
+        .container5{
+            height: 4306px;
+        }
+        .art2{
+            height: 4132px;
+        }
+        footer img{
+            width: 30%;
+            margin-top: 3px;
+        }
         .ban-pro{
             height: 780px;
         }
@@ -4777,9 +4831,6 @@ span h1{
         .sec2{
             width: 350px;
             height: 760px;
-        }
-        .models-area{
-            margin-top: 10px;
         }
         .container2 .art2 .sec2 ul li{
             width: 185px;
@@ -4838,39 +4889,26 @@ span h1{
         .list-ul h1{
             font-size: 1.6rem;
         }
-        .container6{
-            height: 758px;
-        }
     }
     @media(max-width:375px){
-        .container2{
-            height: 880px;
+        .arti1{
+            width: 335px;
         }
-        .sec2{
-            margin-left: -10px;
+        .art1-5{
+            width: 335px;
         }
-        .sec3{
-            margin-left: -10px;
+        .art2-0{
+            width: 335px;
         }
-        .container3-5 iframe{
-            width: 300px;
-            height: 300px;
-            top: 175px;
-            left: -2px;
+        .art2{
+            width: 335px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: 35px;
+            left: 45px;
         }
         .container3-5 .oc-resp .but-gamer{
-            left: -37px;
+            margin-top: 8px;
+            left: -60px;
         }
-        .container4{
-            height: 1075px;
-        }
-        .container4 .sec4{
-            height: 955px;
-        }
-        .container5{
-            height: 1910px;
-        }
+
 }

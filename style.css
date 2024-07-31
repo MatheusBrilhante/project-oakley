@@ -4769,11 +4769,6 @@ span h1{
             left: -45px;
         }
     }
-    @media(max-width:395px){
-        .container3-5 .oc-resp .but-gamer{
-            left: 42px;
-        }
-    }
     @media(max-width:390px){
         .container2{
             height: 2430px;
@@ -4792,11 +4787,11 @@ span h1{
             margin-top: 0px;
         }
         .container3-5 .sec3-5 .oc-resp{
-            left: -65px;
+            left: 50px;
         }
         .container3-5 .oc-resp .but-gamer{
             left: -70px;
-            margin-top: 23px;
+            margin-top: 10px;
         }
         .container4{
             height: 2485px;
@@ -4819,9 +4814,6 @@ span h1{
         }
         .container3-5 iframe{
             left: -15px;
-        }
-        .container3-5 .oc-resp .but-gamer{
-            left: -45px;
         }
     }
     @media(max-width:390px){
@@ -4891,6 +4883,16 @@ span h1{
         }
     }
     @media(max-width:375px){
+        .container1 .mod1{
+            margin-top: -12px;
+        }
+        .navban{
+            width: 330px;
+            height: 50px;
+        } 
+        main .container1 .sect1 .secban{
+            margin-left: 8px;
+        }
         .arti1{
             width: 335px;
         }
@@ -4910,5 +4912,4 @@ span h1{
             margin-top: 8px;
             left: -60px;
         }
-
 }

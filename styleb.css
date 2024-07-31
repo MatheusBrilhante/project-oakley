@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+@media(max-width:1400px){
+    main{
+        height: 285vh;
+    }
+    main .art{
+        gap: 30px;
+    }
+    main .art div{
+        padding: 10px;
+    }
+    footer{
+        margin-top: -220px;
+    }
+    header h1{
+        width: 165px;
+    }
+    main .art div button{
+        width: 125px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .but6 button{
+        cursor: pointer;
+    }
+}
+
+@media(max-width:1140px){
+    footer{
+        margin-top: 205px;
+    }
+}
+
+@media(max-width:1065px){
+    main .art{
+        gap: 0px;
+    }
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -20,7 +59,6 @@
     border-radius: 10px;
 }
 html{
-    
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden;
@@ -42,7 +80,6 @@ header h1{
     text-align:center;
     background-color: #f0f8ff;
     font-size: 5rem;
-    width: 100%;
     border-radius: 10px;
     justify-content: center;
     align-items: stretch;
@@ -50,7 +87,6 @@ header h1{
 }
 main{
     width: 100vw;
-    height: 275vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +103,6 @@ main .art{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
     align-items: flex-end;
     justify-content: center;
     margin: auto;
@@ -97,8 +132,6 @@ main .art div button{
     color: black;
     background-color: #f0f8ff;
     text-decoration: underline red;
-    width: 30%;
-    font-size: 2rem;
     border-radius: 10px;
     margin-top: 2rem;
 }
@@ -120,9 +153,8 @@ main .art div button{
     border-radius: 10px;
 }
 footer{
-    margin: auto;
     text-align: center;
-    margin-top: -271px;
+    
 }
 footer img{
     z-index: 1;

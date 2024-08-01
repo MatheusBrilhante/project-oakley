@@ -2,14 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 @media(max-width:1400px){
+    main .art{
+        grid-template-columns: repeat(3, 1fr);
+    }
     main{
         height: 285vh;
     }
     main .art{
         gap: 30px;
     }
+    main .art div h1{
+        font-size: 2rem;
+    }
     main .art div{
         padding: 10px;
+        margin: auto;
     }
     footer{
         margin-top: -220px;
@@ -25,17 +32,122 @@
     .but6 button{
         cursor: pointer;
     }
-}
 
-@media(max-width:1140px){
-    footer{
-        margin-top: 205px;
-    }
 }
 
 @media(max-width:1065px){
     main .art{
         gap: 0px;
+    }
+}
+
+@media(max-width:1000px){
+    main{
+        height: 255vh;
+    }
+    main .art div img{
+        width: 270px;
+        height: 270px;
+    }
+    footer{
+        margin-top: -185px;
+    }
+}
+
+@media(max-width:900px){
+    main{
+        height: 230vh;
+    }
+    main .art div img{
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media(max-width:780px){
+    main{
+        height: 220vh;
+    }
+    main .art div img{
+        width: 210px;
+        height: 210px;
+    }
+    footer{
+        margin-top: -160px;
+    }
+}
+
+@media(max-width:720px){
+    main{
+        height: 215vh;
+    }
+    main .art div h1{
+        font-size: 1.6rem;
+    }
+    main .art div img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width:700px){
+    main{
+        height: 210vh;
+    }
+    main .art div img{
+        width: 190px;
+        height: 190px;
+    }
+}
+
+@media(max-width:650px){
+    main{
+        height: 380vh;
+    }
+    main .art{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main .art div h1{
+        font-size: 2rem;
+    }
+    main .art div img{
+        width: 275px;
+        height: 275px;
+    }
+    main .art div{
+        margin-left: 18px;
+    }
+}
+
+@media(max-width:620px){
+    main{
+        height: 360vh;
+    }
+    main .art div{
+        margin-left: 28px;
+    }
+    main .art div img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width:590px){
+    main{
+        height: 333vh;
+    }
+    main .art div{
+        margin-left: 35px;
+    }
+    main .art div img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media(max-width:570px){    
+    main .art div{
+        margin-left: 28px;
     }
 }
 
@@ -102,14 +214,12 @@ main{
 main .art{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     align-items: flex-end;
     justify-content: center;
     margin: auto;
     margin-top: 13rem;
 }
 main .art div{
-    margin: auto;
     text-align: center;
     display: grid;
     align-items: center;
@@ -121,7 +231,6 @@ main .art div img{
 main .art div h1{
     color: #ffff;
     text-align: center;
-    font-size: 2rem;
     margin-bottom: 1rem;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;

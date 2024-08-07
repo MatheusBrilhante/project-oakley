@@ -31,6 +31,10 @@
     }
     .but6 button{
         cursor: pointer;
+        width: 15%;
+    }
+    footer img{
+        width: 35%;
     }
 
 }
@@ -143,13 +147,47 @@
         width: 220px;
         height: 220px;
     }
+    footer img{
+        width: 50%;
+    }
 }
 
 @media(max-width:570px){    
     main .art div{
         margin-left: 28px;
     }
+    .but6 button{
+        width: 100px;
+    }
 }
+
+@media(max-width:560px){
+    main{
+        height: 750vh;
+    }
+    main .art{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .art div{
+        margin: auto;
+    }
+    main .art div img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media(max-width:380px){
+    main{
+        height: 680vh;
+    }
+    main .art div img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+
 
 
 *{
@@ -257,7 +295,6 @@ main .art div button{
     background-color: #f0f8ff;
     margin: auto;
     text-align: center;
-    width: 15%;
     text-decoration: underline red;
     border-radius: 10px;
 }
@@ -269,7 +306,6 @@ footer img{
     z-index: 1;
     margin: auto;
     text-align: center;
-    width: 35%;
     position: relative;
     top: -40px;
 }

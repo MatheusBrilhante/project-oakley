@@ -15,7 +15,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     main{
-        height: 290vh;
+        height: 280vh;
     }
     main .art{
         gap: 30px;
@@ -38,7 +38,7 @@
         font-size: 25px;
         cursor: pointer;
     }
-    .but5 button{
+    .but6 button{
         cursor: pointer;
         width: 15%;
     }
@@ -58,11 +58,18 @@
     main{
         height: 273vh;
     }
+    footer{
+        margin-top: -185px;
+    }
+
 }
 
 @media(max-width:1065px){
     main .art{
         gap: 0px;
+    }
+    footer{
+        margin-top: -205px;
     }
 }
 
@@ -104,40 +111,24 @@
 
 @media(max-width:720px){
     main{
-        height: 215vh;
-    }
-    main .art div h1{
-        font-size: 1.6rem;
-    }
-    main .art div img{
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@media(max-width:700px){
-    main{
-        height: 210vh;
-    }
-    main .art div img{
-        width: 190px;
-        height: 190px;
-    }
-}
-
-@media(max-width:650px){
-    main{
-        height: 380vh;
+        height: 375vh;
     }
     main .art{
         grid-template-columns: repeat(2, 1fr);
     }
-    main .art div h1{
-        font-size: 2rem;
-    }
     main .art div img{
         width: 275px;
         height: 275px;
+    }
+    main .art div h1{
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:650px){
+    main .art div h1{
+        font-size: 2rem;
     }
     main .art div{
         margin-left: 18px;
@@ -184,7 +175,7 @@
 
 @media(max-width:560px){
     main{
-        height: 750vh;
+        height: 730vh;
     }
     main .art{
         grid-template-columns: repeat(1, 1fr);
@@ -198,15 +189,24 @@
     }
 }
 
+@media(max-width:550px){
+    .but6 button{
+        width: 100px;
+    }
+}
+
 @media(max-width:380px){
     main{
-        height: 680vh;
+        height: 655vh;
     }
     main .art div img{
         width: 300px;
         height: 300px;
     }
-    
+    footer img{
+        width: 60%;
+    }
+
 }
 
 ::-webkit-scrollbar{
@@ -315,14 +315,11 @@ main .art div button{
     background-color: #f0f8ff;
     margin: auto;
     text-align: center;
-    width: 15%;
     text-decoration: underline red;
     border-radius: 10px;
 }
 footer{
-    margin: auto;
     text-align: center;
-    margin-top: -271px;
 }
 footer img{
     z-index: 1;

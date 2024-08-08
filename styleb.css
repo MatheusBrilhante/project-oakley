@@ -36,7 +36,10 @@
     footer img{
         width: 35%;
     }
-
+    a{
+        margin: auto;
+        width: 100px;
+    }
 }
 
 @media(max-width:1065px){
@@ -187,8 +190,6 @@
     }
     
 }
-
-
 
 *{
     margin: 0px;

@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+@media(max-width:1400px){
+    main{
+        height: 390vh;
+    }
+    main .art{
+        gap: 85px;
+        margin-top: -10rem;
+    }
+    main .art div img{
+        width: 320px;
+        height: 320px;
+    }
+    main .art div button{
+        font-size: 3rem;
+    }
+    .but6 button{
+        width: 120px;
+    }
+@media(max-width:1250px){
+    main .art{
+        margin-top: -35rem;
+    }
+    main .art div img{
+        width: 285px;
+        height: 285px;
+        
+        }
+    }
+    @media(max-width:1250px){
+        main .art div img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+}
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -50,7 +89,6 @@ header h1{
 }
 main{
     width: 100vw;
-    height: 370vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,16 +105,14 @@ main .art{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
     align-items: flex-end;
     justify-content: center;
-    margin-top: -25rem;
 }
 main .art div{
     text-align: center;
     display: grid;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
 }
 main .art div img{
     border: 1px solid black;
@@ -96,10 +132,10 @@ main .art div button{
     color: black;
     background-color: #f0f8ff;
     text-decoration: underline red;
-    width: 30%;
-    font-size: 2rem;
+    width: 130px;
     border-radius: 10px;
     margin-top: 2rem;
+    cursor: pointer;
 }
 .but6{
     display: flex;

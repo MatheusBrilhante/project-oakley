@@ -15,7 +15,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     main{
-        height: 280vh;
+        height: 265vh;
     }
     main .art{
         gap: 30px;
@@ -56,7 +56,7 @@
 
 @media(max-width:1085px){
     main{
-        height: 273vh;
+        height: 258vh;
     }
     footer{
         margin-top: -185px;
@@ -75,7 +75,7 @@
 
 @media(max-width:1000px){
     main{
-        height: 255vh;
+        height: 230vh;
     }
     main .art div img{
         width: 270px;
@@ -88,7 +88,7 @@
 
 @media(max-width:900px){
     main{
-        height: 230vh;
+        height: 215vh;
     }
     main .art div img{
         width: 230px;
@@ -98,7 +98,7 @@
 
 @media(max-width:780px){
     main{
-        height: 220vh;
+        height: 200vh;
     }
     main .art div img{
         width: 210px;
@@ -111,7 +111,7 @@
 
 @media(max-width:720px){
     main{
-        height: 375vh;
+        height: 345vh;
     }
     main .art{
         grid-template-columns: repeat(2, 1fr);
@@ -137,7 +137,7 @@
 
 @media(max-width:620px){
     main{
-        height: 360vh;
+        height: 330vh;
     }
     main .art div{
         margin-left: 28px;
@@ -150,7 +150,7 @@
 
 @media(max-width:590px){
     main{
-        height: 333vh;
+        height: 305vh;
     }
     main .art div{
         margin-left: 35px;
@@ -175,7 +175,7 @@
 
 @media(max-width:560px){
     main{
-        height: 730vh;
+        height: 690vh;
     }
     main .art{
         grid-template-columns: repeat(1, 1fr);
@@ -197,7 +197,7 @@
 
 @media(max-width:380px){
     main{
-        height: 655vh;
+        height: 620vh;
     }
     main .art div img{
         width: 300px;

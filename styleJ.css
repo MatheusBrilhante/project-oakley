@@ -9,6 +9,10 @@
         gap: 85px;
         margin-top: -10rem;
     }
+    header h1{
+        font-size: 4rem;
+        width: 20%;
+    }
     main .art div img{
         width: 320px;
         height: 320px;
@@ -35,6 +39,62 @@
             height: 250px;
         }
     }
+    @media(max-width:1025px){
+        main .art{
+            gap: 10px;
+            margin-top: -65rem;
+        }
+    }
+    @media(max-width:880px){
+        header h1{
+            font-size: 3rem;
+            width: 150px;
+            margin: auto;
+        }
+        main .art div img{
+            width: 200px;
+            height: 200px;
+        }
+        main .art{
+            margin-top: -90rem;
+        }
+        main .art div{
+            text-align: center;
+            display: grid;
+            align-items: center;
+            margin: 20px;
+            justify-content: center;
+            justify-items: center;
+        }
+        main .art div h1{
+            width: 200px; 
+            color: #ffff;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 1rem;
+            /* border: 3px solid rgb(0, 0, 0); */
+            border-radius: 10px;
+            text-decoration: underline black;
+        }
+    }
+    @media(max-width:730px){    
+        main .art{
+            gap: 0px;
+            margin-top: -110rem;
+        }
+        main .art div img{
+            width: 175px;
+            height: 175px;
+        }
+        main .art div{
+            margin: 10px;
+        }
+    }
+    @media(max-width:880px){
+
+    }
+    
+
 
 }
 
@@ -80,8 +140,6 @@ header h1{
     text-decoration: underline rgb(253, 0, 0);
     text-align:center;
     background-color: #f0f8ff;
-    font-size: 4rem;
-    width: 20%;
     border-radius: 10px;
     justify-content: center;
     align-items: stretch;
@@ -123,7 +181,6 @@ main .art div h1{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
-    border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
 main .art div button{

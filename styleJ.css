@@ -5,13 +5,19 @@
     main{
         height: 390vh;
     }
+    header div{
+        margin: auto;
+    }
     main .art{
         gap: 85px;
         margin-top: -10rem;
     }
     header h1{
         font-size: 4rem;
-        width: 20%;
+        width: 185px;
+    }
+    main .art div h1{
+        text-decoration: underline black;
     }
     main .art div img{
         width: 320px;
@@ -23,29 +29,46 @@
     .but6 button{
         width: 120px;
     }
+    footer{
+        margin-top: -230px;
+    }
 @media(max-width:1250px){
+        main{
+            height: 375vh;
+        }
+        main .art{
+            margin-top: -10rem;
+        }
+        main .art div img{
+            width: 300px;
+            height: 300px;
+        }
+        footer{
+            margin-top: -205px;
+        }
+        .but6 button{
+            width: 120px;
+        }
+    }
+@media(max-width:1185px){
+    main{
+        height: 345vh;
+    }
     main .art{
-        margin-top: -35rem;
+        margin-top: -10rem;
     }
     main .art div img{
-        width: 285px;
-        height: 285px;
-        
-        }
+        width: 275px;
+        height: 275px;
     }
-    @media(max-width:1250px){
-        main .art div img{
-            width: 250px;
-            height: 250px;
-        }
+}
+@media(max-width:1025px){
+    main .art{
+        gap: 10px;
+        margin-top: -65rem;
     }
-    @media(max-width:1025px){
-        main .art{
-            gap: 10px;
-            margin-top: -65rem;
-        }
-    }
-    @media(max-width:880px){
+}
+@media(max-width:880px){
         header h1{
             font-size: 3rem;
             width: 150px;
@@ -77,7 +100,7 @@
             text-decoration: underline black;
         }
     }
-    @media(max-width:730px){    
+@media(max-width:730px){    
         main .art{
             gap: 0px;
             margin-top: -110rem;
@@ -90,15 +113,11 @@
             margin: 10px;
         }
     }
-    @media(max-width:880px){
-
+@media(max-width:880px){
+        
     }
-    
-
 
 }
-
-
 
 *{
     margin: 0px;
@@ -143,7 +162,6 @@ header h1{
     border-radius: 10px;
     justify-content: center;
     align-items: stretch;
-    margin: auto;
 }
 main{
     width: 100vw;
@@ -207,15 +225,12 @@ main .art div button{
     background-color: #f0f8ff;
     margin: auto;
     text-align: center;
-    width: 100%;
     text-decoration: underline red;
     border-radius: 10px;
     cursor: pointer;
 }
 footer{
-    margin: auto;
     text-align: center;
-    margin-top: -250px;
     color: black;
 }
 footer img{

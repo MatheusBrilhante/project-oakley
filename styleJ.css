@@ -3,18 +3,18 @@
 
 @media(max-width:1400px){
     main{
-        height: 390vh;
+        height: 425vh;
     }
     main .art div h1{
         font-size: 2rem;
-        }
+    }
     header div{
         margin: auto;
     }
     main .art{
         gap: 85px;
-        margin-top: -10rem;
         grid-template-columns: repeat(3, 1fr);
+        margin-top: -180px;
     }
     header h1{
         font-size: 4rem;
@@ -29,16 +29,19 @@
     }
     main .art div button{
         font-size: 3rem;
+        width: 130px;
     }
     .but6 button{
         width: 120px;
+        font-size: 3rem;
     }
     footer{
         margin-top: -230px;
     }
+}
 @media(max-width:1250px){
         main{
-            height: 375vh;
+            height: 400vh;
         }
         main .art{
             margin-top: -10rem;
@@ -56,7 +59,7 @@
     }
 @media(max-width:1185px){
     main{
-        height: 360vh;
+        height: 375vh;
     }
     main .art{
         margin-top: -10rem;
@@ -71,15 +74,15 @@
 }
 @media(max-width:1150px){
     main{
-        height: 360vh;
+        height: 385vh;
     }
     main .art{
-        margin-top: -5rem;
+        margin-top: -10rem;
     }
 }
 @media(max-width:1100px){
     main{
-        height: 350vh;
+        height: 360vh;
     }
     main .art{
         margin-top: -10rem;
@@ -91,7 +94,7 @@
 }
 @media(max-width:1025px){
     main{
-        height: 325vh;
+        height: 335vh;
     }
     main .art{
         gap: 25px;
@@ -100,7 +103,7 @@
 }
 @media(max-width:910px){
     main{
-        height: 310vh;
+        height: 320vh;
     }
     main .art div img{
         width: 225px;
@@ -132,11 +135,14 @@
             width: 200px; 
             color: #ffff;
             text-align: center;
-            font-size: 20px;
+            font-size: 1.8rem;
             margin-bottom: 1rem;
             /* border: 3px solid rgb(0, 0, 0); */
             border-radius: 10px;
             text-decoration: underline black;
+        }
+        main .art div button{
+            font-size: 2rem;
         }
     }
 @media(max-width:760px){
@@ -168,10 +174,13 @@
         main .art div{
             margin: 10px;
         }
+        footer{
+            margin-top: -170px;
+        }
 }
 @media(max-width:680px){
     main{
-        height: 425vh;
+        height: 465vh;
         }
     main .art{
         grid-template-columns: repeat(2, 1fr);
@@ -193,7 +202,7 @@
     }
 @media(max-width:580px){
     main{
-        height: 410vh;
+        height: 435vh;
         }
     main .art{
             gap: 10px;
@@ -201,7 +210,7 @@
     }
 @media(max-width:530px){
     main{
-        height: 390vh;
+        height: 410vh;
         }
     main .art{
         gap: 10px;
@@ -212,54 +221,56 @@
         }
     }
 @media(max-width:480px){
-        header h1{
-            font-size: 2.5rem;
-            width: 180px;
-            margin: auto;
+    header h1{
+        font-size: 2.5rem;
+        width: 180px;
+        margin: auto;
+    }
+    main{
+        height: 310vh;
+    }
+    main .art{
+        gap: 0px;
+    }
+    main .art div h1{
+        font-size: 1.8rem;
+    }
+    main .art div button{
+        font-size: 2rem;
+    }
+    footer{
+        margin-top: -155px;
+    }
+@media(max-width:480px){
+    main{
+        height: 300vh;
+    }
+    main .art div img{
+        width: 150px;
+        height: 150px;
+    }
+    main .art div h1{
+        font-size: 1.5rem;
+    }  
+}
+@media(max-width:425px){
+    main{
+        height: 315vh;
+    }
+    main .art div h1{
+        font-size: 1.3rem;
+        width: 100px;
+    }
+    main .art div button{
+        font-size: 1.5rem;
+        width: 105px;
         }
-        main{
-            height: 335vh;
+    .but6 button{
+        font-size: 2rem;
         }
-        main .art{
-            gap: 0px;
+    footer{
+        margin-top: -130px;
         }
-        main .art div h1{
-            font-size: 1.8rem;
-        }
-        main .art div button{
-            font-size: 2rem;
-        }
-        main .art div img{
-            width: 180px;
-            height: 180px;
-        }
-        footer{
-            margin-top: -155px;
-        }
-        @media(max-width:480px){
-            main{
-                height: 290vh;
-            }
-            main .art div img{
-                width: 150px;
-                height: 150px;
-            }
-            main .art div h1{
-                font-size: 1.5rem;
-            }  
-        }
-        @media(max-width:425px){
-            main{
-                height: 270vh;
-            }
-            main .art div h1{
-                font-size: 1.3rem;
-            }
-            main .art div button{
-                font-size: 1.5rem;
-            }
-        }
-
     }
 }
 
@@ -340,7 +351,6 @@ main .art div img{
 main .art div h1{
     color: #ffff;
     text-align: center;
-    font-size: 2rem;
     margin-bottom: 1rem;
     border-radius: 10px;
 }
@@ -350,7 +360,6 @@ main .art div button{
     color: black;
     background-color: #f0f8ff;
     text-decoration: underline red;
-    width: 130px;
     border-radius: 10px;
     margin-top: 2rem;
     cursor: pointer;
@@ -363,7 +372,6 @@ main .art div button{
     margin-top: 1rem;
 }
 .but6 button{
-    font-size: 3rem;
     color: black;
     background-color: #f0f8ff;
     margin: auto;

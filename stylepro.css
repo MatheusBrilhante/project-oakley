@@ -1,6 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+@media(max-width:1400px){
+    header div{
+        margin-top: 35px;
+    }
+    header h1{
+        font-size: 4rem;
+        width: 400px;
+    }
+    main .art div h1{
+        font-size: 2rem;
+        width: 250px;
+        margin: auto;
+    }
+    main{
+        height: 360vh;
+    }
+    main .art{
+        margin-top: -10rem;
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    main .art div button{
+        width: 150px;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    .but6 button{
+        font-size: 3rem;
+        width: 150px;
+        margin: auto;
+        cursor: pointer;
+    }
+    footer{
+        margin-top: -215px;
+    }
+    footer img{
+        width: 35%;
+    }
+}
+@media(max-width:1050px){
+    main{
+        height: 345vh;
+    }
+    main .art div img{
+        width: 280px;
+        height: 280px;
+    }
+}
+@media(max-width:970px){
+    main{
+        height: 525vh;
+    }
+    main .art{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -8rem;
+    }
+    main .art div button{
+        font-size: 2.5rem;
+    }
+    main .art div img{
+        width: 330px;
+        height: 330px;
+    }
+    footer{
+        margin-top: -200px;
+    }
+}
+@media(max-width:775px){
+    main .art{
+        gap: 15px;
+    }
+
+}
+@media(max-width:740px){
+    main{
+        height: 470vh;
+    }
+    main .art div img{
+        width: 300px;
+        height: 300px;
+    }
+    footer{
+        margin-top: -170px;
+    }
+
+}
+@media(max-width:665px){
+    main{
+        height: 1090vh;
+    }
+    main .art{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .art div h1{
+        font-size: 2.5rem;
+    }
+    main .art div img{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(max-width:490px){
+    header h1{
+        font-size: 3rem;
+        width: 360px;
+    }
+    main{
+        height: 985vh;
+    }
+    main .art div img{
+        width: 350px;
+        height: 350px;
+    }
+    footer img{
+        width: 50%;
+    }
+}
+@media(max-width:380px){
+    main .art div img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -33,14 +157,11 @@ header{
     justify-content: center;
     align-items: stretch;
 }
-
 header h1{
     color: black;
     text-decoration: underline rgb(253, 0, 0);
     text-align:center;
     background-color: #f0f8ff;
-    font-size: 5rem;
-    width: 40%;
     height: auto;
     border-radius: 10px;
     justify-content: center;
@@ -49,7 +170,6 @@ header h1{
 }
 main{
     width: 100vw;
-    height: 343vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,12 +185,8 @@ main{
 main .art{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
     align-items: flex-end;
     justify-content: center;
-    margin: auto;
-    margin-top: 15rem;
 }
 main .art div{
     margin: auto;
@@ -85,7 +201,6 @@ main .art div img{
 main .art div h1{
     color: #ffff;
     text-align: center;
-    font-size: 2rem;
     margin-bottom: 1rem;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
@@ -96,8 +211,6 @@ main .art div button{
     color: black;
     background-color: #f0f8ff;
     text-decoration: underline red;
-    width: 30%;
-    font-size: 2rem;
     border-radius: 10px;
     margin-top: 2rem;
 }
@@ -109,13 +222,9 @@ main .art div button{
     margin-top: 1rem;
 }
 .but6 button{
-    font-size: 3rem;
     color: black;
     background-color: #f0f8ff;
-    margin: auto;
     text-align: center;
-    width: auto;
-    height: auto;
     text-decoration: underline red;
     border-radius: 10px;
     cursor: pointer;
@@ -126,15 +235,12 @@ main .art div button{
     cursor: pointer;
 }
 footer{
-    margin: auto;
     text-align: center;
-    margin-top: -271px;
 }
 footer img{
     z-index: 1;
     margin: auto;
     text-align: center;
-    width: 35%;
     position: relative;
     top: -40px;
 }

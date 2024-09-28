@@ -25,7 +25,7 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[15 + parseInt(key)].description;
         document.querySelector('.modelsInfo--actualPrice').innerHTML = `R$ ${modelsJson[15 + parseInt(key)].price[0].toFixed(2)}`;
         c('.modelsInfo--qt').innerHTML = modalQt;
-        modalQt = 0;
+        modalQt = 1;
         c('.modelsInfo--size.selected').classList.remove('selected');
         cs('.modelsInfo--size').forEach((size, sizeIndex)=>{
             if(sizeIndex == 0){
@@ -34,6 +34,12 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
             }
             size.querySelector('span').innerHTML = modelsJson[15 + parseInt(key)].sizes[sizeIndex];
         });
+        c('.modelsInfo--qt').innerHTML = modalQt;
+        c('.modelsWindowArea').style.opacity = 0;
+        c('.modelsWindowArea').style.display = 'flex';
+        setTimeout(()=>{
+            c('.modelsWindowArea').style.opacity = 1;
+        },200);
     });
     document.querySelector('.models-area2').append(modelsItem3);
 });
@@ -55,7 +61,7 @@ modelsJson.slice(10,15).forEach((item, index) => {
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
         key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
-        modalQt = 0;
+        modalQt = 1;
         document.querySelector('.modelsBig img').src = modelsJson[10 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[10 + parseInt(key)].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[10 + parseInt(key)].description;
@@ -68,6 +74,12 @@ modelsJson.slice(10,15).forEach((item, index) => {
             }
             size.querySelector('span').innerHTML = modelsJson[10 + parseInt(key)].sizes[sizeIndex];
         });
+        c('.modelsInfo--qt').innerHTML = modalQt;
+        c('.modelsWindowArea').style.opacity = 0;
+        c('.modelsWindowArea').style.display = 'flex';
+        setTimeout(()=>{
+            c('.modelsWindowArea').style.opacity = 1;
+        },200);
     });
     document.querySelector('.models-area1-5').append(modelsItem2);
 });
@@ -89,7 +101,7 @@ modelsJson.slice(5,10).forEach((item, index) => {
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
         key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
-        modalQt = 0;
+        modalQt = 1;
         document.querySelector('.modelsBig img').src = modelsJson[5 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[5 + parseInt(key)].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[5 + parseInt(key)].description;
@@ -102,6 +114,12 @@ modelsJson.slice(5,10).forEach((item, index) => {
             }
             size.querySelector('span').innerHTML = modelsJson[5 + parseInt(key)].sizes[sizeIndex];
         });
+        c('.modelsInfo--qt').innerHTML = modalQt;
+        c('.modelsWindowArea').style.opacity = 0;
+        c('.modelsWindowArea').style.display = 'flex';
+        setTimeout(()=>{
+            c('.modelsWindowArea').style.opacity = 1;
+        },200);
     });
     
     document.querySelector('.models-area1').append(modelsItem1);
@@ -125,7 +143,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         //e ira adicionar o data key
         c('.modelsInfo--qt').innerHTML = modalQt;
         key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
-        modalQt = 0;
+        modalQt = 1;
         //IRA PUXAR A IMAGEM QUE FOI CLICADA PELO MODELSJSON DE 0 A 5 COM VARIAVEL KEY
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
         document.querySelector('.modelsInfo H1').innerHTML = modelsJson[key].name;
@@ -139,6 +157,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
             }
             size.querySelector('span').innerHTML = modelsJson[key].sizes[sizeIndex];
         });
+        c('.modelsInfo--qt').innerHTML = modalQt;
         c('.modelsWindowArea').style.opacity = 0;
         c('.modelsWindowArea').style.display = 'flex';
         setTimeout(()=>{

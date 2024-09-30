@@ -230,15 +230,9 @@ c('.modelsInfo--addButton').addEventListener('click',(e)=>{
 //CASO DENTRO DO CARRINHO TENHA ALGUM ITEM SERA ACIONADO O ASIDE
 //E A CLASSLIST SHOW 
 function updateCart() {
-    console.log('Update Cart Function Called');
-    console.log('Cart Length:', cart.length);
-
     if (cart.length > 0) {
-        console.log('Adding Show Class');
-        c('aside').style.display = 'flex';
         c('aside').classList.add('show');
     } else {
-        console.log('Removing Show Class');
         c('aside').classList.remove('show');
     }
 }

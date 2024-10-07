@@ -1,6 +1,7 @@
 let cart = [];
 let key = 0;
 let modalQt = 0; 
+
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
@@ -229,9 +230,19 @@ c('.modelsInfo--addButton').addEventListener('click',(e)=>{
 
 //CASO DENTRO DO CARRINHO TENHA ALGUM ITEM SERA ACIONADO O ASIDE
 //E A CLASSLIST SHOW 
+
 function updateCart() {
     if (cart.length > 0) {
         c('aside').classList.add('show');
+        c('.cart').innerHTML = ''; 
+        cart.map((itemCart , index) =>{
+            let modelItem = modelsJson.find((itemBD)=> itemBD.id == itemCart.id);
+            let cartItem = c('.models .cart--item').cloneNode(true);
+            cartItem.querySelector('img').src = modelItem.img;
+            cartItem.querySelector('.cart--item-nome').innerHTML = modelItem.name;
+
+            c('.cart').append(cartItem);
+        });
     } else {
         c('aside').classList.remove('show');
     }

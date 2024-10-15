@@ -7,7 +7,8 @@ const cs = (el) => document.querySelectorAll(el);
 
 modelsJson.slice(15,24).forEach((item ,index) =>{
     let modelsItem3 = document.querySelector('.models .models-item').cloneNode(true);
-    modelsItem3.setAttribute('data-key',index);
+    let realIndex = 15 + index;
+    modelsItem3.setAttribute('data-key',realIndex);
     modelsItem3.querySelector('.models-item img').src = item.img;
     modelsItem3.querySelector('.models-item--name').innerHTML = item.name;
     modelsItem3.querySelector('.models-item--desc').innerHTML = item.description;
@@ -20,7 +21,7 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
         setTimeout(()=>{
             c('.modelsWindowArea').style.opacity = 1;
         },200);
-        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
+        key = realIndex;
         document.querySelector('.modelsBig img').src = modelsJson[15 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[15 + parseInt(key)].name;
         document.querySelector('.modelsInfo--desc').innerHTML = modelsJson[15 + parseInt(key)].description;
@@ -47,7 +48,8 @@ modelsJson.slice(15,24).forEach((item ,index) =>{
 
 modelsJson.slice(10,15).forEach((item, index) => {
     let modelsItem2 = document.querySelector('.models .models-item').cloneNode(true);
-    modelsItem2.setAttribute('data-key',index);
+    let realIndex = 10 + index;
+    modelsItem2.setAttribute('data-key',realIndex);
     modelsItem2.querySelector('.models-item--img img').src = item.img;
     modelsItem2.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`;
     modelsItem2.querySelector('.models-item--name').innerHTML = item.name;
@@ -61,7 +63,7 @@ modelsJson.slice(10,15).forEach((item, index) => {
             c('.modelsWindowArea').style.opacity = 1;
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
-        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
+        key = realIndex;
         modalQt = 1;
         document.querySelector('.modelsBig img').src = modelsJson[10 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[10 + parseInt(key)].name;
@@ -87,7 +89,8 @@ modelsJson.slice(10,15).forEach((item, index) => {
 
 modelsJson.slice(5,10).forEach((item, index) => {
     let modelsItem1 = document.querySelector('.models .models-item').cloneNode(true);
-    modelsItem1.setAttribute('data-key',index);
+    let realIndex = 5 + index;
+    modelsItem1.setAttribute('data-key',realIndex);
     modelsItem1.querySelector('.models-item--img img').src = item.img;
     modelsItem1.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`;
     modelsItem1.querySelector('.models-item--name').innerHTML = item.name;
@@ -101,7 +104,7 @@ modelsJson.slice(5,10).forEach((item, index) => {
             c('.modelsWindowArea').style.opacity = 1;
         },200);
         c('.modelsInfo--qt').innerHTML = modalQt;
-        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
+        key = realIndex;
         modalQt = 1;
         document.querySelector('.modelsBig img').src = modelsJson[5 + parseInt(key)].img;
         document.querySelector('.modelsInfo h1').innerHTML = modelsJson[5 + parseInt(key)].name;
@@ -130,7 +133,8 @@ modelsJson.slice(0, 5).forEach((item, index) => {
     // Criar uma cópia independente do modelo
     let modelsItem = document.querySelector('.models .models-item').cloneNode(true);
     //IRA ATRIBUIR A CADA IMAGEM DE 0,5 UM DATA KEY PRA NA HORA EVENTO CLICK ELE SELECIONAR 
-    modelsItem.setAttribute('data-key',index);
+    let realIndex = 0 + index;
+    modelsItem.setAttribute('data-key',realIndex);
     // Atualizar os elementos dentro da cópia com base nos dados do item
     modelsItem.querySelector('.models-item--img img').src = item.img;
     modelsItem.querySelector('.models-item--price').innerHTML = `R$ ${item.price[0].toFixed(2)}`;
@@ -143,7 +147,7 @@ modelsJson.slice(0, 5).forEach((item, index) => {
         // key ira adiciona Paramentro evento no mais proximo em models.item,
         //e ira adicionar o data key
         c('.modelsInfo--qt').innerHTML = modalQt;
-        key = parseInt(e.target.closest('.models-item').getAttribute('data-key'));
+        key = realIndex;
         modalQt = 1;
         //IRA PUXAR A IMAGEM QUE FOI CLICADA PELO MODELSJSON DE 0 A 5 COM VARIAVEL KEY
         document.querySelector('.modelsBig img').src = modelsJson[key].img;
@@ -212,9 +216,9 @@ c('.modelsInfo--addButton').addEventListener('click',(e)=>{
     let size = parseInt(c('.modelsInfo--size.selected').getAttribute('data-key'));
     //IRA IDENTIFICA QUAIS DENTRO DO SELECIONADO SAO IGUAIS E JUNTA ELES
     //NO CONSOLE PARA NAO DUPLICA E SIM SOMA EM UM ID APENAS
-    let identifier = modelsJson[key].id+'@'+size;
-    let localId = cart.findIndex((item)=> item.identifier == identifier);
-    if(localId > - 1){
+    let identifier = modelsJson[key].id + '@' + size;
+    let localId = cart.findIndex((item) => item.identifier == identifier);
+    if(localId > -1){
         cart[localId].qt += modalQt;
     } else{
         cart.push({
@@ -235,11 +239,40 @@ function updateCart() {
     if (cart.length > 0) {
         c('aside').classList.add('show');
         c('.cart').innerHTML = ''; 
-        cart.map((itemCart , index) =>{
+        cart.forEach((itemCart , index) =>{
             let modelItem = modelsJson.find((itemBD)=> itemBD.id == itemCart.id);
             let cartItem = c('.models .cart--item').cloneNode(true);
+            let modelSizeName;
+            if (modelItem.id)
+            switch(itemCart.size){
+                case 0:
+                    modelSizeName = 'P';
+                    modelSizeName = '38/39';
+                    modelSizeName = 'Gold';
+                    modelSizeName = 'Ice';
+                    modelSizeName = 'Black';
+                    break;
+                case 1:
+                    modelSizeName = 'M';
+                    modelSizeName = '40/41';
+                    modelSizeName = 'Grenn';
+                    modelSizeName = 'Coffe';
+                    modelSizeName = 'White';
+                    modelSizeName = 'Slate';
+                    modelSizeName = 'Red';
+                    break;
+                case 2:
+                    modelSizeName = 'G';
+                    modelSizeName = '42/43';
+                    modelSizeName = 'Red';
+                    modelSizeName = 'Esmerald';
+                    modelSizeName = 'Fire';
+                    modelSizeName = 'Green';
+                    modelSizeName = 'Slate';
+                    break;
+            }
             cartItem.querySelector('img').src = modelItem.img;
-            cartItem.querySelector('.cart--item-nome').innerHTML = modelItem.name;
+            cartItem.querySelector('.cart--item-nome').innerHTML = `${modelItem.name} (${modelSizeName})`;
 
             c('.cart').append(cartItem);
         });

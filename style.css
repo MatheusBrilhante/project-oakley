@@ -393,18 +393,24 @@ aside.show{
     margin: 10px;
 }
 .cart--item img{
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     margin-right: 20px;
 }
 .cart--item-nome{
     flex: 1;
+    font-size: 1.6rem;
+}
+.cart--item-qt{
+    font-size: 1.5rem;
+    margin-top: 10px;
 }
 .cart--item--qtarea{
     display: inline-flex;
     background-color: #EEE;
     border-radius: 10px;
-    height: 30px;
+    height: 40px;
+    width: 60px;
 }
 .cart--item--qtarea button{
     border: 0;
